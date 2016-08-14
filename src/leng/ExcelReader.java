@@ -29,6 +29,7 @@ public class ExcelReader {
 					break;
 				}
 				HSSFCell cell0 = row.getCell((short)0);
+				System.out.println(cell0);
 				HSSFCell cell1 = row.getCell((short)1);
 				HSSFCell cell2 = row.getCell((short)2);
 				HSSFCell cell3 = row.getCell((short)3);

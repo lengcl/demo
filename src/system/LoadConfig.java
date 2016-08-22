@@ -10,9 +10,7 @@ import util.FileUtils;
 import util.XmlUtil;
 
 /**
- * @author Herman.Xiong
- * @date: 2014年6月19日 13:40:01 
- * @see 此类用于加载配置文件
+ *  此类用于加载配置文件
  */
 public class LoadConfig {
 
@@ -26,8 +24,7 @@ public class LoadConfig {
 	}
 
 	/**
-	 * @author Herman.Xiong
-	 * @date 2011-12-21 下午02:58:50 description:初始化方法，加载相关配置文件
+	 * 初始化方法，加载相关配置文件
 	 */
 	public static void init() {
 		userDir = System.getProperty("user.dir");
@@ -35,26 +32,15 @@ public class LoadConfig {
 	}
 
 
-	/**
-	 * @author Herman.Xiong
-	 * @date 2014年6月19日 13:39:31
-	 */
 	public static String getDir() {
 		return userDir == null ? System.getProperty("user.dir") : userDir;
 	}
 
-	/**
-	 * @author Herman.Xiong
-	 * @date 2011-12-21 下午02:59:29 description:
-	 */
 	public static void reload() {
 		
 	}
 
-	/**
-	 * @author Herman.Xiong
-	 * @date 2014年6月19日 13:33:23
-	 */
+	
 	public static void loadDemoConfig() {
 		try {
 			Document document = XmlUtil.loadXML(FileUtils.makeFilePath(getDir(), demoConfigPath));

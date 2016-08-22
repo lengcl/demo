@@ -1,120 +1,1536 @@
-2014-06-19 13:31:37,375 INFO   - main: 10秒后启动采集
-2014-06-19 13:31:47,552 INFO  system.LoadConfig - loadDemoConfig: Load demo config fail!null
-2014-06-19 13:33:44,357 INFO   - main: 10秒后启动采集
-2014-06-19 13:35:03,015 INFO  system.LoadConfig - loadDemoConfig: Load demo config fail!null
-2014-06-19 13:35:34,307 INFO   - main: 10秒后启动采集
-2014-06-19 13:35:44,453 INFO  system.LoadConfig - loadDemoConfig: Load demo config fail!null
-2014-06-19 13:36:10,009 INFO   - main: 10秒后启动采集
-2014-06-19 13:36:20,177 INFO  system.LoadConfig - loadDemoConfig: Load demo config fail!null
-2014-06-19 13:36:51,177 INFO   - main: 10秒后启动采集
-2014-06-19 13:37:30,715 INFO  system.LoadConfig - loadDemoConfig: Load demo config fail!null
-java.lang.NullPointerException
-	at system.LoadConfig.loadDemoConfig(LoadConfig.java:66)
-	at crawler.timerManager.SearchTask.run(SearchTask.java:13)
-	at java.util.TimerThread.mainLoop(Unknown Source)
-	at java.util.TimerThread.run(Unknown Source)
-2014-06-19 13:38:48,104 INFO   - main: 10秒后启动采集
-2014-06-19 13:38:58,252 INFO  system.LoadConfig - loadDemoConfig: Load demo config fail!null
-java.lang.NullPointerException
-	at system.LoadConfig.loadDemoConfig(LoadConfig.java:68)
-	at crawler.timerManager.SearchTask.run(SearchTask.java:13)
-	at java.util.TimerThread.mainLoop(Unknown Source)
-	at java.util.TimerThread.run(Unknown Source)
-2014-06-19 13:41:50,616 INFO   - main: 10秒后启动采集
-2014-06-19 13:42:00,776 INFO  system.LoadConfig - loadDemoConfig: Load demo config fail!null
-java.lang.NullPointerException
-	at system.LoadConfig.loadDemoConfig(LoadConfig.java:69)
-	at crawler.timerManager.SearchTask.run(SearchTask.java:13)
-	at java.util.TimerThread.mainLoop(Unknown Source)
-	at java.util.TimerThread.run(Unknown Source)
-2014-06-19 13:43:16,214 INFO   - main: 10秒后启动采集
-2014-06-19 13:43:26,383 INFO  system.LoadConfig - loadDemoConfig: Load demo config fail!null
-java.lang.NullPointerException
-	at system.LoadConfig.loadDemoConfig(LoadConfig.java:65)
-	at crawler.timerManager.SearchTask.run(SearchTask.java:13)
-	at java.util.TimerThread.mainLoop(Unknown Source)
-	at java.util.TimerThread.run(Unknown Source)
-2014-06-19 13:43:36,175 INFO   - main: 10秒后启动采集
-2014-06-19 13:45:15,564 INFO  system.LoadConfig - loadDemoConfig: Load demo config fail!null
-java.lang.NullPointerException
-	at system.LoadConfig.loadDemoConfig(LoadConfig.java:65)
-	at crawler.timerManager.SearchTask.run(SearchTask.java:13)
-	at java.util.TimerThread.mainLoop(Unknown Source)
-	at java.util.TimerThread.run(Unknown Source)
-2014-06-19 13:45:50,109 INFO  system.LoadConfig - loadDemoConfig: Load demo config fail!null
-java.lang.NullPointerException
-	at system.LoadConfig.loadDemoConfig(LoadConfig.java:65)
-	at crawler.timerManager.SearchTask.run(SearchTask.java:13)
-	at java.util.TimerThread.mainLoop(Unknown Source)
-	at java.util.TimerThread.run(Unknown Source)
-2014-06-19 13:46:59,541 INFO   - main: 10秒后启动采集
-2014-06-19 13:47:09,688 ERROR util.XmlUtil - loadXML: load config fail!unknown protocol: e Nested exception: unknown protocol: e
-org.dom4j.DocumentException: unknown protocol: e Nested exception: unknown protocol: e
-	at org.dom4j.io.SAXReader.read(SAXReader.java:458)
-	at org.dom4j.io.SAXReader.read(SAXReader.java:317)
-	at util.XmlUtil.loadXML(XmlUtil.java:71)
-	at system.LoadConfig.loadDemoConfig(LoadConfig.java:60)
-	at crawler.timerManager.SearchTask.run(SearchTask.java:13)
-	at java.util.TimerThread.mainLoop(Unknown Source)
-	at java.util.TimerThread.run(Unknown Source)
-Nested exception: 
-java.net.MalformedURLException: unknown protocol: e
-	at java.net.URL.<init>(Unknown Source)
-	at java.net.URL.<init>(Unknown Source)
-	at java.net.URL.<init>(Unknown Source)
-	at org.apache.xerces.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
-	at org.apache.xerces.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
-	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
-	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
-	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
-	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
-	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
-	at org.dom4j.io.SAXReader.read(SAXReader.java:439)
-	at org.dom4j.io.SAXReader.read(SAXReader.java:317)
-	at util.XmlUtil.loadXML(XmlUtil.java:71)
-	at system.LoadConfig.loadDemoConfig(LoadConfig.java:60)
-	at crawler.timerManager.SearchTask.run(SearchTask.java:13)
-	at java.util.TimerThread.mainLoop(Unknown Source)
-	at java.util.TimerThread.run(Unknown Source)
-2014-06-19 13:47:09,690 INFO  system.LoadConfig - loadDemoConfig: Load demo config fail!null
-java.lang.NullPointerException
-	at system.LoadConfig.loadDemoConfig(LoadConfig.java:65)
-	at crawler.timerManager.SearchTask.run(SearchTask.java:13)
-	at java.util.TimerThread.mainLoop(Unknown Source)
-	at java.util.TimerThread.run(Unknown Source)
-2014-06-19 13:49:09,552 ERROR util.XmlUtil - loadXML: load config fail!unknown protocol: e Nested exception: unknown protocol: e
-org.dom4j.DocumentException: unknown protocol: e Nested exception: unknown protocol: e
-	at org.dom4j.io.SAXReader.read(SAXReader.java:458)
-	at org.dom4j.io.SAXReader.read(SAXReader.java:317)
-	at util.XmlUtil.loadXML(XmlUtil.java:71)
-	at system.LoadConfig.loadDemoConfig(LoadConfig.java:60)
-	at crawler.timerManager.SearchTask.run(SearchTask.java:13)
-	at java.util.TimerThread.mainLoop(Unknown Source)
-	at java.util.TimerThread.run(Unknown Source)
-Nested exception: 
-java.net.MalformedURLException: unknown protocol: e
-	at java.net.URL.<init>(Unknown Source)
-	at java.net.URL.<init>(Unknown Source)
-	at java.net.URL.<init>(Unknown Source)
-	at org.apache.xerces.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
-	at org.apache.xerces.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
-	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
-	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
-	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
-	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
-	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
-	at org.dom4j.io.SAXReader.read(SAXReader.java:439)
-	at org.dom4j.io.SAXReader.read(SAXReader.java:317)
-	at util.XmlUtil.loadXML(XmlUtil.java:71)
-	at system.LoadConfig.loadDemoConfig(LoadConfig.java:60)
-	at crawler.timerManager.SearchTask.run(SearchTask.java:13)
-	at java.util.TimerThread.mainLoop(Unknown Source)
-	at java.util.TimerThread.run(Unknown Source)
-2014-06-19 13:49:09,557 INFO  system.LoadConfig - loadDemoConfig: Load demo config fail!null
-java.lang.NullPointerException
-	at system.LoadConfig.loadDemoConfig(LoadConfig.java:65)
-	at crawler.timerManager.SearchTask.run(SearchTask.java:13)
-	at java.util.TimerThread.mainLoop(Unknown Source)
-	at java.util.TimerThread.run(Unknown Source)
-2014-06-19 13:50:06,853 INFO   - main: 10秒后启动采集
-2014-06-19 13:51:59,947 INFO   - main: 10秒后启动采集
+2016-08-19 11:36:54,380 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:36:54,380 INFO   - search: 地址：http://www.baidu.com/link?url=dXIrCeUsemmQbwQlYkQxsRirBg9UhrDhnlx3c2Gl33paOqI8-6TyMpJz_03zglaAyLl4oYmXBdVOhocUy-8W_-CTgUQ3xK1rVt4lp9g4f1W
+2016-08-19 11:36:54,380 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:36:54,380 INFO   - search: 地址：http://www.baidu.com/link?url=pfWUGIPxD9uG_vJcfPtVBLNUdjagV_0Si6DbzmJpneUazKJgmzdDRTdFMWzHiF6Rj5brAd4GTnnfLbyK9036EK
+2016-08-19 11:36:54,380 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:36:54,380 INFO   - search: 地址：http://www.baidu.com/link?url=v1mFBzwUhuAkrqAUhmIJCWNlqBzhgbL9D4jLlLH9HIlqK3CJZu_M7oB3zyju_hoyALcp04odwV7RAcEQIPHTpcE0TDw2fgQayhZKRsmAwCAHaoRpCfJ2C4qQT0vm2Jhg
+2016-08-19 11:36:54,380 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:36:54,380 INFO   - search: 地址：http://www.baidu.com/link?url=2Saeik4W1LZuzXUdcVVPzDfnvu1US26VHMHzaJ2Gpr-vTWhcnTZNC5YRt9bXANn11byvWPkl7drDUV9Bq1TWw_
+2016-08-19 11:36:54,380 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:36:54,380 INFO   - search: 地址：http://www.baidu.com/link?url=wl2Bd4dPohLgsKbxVXWLTZNs2IVVjOb5jTVKB3lZlL39o2s4teDScN9WzU3DgBZeEzebFkU8l1nciYZYGmccUm-NE__WZfx0TMHEJRWO7-7
+2016-08-19 11:36:54,380 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:36:54,819 INFO   - search: 地址：http://www.baidu.com/link?url=UjnkcN1ZEayU1mzKrZVQSf5jiA_XvsmJuVYseyGtHRw73b06ptptbJ6RXcRnBj4vLbnEbBWYal8vHlWtgyNeS_
+2016-08-19 11:36:54,819 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:36:54,819 INFO   - search: 地址：http://www.baidu.com/link?url=KJ-0GgTBQT6x9pgM23u5b952QA6RR01EPID22mSysFlyzxtbxh2mfvqTP0gssbp1e-RLEvoNNHQUo8HeZ3QS6_
+2016-08-19 11:36:54,819 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:36:54,819 INFO   - search: 地址：
+2016-08-19 11:36:54,819 INFO   - search: 标题：
+2016-08-19 11:36:54,819 INFO   - search: 地址：http://www.baidu.com/link?url=TLvQt5Eo-F1M51Pl8ZTQdSLofXlY3AB0zOAH37T4NhmsonsG-bL8ZuYcNQdPPG4h
+2016-08-19 11:36:54,819 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:36:54,819 INFO   - search: 地址：http://www.baidu.com/link?url=McohGhupeDEhPCugcZ_kn5MocpLQLepfARnZ5AUJEsL91WYmizHPOXY5_-BydqfZ5Ard3AwM-4uYf5MZzpdS52MWXM7ZmwWM4ICejkUHGXa-wiNyv6RzLLtsi8dlQ92ReBzrJ4wTx2j27hK5bqsWsUHM0dpHidWLKypXhbEv1tm
+2016-08-19 11:36:54,819 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:36:54,819 INFO   - search: 地址：http://www.baidu.com/link?url=McohGhupeDEhPCugcZ_knzaeR51Z6P8GLE2zkKW00TEvOfY6dkedEfhvRg8ASABcO_Alm2FMP9ltt0ofVDpbB0GYGjlbBjgXy4APKlmjYoG
+2016-08-19 11:36:54,819 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:36:54,819 INFO   - search: 地址：http://www.baidu.com/link?url=QmiRvtbTc9ELYbKBM_dzDv3Waak6bo-mj1ja9KmzkrP-Ftsi3PJy0eBAYjvqNmaWkL84HWyVRap_WcWDfexOJq
+2016-08-19 11:36:54,819 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:36:54,819 INFO   - search: 地址：http://www.baidu.com/link?url=Qy-Oqf-lj4r3A1pSmXz_cMCblSK-wWXDUoyoGZHkxyjTFFh6ZDuvqXSo_whRigZUEncTOIKILAOPmGF4KsYBlU77N2Hg4GtCDffccTtNBTSoesGhCoIF8T2KMYqcSuAb
+2016-08-19 11:36:54,819 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:36:54,819 INFO   - search: 地址：http://www.baidu.com/link?url=kStOWKc4-zBt8QNTRRav7y3Z0vYh551vqMLVQBJKEbSlD6mP1MFrLWL6zp9E2Nf4HksJEKTp-DFrMBRT-tonh_
+2016-08-19 11:36:54,819 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:36:54,819 INFO   - search: 地址：http://www.baidu.com/link?url=UjnkcN1ZEayU1mzKrZVQSmvC3C9dgvlZAqia9O4fqqh3ftesa8MqQx4Yog6YOdHegAwpDo38gEAX6cpVfwQxbc2u1EUYF_jFMighOV8ckQ3
+2016-08-19 11:36:54,819 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:36:55,178 INFO   - search: 地址：http://www.baidu.com/link?url=UjnkcN1ZEayU1mzKrZVQSf5jiA_XvsmJuVYseyGtHRw73b06ptptbJ6RXcRnBj4vLbnEbBWYal8vHlWtgyNeS_
+2016-08-19 11:36:55,178 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:36:55,178 INFO   - search: 地址：http://www.baidu.com/link?url=KJ-0GgTBQT6x9pgM23u5b952QA6RR01EPID22mSysFlyzxtbxh2mfvqTP0gssbp1e-RLEvoNNHQUo8HeZ3QS6_
+2016-08-19 11:36:55,178 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:36:55,178 INFO   - search: 地址：
+2016-08-19 11:36:55,178 INFO   - search: 标题：
+2016-08-19 11:36:55,178 INFO   - search: 地址：http://www.baidu.com/link?url=TLvQt5Eo-F1M51Pl8ZTQdSLofXlY3AB0zOAH37T4NhmsonsG-bL8ZuYcNQdPPG4h
+2016-08-19 11:36:55,178 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:36:55,178 INFO   - search: 地址：http://www.baidu.com/link?url=McohGhupeDEhPCugcZ_kn5MocpLQLepfARnZ5AUJEsL91WYmizHPOXY5_-BydqfZ5Ard3AwM-4uYf5MZzpdS52MWXM7ZmwWM4ICejkUHGXa-wiNyv6RzLLtsi8dlQ92ReBzrJ4wTx2j27hK5bqsWsUHM0dpHidWLKypXhbEv1tm
+2016-08-19 11:36:55,178 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:36:55,178 INFO   - search: 地址：http://www.baidu.com/link?url=McohGhupeDEhPCugcZ_knzaeR51Z6P8GLE2zkKW00TEvOfY6dkedEfhvRg8ASABcO_Alm2FMP9ltt0ofVDpbB0GYGjlbBjgXy4APKlmjYoG
+2016-08-19 11:36:55,178 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:36:55,178 INFO   - search: 地址：http://www.baidu.com/link?url=-vpDbYgDqYlcMiaP6vc89e4E0NkvhLlIL_VoOK9IpGw44ucvhSnMMI-4d0OqGYf06LYqLpDo6t4snjqp30YDYa
+2016-08-19 11:36:55,178 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:36:55,178 INFO   - search: 地址：http://www.baidu.com/link?url=Qy-Oqf-lj4r3A1pSmXz_cMCblSK-wWXDUoyoGZHkxyjTFFh6ZDuvqXSo_whRigZUEncTOIKILAOPmGF4KsYBlU77N2Hg4GtCDffccTtNBTSoesGhCoIF8T2KMYqcSuAb
+2016-08-19 11:36:55,178 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:36:55,178 INFO   - search: 地址：http://www.baidu.com/link?url=S-2uSiNq7ZlBivGnT42ezYUpQJZHoP33iguuPZ9GDNtQX-U8rAytI4eR0fKqdULkd0eiemMb95HthP3pi9nsUq
+2016-08-19 11:36:55,178 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:36:55,178 INFO   - search: 地址：http://www.baidu.com/link?url=UjnkcN1ZEayU1mzKrZVQSmvC3C9dgvlZAqia9O4fqqh3ftesa8MqQx4Yog6YOdHegAwpDo38gEAX6cpVfwQxbc2u1EUYF_jFMighOV8ckQ3
+2016-08-19 11:36:55,178 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:36:55,568 INFO   - search: 地址：http://www.baidu.com/link?url=gs8_BaJOgC0Xw7v0oey7ByeRsSGaaFGr-Cwy6kfxtIgAoBkFSpKZasHUvh-ee6lmgY9bCqL13HAmyqyGv1aKxq
+2016-08-19 11:36:55,568 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:36:55,568 INFO   - search: 地址：http://www.baidu.com/link?url=SHfRT4rrbRcTcqW30Qa_0fOhm6q1s5ayHpufbITI0wRKDPPDLXCdueJysSg71QMqeCfCRg6mDCoaycYzCOTYZ_
+2016-08-19 11:36:55,568 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:36:55,568 INFO   - search: 地址：
+2016-08-19 11:36:55,568 INFO   - search: 标题：
+2016-08-19 11:36:55,568 INFO   - search: 地址：http://www.baidu.com/link?url=7VBo_s4SF-deNFcTMWAoZqTcjNM9tgJzAYpmAkZ8KGX7XkQxLKRIXjFbxcS7qFzO
+2016-08-19 11:36:55,584 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:36:55,584 INFO   - search: 地址：http://www.baidu.com/link?url=lD5CsgNV1YDC1ZvMSbpvb5Gi3B_JqHjPu3nEiwWO-Og3p54Ijq5JpgPIdXTvGznZSsr6rfaKGh_Nr4-AsC0WG3XrTh38rx3hfF_DMNHOkhx6bjxprEQ0qmq0LSpcwoAlKs74sUOF8xpLXxF7FYutX-tN-bi5E-PcSu32HrZgkki
+2016-08-19 11:36:55,584 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:36:55,584 INFO   - search: 地址：http://www.baidu.com/link?url=lD5CsgNV1YDC1ZvMSbpvbzHgn9mtBEcNzpEF8UAyS20z_VS_uHvm_3dsKsmPmHguMiBWSYh812iONcBGn1nt4_6IIbg__bfFztenZ3TJuOu
+2016-08-19 11:36:55,584 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:36:55,584 INFO   - search: 地址：http://www.baidu.com/link?url=jmj7LIK638mG6Lg9nsiCv9IbNvlkWb5J01ViakMZLgAQcwiri35kmEMuVJX-7ZXgAeulOgRkj7MSwfcd2EcmPa
+2016-08-19 11:36:55,584 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:36:55,584 INFO   - search: 地址：http://www.baidu.com/link?url=0o9fEq8cJ_moCF_qw6CjO_B88s_UVd3frMTH41bgaTLLZleJce0VYxWS0hmTGoztjkb1Y6AWpuWFtiRgQ95XdGmFbyZD05vAPykfSrEXe2AzcCSIc-ds0sw6-ffbUOhF
+2016-08-19 11:36:55,584 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:36:55,584 INFO   - search: 地址：http://www.baidu.com/link?url=isgpJA_1p3kt-SoTmPTH2FhKqtVQdypWzpcRj7Vk3zL0FXYVeF2Xg7Q9LqKo9X_X-RzK2chldIq1nwH9_S_NnK
+2016-08-19 11:36:55,584 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:36:55,584 INFO   - search: 地址：http://www.baidu.com/link?url=gs8_BaJOgC0Xw7v0oey7B-xeW_OzCb0WqW3ROmPBeXBxKq5ZaU5t7dg4BNwR6xqvGT5NrQx4PRwfM8b4RnG03s9Yj1Lj4oKH8KoqgxTaCz3
+2016-08-19 11:36:55,584 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:36:56,024 INFO   - search: 地址：http://www.baidu.com/link?url=gs8_BaJOgC0Xw7v0oey7ByeRsSGaaFGr-Cwy6kfxtIgAoBkFSpKZasHUvh-ee6lmgY9bCqL13HAmyqyGv1aKxq
+2016-08-19 11:36:56,024 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:36:56,024 INFO   - search: 地址：http://www.baidu.com/link?url=SHfRT4rrbRcTcqW30Qa_0fOhm6q1s5ayHpufbITI0wRKDPPDLXCdueJysSg71QMqeCfCRg6mDCoaycYzCOTYZ_
+2016-08-19 11:36:56,024 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:36:56,024 INFO   - search: 地址：
+2016-08-19 11:36:56,024 INFO   - search: 标题：
+2016-08-19 11:36:56,024 INFO   - search: 地址：http://www.baidu.com/link?url=7VBo_s4SF-deNFcTMWAoZqTcjNM9tgJzAYpmAkZ8KGX7XkQxLKRIXjFbxcS7qFzO
+2016-08-19 11:36:56,024 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:36:56,024 INFO   - search: 地址：http://www.baidu.com/link?url=lD5CsgNV1YDC1ZvMSbpvb5Gi3B_JqHjPu3nEiwWO-Og3p54Ijq5JpgPIdXTvGznZSsr6rfaKGh_Nr4-AsC0WG3XrTh38rx3hfF_DMNHOkhx6bjxprEQ0qmq0LSpcwoAlKs74sUOF8xpLXxF7FYutX-tN-bi5E-PcSu32HrZgkki
+2016-08-19 11:36:56,024 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:36:56,024 INFO   - search: 地址：http://www.baidu.com/link?url=lD5CsgNV1YDC1ZvMSbpvbzHgn9mtBEcNzpEF8UAyS20z_VS_uHvm_3dsKsmPmHguMiBWSYh812iONcBGn1nt4_6IIbg__bfFztenZ3TJuOu
+2016-08-19 11:36:56,024 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:36:56,024 INFO   - search: 地址：http://www.baidu.com/link?url=GzHs6CgRrkyHVcAHFPIQjzJpWtkK_vesB8S4ewr-17m2V3bO-B2h-qeRGKvN6IgyHe_NqNV-eu0fdglZXOKCNa
+2016-08-19 11:36:56,024 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:36:56,024 INFO   - search: 地址：http://www.baidu.com/link?url=0o9fEq8cJ_moCF_qw6CjO_B88s_UVd3frMTH41bgaTLLZleJce0VYxWS0hmTGoztjkb1Y6AWpuWFtiRgQ95XdGmFbyZD05vAPykfSrEXe2AzcCSIc-ds0sw6-ffbUOhF
+2016-08-19 11:36:56,024 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:36:56,024 INFO   - search: 地址：http://www.baidu.com/link?url=j-21RuwZ9xjh-YNqLUp8sfMpIx8fUfrp-xV8epjoJqjuuqcirFGpMcyLarLIZPAVbdRHZDsaYE04_q0DUhhOkK
+2016-08-19 11:36:56,024 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:36:56,024 INFO   - search: 地址：http://www.baidu.com/link?url=gs8_BaJOgC0Xw7v0oey7B-xeW_OzCb0WqW3ROmPBeXBxKq5ZaU5t7dg4BNwR6xqvGT5NrQx4PRwfM8b4RnG03s9Yj1Lj4oKH8KoqgxTaCz3
+2016-08-19 11:36:56,024 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:36:56,460 INFO   - search: 地址：http://www.baidu.com/link?url=gs8_BaJOgC0Xw7v0oey7ByeRsSGaaFGr-Cwy6kfxtIgAoBkFSpKZasHUvh-ee6lmgY9bCqL13HAmyqyGv1aKxq
+2016-08-19 11:36:56,460 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:36:56,460 INFO   - search: 地址：http://www.baidu.com/link?url=SHfRT4rrbRcTcqW30Qa_0fOhm6q1s5ayHpufbITI0wRKDPPDLXCdueJysSg71QMqeCfCRg6mDCoaycYzCOTYZ_
+2016-08-19 11:36:56,460 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:36:56,460 INFO   - search: 地址：
+2016-08-19 11:36:56,476 INFO   - search: 标题：
+2016-08-19 11:36:56,476 INFO   - search: 地址：http://www.baidu.com/link?url=7VBo_s4SF-deNFcTMWAoZqTcjNM9tgJzAYpmAkZ8KGX7XkQxLKRIXjFbxcS7qFzO
+2016-08-19 11:36:56,476 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:36:56,476 INFO   - search: 地址：http://www.baidu.com/link?url=lD5CsgNV1YDC1ZvMSbpvb5Gi3B_JqHjPu3nEiwWO-Og3p54Ijq5JpgPIdXTvGznZSsr6rfaKGh_Nr4-AsC0WG3XrTh38rx3hfF_DMNHOkhx6bjxprEQ0qmq0LSpcwoAlKs74sUOF8xpLXxF7FYutX-tN-bi5E-PcSu32HrZgkki
+2016-08-19 11:36:56,476 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:36:56,476 INFO   - search: 地址：http://www.baidu.com/link?url=lD5CsgNV1YDC1ZvMSbpvbzHgn9mtBEcNzpEF8UAyS20z_VS_uHvm_3dsKsmPmHguMiBWSYh812iONcBGn1nt4_6IIbg__bfFztenZ3TJuOu
+2016-08-19 11:36:56,476 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:36:56,476 INFO   - search: 地址：http://www.baidu.com/link?url=En4_pTRqx6-r83LsK88Hfv5y6XDV3VJ6_nqL52RpKTWIAYhNCAvTbiYMPjXw4e_ysH2YprSFWwnZO_2eQzCoPK
+2016-08-19 11:36:56,476 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:36:56,476 INFO   - search: 地址：http://www.baidu.com/link?url=0o9fEq8cJ_moCF_qw6CjO_B88s_UVd3frMTH41bgaTLLZleJce0VYxWS0hmTGoztjkb1Y6AWpuWFtiRgQ95XdGmFbyZD05vAPykfSrEXe2AzcCSIc-ds0sw6-ffbUOhF
+2016-08-19 11:36:56,476 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:36:56,476 INFO   - search: 地址：http://www.baidu.com/link?url=ogcnoV0RrYvZH3lU-GkHSATYPlQK_qp7jndtLKdvj4uvwzblA14KusMC6sPCfqhdtavv3ENH_kww0YoHiUzR_a
+2016-08-19 11:36:56,476 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:36:56,476 INFO   - search: 地址：http://www.baidu.com/link?url=gs8_BaJOgC0Xw7v0oey7B-xeW_OzCb0WqW3ROmPBeXBxKq5ZaU5t7dg4BNwR6xqvGT5NrQx4PRwfM8b4RnG03s9Yj1Lj4oKH8KoqgxTaCz3
+2016-08-19 11:36:56,476 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:36:56,946 INFO   - search: 地址：http://www.baidu.com/link?url=gcVfJ749ewmtSCio6ud7M5pPwljc7j1EfTk7BTdPSC2euN5hgLm6mn3GvkO3irW-uBTtOaOV51ITFm6OXmOyb_
+2016-08-19 11:36:56,946 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:36:56,946 INFO   - search: 地址：http://www.baidu.com/link?url=tg-VKg90AgJWjy9vk9a8XLLAbhxjIjFzHcfZrJDks-93dW5_6fGlZz475in1e73g68ZWgMsB1Nr4LyuLxoprQ_
+2016-08-19 11:36:56,946 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:36:56,946 INFO   - search: 地址：
+2016-08-19 11:36:56,946 INFO   - search: 标题：
+2016-08-19 11:36:56,946 INFO   - search: 地址：http://www.baidu.com/link?url=ulVA5D66bL4-XrwpbHctkBwO8-09mV6lk3fLsT3rzt-vwyXb3z65j9phcInH5i-N
+2016-08-19 11:36:56,962 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:36:56,962 INFO   - search: 地址：http://www.baidu.com/link?url=uDfXpCZt8LhN9LbmjThYCAuACxlbvQ_Ez_dELcQsHWumdo6uHPrVQRVQ5T7Ch4sEZXLvJKYRVgk2OeXffIcKU7Lnyd2ys7rbodB4fJTX9o0q5--A2pEHCUYtRfYMM20E3ScGneaITZvpBE_EzBu5i6GEtNnyqY7vQCCS23aA2qW
+2016-08-19 11:36:56,962 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:36:56,962 INFO   - search: 地址：http://www.baidu.com/link?url=uDfXpCZt8LhN9LbmjThYCGuHuU9ki5o3q_F5k50Ep72wC-3-f3pZJv8fsj4O_Lx9DhersEyrGD5k6TYYTyiCXw1bcNdx9P-6R5RVixVMHGC
+2016-08-19 11:36:56,962 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:36:56,962 INFO   - search: 地址：http://www.baidu.com/link?url=cuinVXuZfQ3MkquIUnj9SevcyPovh5eEj7t8QZQvrRyqM9b59YdsfGN_dmZsEdrhYrndgnnt2DIcizxtZjfV7q
+2016-08-19 11:36:56,962 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:36:56,962 INFO   - search: 地址：http://www.baidu.com/link?url=Od3BDVVGk1pcdkOUA94PaSaODSlDd5acqaixFDMTC1nLpLpnTvz6ZnlG5q7IGprtj_ysQzWAVtGGY_aV9lI4XXLNheuyTshBrtvF9XG6L-LCfNx0ZFSlo-nQ-jYKvNxW
+2016-08-19 11:36:56,962 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:36:56,962 INFO   - search: 地址：http://www.baidu.com/link?url=k6xr5JyQftGNGULIeGTyCdRlikDUKIGje-w041G3WOIu6C86yEqSnLq76twmVstOPU2KsiWfaw6HqbRZJpb0mq
+2016-08-19 11:36:56,962 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:36:56,962 INFO   - search: 地址：http://www.baidu.com/link?url=gcVfJ749ewmtSCio6ud7M6eVbLykIfLrRIqyJ7LLZlueWRNaeoC0kgSkqUT6CGYRTnNygEsHhUOn3IU5CO1vsPeKBI7o3ixEqY6JSJ6fj9_
+2016-08-19 11:36:56,962 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:36:57,353 INFO   - search: 地址：http://www.baidu.com/link?url=gcVfJ749ewmtSCio6ud7M5pPwljc7j1EfTk7BTdPSC2euN5hgLm6mn3GvkO3irW-uBTtOaOV51ITFm6OXmOyb_
+2016-08-19 11:36:57,353 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:36:57,353 INFO   - search: 地址：http://www.baidu.com/link?url=tg-VKg90AgJWjy9vk9a8XLLAbhxjIjFzHcfZrJDks-93dW5_6fGlZz475in1e73g68ZWgMsB1Nr4LyuLxoprQ_
+2016-08-19 11:36:57,353 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:36:57,353 INFO   - search: 地址：
+2016-08-19 11:36:57,353 INFO   - search: 标题：
+2016-08-19 11:36:57,353 INFO   - search: 地址：http://www.baidu.com/link?url=ulVA5D66bL4-XrwpbHctkBwO8-09mV6lk3fLsT3rzt-vwyXb3z65j9phcInH5i-N
+2016-08-19 11:36:57,353 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:36:57,353 INFO   - search: 地址：http://www.baidu.com/link?url=uDfXpCZt8LhN9LbmjThYCAuACxlbvQ_Ez_dELcQsHWumdo6uHPrVQRVQ5T7Ch4sEZXLvJKYRVgk2OeXffIcKU7Lnyd2ys7rbodB4fJTX9o0q5--A2pEHCUYtRfYMM20E3ScGneaITZvpBE_EzBu5i6GEtNnyqY7vQCCS23aA2qW
+2016-08-19 11:36:57,353 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:36:57,353 INFO   - search: 地址：http://www.baidu.com/link?url=uDfXpCZt8LhN9LbmjThYCGuHuU9ki5o3q_F5k50Ep72wC-3-f3pZJv8fsj4O_Lx9DhersEyrGD5k6TYYTyiCXw1bcNdx9P-6R5RVixVMHGC
+2016-08-19 11:36:57,353 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:36:57,353 INFO   - search: 地址：http://www.baidu.com/link?url=orJj8trOa9EoGVO151RxrqdXGeBwRFPOvtpO22UU_5qRv4RvyWICp7CaSwmpET5ISlVU_YdSStEfndCfRJOaMK
+2016-08-19 11:36:57,353 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:36:57,353 INFO   - search: 地址：http://www.baidu.com/link?url=Od3BDVVGk1pcdkOUA94PaSaODSlDd5acqaixFDMTC1nLpLpnTvz6ZnlG5q7IGprtj_ysQzWAVtGGY_aV9lI4XXLNheuyTshBrtvF9XG6L-LCfNx0ZFSlo-nQ-jYKvNxW
+2016-08-19 11:36:57,353 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:36:57,353 INFO   - search: 地址：http://www.baidu.com/link?url=49xBbA6WOGX3xbvv8Nf229bStYvjyZd5sGNI4-8Z39_P9yMUGgZv8Qzm86ckg3545znViaLY2npP1jIqKx80wK
+2016-08-19 11:36:57,353 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:36:57,353 INFO   - search: 地址：http://www.baidu.com/link?url=gcVfJ749ewmtSCio6ud7M6eVbLykIfLrRIqyJ7LLZlueWRNaeoC0kgSkqUT6CGYRTnNygEsHhUOn3IU5CO1vsPeKBI7o3ixEqY6JSJ6fj9_
+2016-08-19 11:36:57,353 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:36:57,807 INFO   - search: 地址：http://www.baidu.com/link?url=paFUmYyAvZdd9DVqPhw9HL3-ArFi_km3_rHkiQvEkjDZWGSR8HsZM2IsgVen6rVh1PZXlaTAMZUhAopNXFRoC_
+2016-08-19 11:36:57,807 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:36:57,807 INFO   - search: 地址：http://www.baidu.com/link?url=9fHdCobTDsm7Q4rxxoEipxkwl0iuVIcww7gYbXwj-KXiZ4EmUrBHqAI992EzWFMMjuDGfs2syKJcqY_R4b17lK
+2016-08-19 11:36:57,807 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:36:57,807 INFO   - search: 地址：
+2016-08-19 11:36:57,807 INFO   - search: 标题：
+2016-08-19 11:36:57,807 INFO   - search: 地址：http://www.baidu.com/link?url=4o0QDNvKMH4lMd7QaAVQzTB164eCqUdWxS70a6ERamT5UfiX4zHAeS65nsDN4sfh
+2016-08-19 11:36:57,807 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:36:57,807 INFO   - search: 地址：http://www.baidu.com/link?url=chRj4vev0O6mVhTzISONtGtu9oNBm_UbI7B4jud64SjPxIxDvlBQRJ6ZPxD8XOrBE2wNh6Cr_KmOe7g2YOIx9TTtYvIFRhLmuhpdPi37YhQWkwDPWfWYGXrkr2W9W1chd3ZJ1SP7QYTsHzqBQQjk12CTCXelYkD2maEJ1Yt2ttG
+2016-08-19 11:36:57,807 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:36:57,807 INFO   - search: 地址：http://www.baidu.com/link?url=chRj4vev0O6mVhTzISONt_v9ggfaJwwvSex7UNUiw8bMVocQ6HydzWyneJ_HERqBc24Bg7a5uaDJJtpTFk4NXJOUdtxPyvmbXUHx7fQQX5_
+2016-08-19 11:36:57,807 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:36:57,807 INFO   - search: 地址：http://www.baidu.com/link?url=t-7QCf4ijSC9TVaLIAFCyxpZB08k13WxZzVYS04hQFeV4s8cxPAUD5fSfzUJOZD1dfvgCgCKCEOu3fu00br4wa
+2016-08-19 11:36:57,807 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:36:57,807 INFO   - search: 地址：http://www.baidu.com/link?url=p1p3s0XfHKABJyIwlG0ZQ5mTjr9OAc8ldwqENZuKw2DLU5iGdG44LlDHL1suC0bXq1TwQrj0oZTGuNoZ39UXJEmmYebN7tPG2CR7NrhZ8q7YPAnWUnuFY6pJD90PFLBL
+2016-08-19 11:36:57,807 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:36:57,807 INFO   - search: 地址：http://www.baidu.com/link?url=p4FnwY45ivo_3WmhNnBxU25op4GGaSWjdGkOdpefszITveFQg7y-LQv5g3EnFxKvEzXAjYQB_iHO-agsBTw9Iq
+2016-08-19 11:36:57,807 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:36:57,807 INFO   - search: 地址：http://www.baidu.com/link?url=paFUmYyAvZdd9DVqPhw9HOlBnshuhvXaHv2G7OM5xs1LYJrdcPIi8OfEm6QeelpmCTH5INa8P4n-eeWe0JoEEEi5GiBPyU5FgfNQY6zoy-S
+2016-08-19 11:36:57,807 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:36:58,322 INFO   - search: 地址：http://www.baidu.com/link?url=paFUmYyAvZdd9DVqPhw9HL3-ArFi_km3_rHkiQvEkjDZWGSR8HsZM2IsgVen6rVh1PZXlaTAMZUhAopNXFRoC_
+2016-08-19 11:36:58,322 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:36:58,322 INFO   - search: 地址：http://www.baidu.com/link?url=9fHdCobTDsm7Q4rxxoEipxkwl0iuVIcww7gYbXwj-KXiZ4EmUrBHqAI992EzWFMMjuDGfs2syKJcqY_R4b17lK
+2016-08-19 11:36:58,322 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:36:58,322 INFO   - search: 地址：
+2016-08-19 11:36:58,322 INFO   - search: 标题：
+2016-08-19 11:36:58,322 INFO   - search: 地址：http://www.baidu.com/link?url=4o0QDNvKMH4lMd7QaAVQzTB164eCqUdWxS70a6ERamT5UfiX4zHAeS65nsDN4sfh
+2016-08-19 11:36:58,337 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:36:58,337 INFO   - search: 地址：http://www.baidu.com/link?url=chRj4vev0O6mVhTzISONtGtu9oNBm_UbI7B4jud64SjPxIxDvlBQRJ6ZPxD8XOrBE2wNh6Cr_KmOe7g2YOIx9TTtYvIFRhLmuhpdPi37YhQWkwDPWfWYGXrkr2W9W1chd3ZJ1SP7QYTsHzqBQQjk12CTCXelYkD2maEJ1Yt2ttG
+2016-08-19 11:36:58,337 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:36:58,337 INFO   - search: 地址：http://www.baidu.com/link?url=chRj4vev0O6mVhTzISONt_v9ggfaJwwvSex7UNUiw8bMVocQ6HydzWyneJ_HERqBc24Bg7a5uaDJJtpTFk4NXJOUdtxPyvmbXUHx7fQQX5_
+2016-08-19 11:36:58,337 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:36:58,337 INFO   - search: 地址：http://www.baidu.com/link?url=ywA37lpoPjtCm1bAxY2nv8ktuIyVS9yFcsRjjC5o3XZkr_5zt_aw6rYxhjYzBffQvDZG2gd1Gh14opdHl-U4O_
+2016-08-19 11:36:58,337 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:36:58,337 INFO   - search: 地址：http://www.baidu.com/link?url=p1p3s0XfHKABJyIwlG0ZQ5mTjr9OAc8ldwqENZuKw2DLU5iGdG44LlDHL1suC0bXq1TwQrj0oZTGuNoZ39UXJEmmYebN7tPG2CR7NrhZ8q7YPAnWUnuFY6pJD90PFLBL
+2016-08-19 11:36:58,337 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:36:58,337 INFO   - search: 地址：http://www.baidu.com/link?url=puZJERLjLr4Jqj2gGlVPVsg9ueHs3v-Ifwl4Vm6k3nd-5GJxsUs0MOcGMGLKUcKQIgXLeM8gSM6603Qu3S5jJ_
+2016-08-19 11:36:58,337 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:36:58,337 INFO   - search: 地址：http://www.baidu.com/link?url=paFUmYyAvZdd9DVqPhw9HOlBnshuhvXaHv2G7OM5xs1LYJrdcPIi8OfEm6QeelpmCTH5INa8P4n-eeWe0JoEEEi5GiBPyU5FgfNQY6zoy-S
+2016-08-19 11:36:58,337 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:36:58,793 INFO   - search: 地址：http://www.baidu.com/link?url=8c43GlS-LSQCxCvf55v4yMttwuHcNvu-InbvxWQs-qVbeRGShFbMCnucmcoICN5i6GJsb8vVgI1rPGXgg3jycq
+2016-08-19 11:36:58,793 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:36:58,793 INFO   - search: 地址：http://www.baidu.com/link?url=1wsrPGBbYsrW-CTbdFDGSSUVo34xTbW7TRvP-fhdzXnJGhIjTv17uRd4-QGmwjasl5oz5Kxnk0U0Qwsx-bXAFa
+2016-08-19 11:36:58,793 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:36:58,793 INFO   - search: 地址：
+2016-08-19 11:36:58,793 INFO   - search: 标题：
+2016-08-19 11:36:58,793 INFO   - search: 地址：http://www.baidu.com/link?url=F9dEKCk_yqfIcD153hqhVJtmBFWaA208-37ESHflWoDUsKyvJ3WdJIbwHDPA3dHH
+2016-08-19 11:36:58,793 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:36:58,793 INFO   - search: 地址：http://www.baidu.com/link?url=v1kHhKT4P9cTkwsh70q7VXlJBjvGlgCvf_xPxsIA2AzgwJOx2H2MPFps3njm7NXjIzN0NhJIAbrLabOHwUqoPGaC9y4h5Tw801wE0rne_ADulEsA59sqGxmryMd1YSOEn7y2_6Tr2PvcFe4rvbmjz10nXMnb01PXgWZmLRwX_Nq
+2016-08-19 11:36:58,793 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:36:58,793 INFO   - search: 地址：http://www.baidu.com/link?url=v1kHhKT4P9cTkwsh70q7VRRmyr79aiNHA1w2hFwytOZRnpjotkY6warQIJSxFZzjY1WvP5YK5DTC8EduRtcv-GCg73ZknoXUAMH_hDyRkRm
+2016-08-19 11:36:58,793 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:36:58,793 INFO   - search: 地址：http://www.baidu.com/link?url=q0wJjNQoNYRqOJ90mmjYE1roDHhHGXeUDJQ4E7GvUJ64Fq1p_CY5tDF7KWoxynp0qUc3A4NyisduONpnYMoXE_
+2016-08-19 11:36:58,793 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:36:58,793 INFO   - search: 地址：http://www.baidu.com/link?url=6cl3vopYPuWK06GTT76qhFDstY1p5urlp8ibm8xcTuLl_VF1ypPgl4zpS2wBF_6CaBkgOzalEtng7_wtWWdtks1vnEQlU3sXEImRApabY05P4DXFXEMm4jdchd8OS66Q
+2016-08-19 11:36:58,793 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:36:58,793 INFO   - search: 地址：http://www.baidu.com/link?url=iuBFfOuqLiICjk9y4WlZmWWF85WwD_aScwWEyu3YX77R6la84eiVSgX23SBt_QnXHxSXAHeU0woee6oGZek4CK
+2016-08-19 11:36:58,793 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:36:58,793 INFO   - search: 地址：http://www.baidu.com/link?url=8c43GlS-LSQCxCvf55v4ySf1iUgzZzJacxiZH2P89I_b9byLTceIqRGUYTul9DaaAn8N62g3BxDgj0LCJWj1d9tvA9jV9NQKSEjFZxZIzvy
+2016-08-19 11:36:58,793 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:36:59,261 INFO   - search: 地址：http://www.baidu.com/link?url=8c43GlS-LSQCxCvf55v4yMttwuHcNvu-InbvxWQs-qVbeRGShFbMCnucmcoICN5i6GJsb8vVgI1rPGXgg3jycq
+2016-08-19 11:36:59,261 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:36:59,261 INFO   - search: 地址：http://www.baidu.com/link?url=1wsrPGBbYsrW-CTbdFDGSSUVo34xTbW7TRvP-fhdzXnJGhIjTv17uRd4-QGmwjasl5oz5Kxnk0U0Qwsx-bXAFa
+2016-08-19 11:36:59,261 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:36:59,261 INFO   - search: 地址：
+2016-08-19 11:36:59,261 INFO   - search: 标题：
+2016-08-19 11:36:59,261 INFO   - search: 地址：http://www.baidu.com/link?url=F9dEKCk_yqfIcD153hqhVJtmBFWaA208-37ESHflWoDUsKyvJ3WdJIbwHDPA3dHH
+2016-08-19 11:36:59,261 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:36:59,261 INFO   - search: 地址：http://www.baidu.com/link?url=v1kHhKT4P9cTkwsh70q7VXlJBjvGlgCvf_xPxsIA2AzgwJOx2H2MPFps3njm7NXjIzN0NhJIAbrLabOHwUqoPGaC9y4h5Tw801wE0rne_ADulEsA59sqGxmryMd1YSOEn7y2_6Tr2PvcFe4rvbmjz10nXMnb01PXgWZmLRwX_Nq
+2016-08-19 11:36:59,261 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:36:59,261 INFO   - search: 地址：http://www.baidu.com/link?url=v1kHhKT4P9cTkwsh70q7VRRmyr79aiNHA1w2hFwytOZRnpjotkY6warQIJSxFZzjY1WvP5YK5DTC8EduRtcv-GCg73ZknoXUAMH_hDyRkRm
+2016-08-19 11:36:59,261 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:36:59,261 INFO   - search: 地址：http://www.baidu.com/link?url=k-gAsI70fuwvwjXROC42f4L3VBd3neTPtrS5YA-YzeCTBcnO3jtQaZE7FhJtvYJcKaZUWrzvUEVVrp_x3po02K
+2016-08-19 11:36:59,261 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:36:59,261 INFO   - search: 地址：http://www.baidu.com/link?url=6cl3vopYPuWK06GTT76qhFDstY1p5urlp8ibm8xcTuLl_VF1ypPgl4zpS2wBF_6CaBkgOzalEtng7_wtWWdtks1vnEQlU3sXEImRApabY05P4DXFXEMm4jdchd8OS66Q
+2016-08-19 11:36:59,261 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:36:59,261 INFO   - search: 地址：http://www.baidu.com/link?url=7j3-zhFvsbdEG5CfHuAQWjm8yvhub4-dVnuaQZD3jv3jSWa1qmKodWrIXFaenVxbN7l0-d9SWKZNGOPyA2vDvK
+2016-08-19 11:36:59,261 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:36:59,261 INFO   - search: 地址：http://www.baidu.com/link?url=8c43GlS-LSQCxCvf55v4ySf1iUgzZzJacxiZH2P89I_b9byLTceIqRGUYTul9DaaAn8N62g3BxDgj0LCJWj1d9tvA9jV9NQKSEjFZxZIzvy
+2016-08-19 11:36:59,261 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:36:59,668 INFO   - search: 地址：http://www.baidu.com/link?url=JbfPkMP6T8tAwIKyRwEgqyL3nPPLuN8umSl5hNLUL25UzWUaYhKU3ds7Ak_wUs7xZddEhNKa_srnQ-hIqyLH5K
+2016-08-19 11:36:59,668 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:36:59,668 INFO   - search: 地址：http://www.baidu.com/link?url=LEWAjT3je2wKVsKsJL2ACgeszlJpJ1575S9AjSq_TUzdWaAHM4CTMn1moa26mHwpOirRFx0VjZIFOfam9YHXWK
+2016-08-19 11:36:59,668 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:36:59,668 INFO   - search: 地址：
+2016-08-19 11:36:59,668 INFO   - search: 标题：
+2016-08-19 11:36:59,668 INFO   - search: 地址：http://www.baidu.com/link?url=C7x7A2La-sCd2a2548KlB8vuxZ3ijX3yLN-OKJmydi9VJckFFNkD-eRqclFWoqMe
+2016-08-19 11:36:59,684 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:36:59,684 INFO   - search: 地址：http://www.baidu.com/link?url=BqMTE0gRsWAsuBwZ16E67EL20Duw3Qw1Da1LuVRn21WokXyCcrWoN9Zvf1aclZKkxScLZpszY2BIuXotPnV34PRPqClFiK8Uj_J5TYJLIjchkK4xJeFTiruHvX9sJyOJ6v4vBO1jKjM9SPS6U8qR84AQTtfiYSdB9UbpOpRd0X7
+2016-08-19 11:36:59,684 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:36:59,684 INFO   - search: 地址：http://www.baidu.com/link?url=BqMTE0gRsWAsuBwZ16E67HmeVwcKyf_8Iniyc4B0F3gibVwb3_SEu-GQhZurwviGP6Vywm4SB4hCzwc6JsbhOUhdYBTYifntV-htHsh4wk_
+2016-08-19 11:36:59,684 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:36:59,684 INFO   - search: 地址：http://www.baidu.com/link?url=_fygts9xbF6eO0D3j_FMVXem5Mq-m5zFO4rSWXZuZv1EMRz28eJO6PePm6glgN1efeGuhJmxF9cUj-GLmJfab_
+2016-08-19 11:36:59,684 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:36:59,684 INFO   - search: 地址：http://www.baidu.com/link?url=ETQuJ7B41BMyDuzg_Q6wd6S7ElEBkeTdiPdyQyidvHDw_gKqO_OpYHZX5E1vPgkImsLVHNK47VtPz5oAu3fMbj_fDpQa7E1sYOBCB2qYZDaw3psrmXsXFgu0FJ56fF8Z
+2016-08-19 11:36:59,684 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:36:59,684 INFO   - search: 地址：http://www.baidu.com/link?url=vxC9dXTLnkAgNhvGquiOfsQjP5Eto5rSb-bxAl3dd9g8p7IemLZPsbYo5wXb_sc_ayhwnoBy4hYOwJrN4NzHEa
+2016-08-19 11:36:59,684 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:36:59,684 INFO   - search: 地址：http://www.baidu.com/link?url=JbfPkMP6T8tAwIKyRwEgqqfnQoToI-hz7jd-x1kxH62wv912dkQ5LAMwB9nWrrx0_B_UqIQJNRrucYQvgdohHuMzzlc1uJIujpgNFjiNQ03
+2016-08-19 11:36:59,684 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:00,173 INFO   - search: 地址：http://www.baidu.com/link?url=JbfPkMP6T8tAwIKyRwEgqyL3nPPLuN8umSl5hNLUL25UzWUaYhKU3ds7Ak_wUs7xZddEhNKa_srnQ-hIqyLH5K
+2016-08-19 11:37:00,173 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:00,173 INFO   - search: 地址：http://www.baidu.com/link?url=LEWAjT3je2wKVsKsJL2ACgeszlJpJ1575S9AjSq_TUzdWaAHM4CTMn1moa26mHwpOirRFx0VjZIFOfam9YHXWK
+2016-08-19 11:37:00,173 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:00,173 INFO   - search: 地址：
+2016-08-19 11:37:00,173 INFO   - search: 标题：
+2016-08-19 11:37:00,173 INFO   - search: 地址：http://www.baidu.com/link?url=C7x7A2La-sCd2a2548KlB8vuxZ3ijX3yLN-OKJmydi9VJckFFNkD-eRqclFWoqMe
+2016-08-19 11:37:00,173 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:00,173 INFO   - search: 地址：http://www.baidu.com/link?url=BqMTE0gRsWAsuBwZ16E67EL20Duw3Qw1Da1LuVRn21WokXyCcrWoN9Zvf1aclZKkxScLZpszY2BIuXotPnV34PRPqClFiK8Uj_J5TYJLIjchkK4xJeFTiruHvX9sJyOJ6v4vBO1jKjM9SPS6U8qR84AQTtfiYSdB9UbpOpRd0X7
+2016-08-19 11:37:00,173 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:00,173 INFO   - search: 地址：http://www.baidu.com/link?url=BqMTE0gRsWAsuBwZ16E67HmeVwcKyf_8Iniyc4B0F3gibVwb3_SEu-GQhZurwviGP6Vywm4SB4hCzwc6JsbhOUhdYBTYifntV-htHsh4wk_
+2016-08-19 11:37:00,173 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:00,173 INFO   - search: 地址：http://www.baidu.com/link?url=CxUOwSzy80uKR3p861A-S2HGf0DnlfiLXW8JTjfk_lm8Knb8xRgfTX-ciAxH8GXDnbCBZjvI4SKSMAQCfHeSKK
+2016-08-19 11:37:00,173 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:00,173 INFO   - search: 地址：http://www.baidu.com/link?url=ETQuJ7B41BMyDuzg_Q6wd6S7ElEBkeTdiPdyQyidvHDw_gKqO_OpYHZX5E1vPgkImsLVHNK47VtPz5oAu3fMbj_fDpQa7E1sYOBCB2qYZDaw3psrmXsXFgu0FJ56fF8Z
+2016-08-19 11:37:00,173 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:00,173 INFO   - search: 地址：http://www.baidu.com/link?url=o0gHdwiwcFKA-Od1H7ZKe-N45I7byAmmcbTtb8pPjhYxdii39KtkklCU2UGlaXeJqbQv0baqjhN5B6X8zMnFBa
+2016-08-19 11:37:00,173 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:00,173 INFO   - search: 地址：http://www.baidu.com/link?url=JbfPkMP6T8tAwIKyRwEgqqfnQoToI-hz7jd-x1kxH62wv912dkQ5LAMwB9nWrrx0_B_UqIQJNRrucYQvgdohHuMzzlc1uJIujpgNFjiNQ03
+2016-08-19 11:37:00,173 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:00,625 INFO   - search: 地址：http://www.baidu.com/link?url=Fq6vP44v-Al4KIoNKmAAyya6-PWGBnuwLJJk5dvDlsI0gbnyFf0sYSL-8V6vmlcXDG4I-YIbkX6k2-M9FR0Gka
+2016-08-19 11:37:00,625 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:00,625 INFO   - search: 地址：http://www.baidu.com/link?url=0J8ZY6GeAcNcEniSv4QrBsL8EZQfRjLvU3hdLCtJ1HTEXwz9QqDTIX8fTb-cBC-xjA4-DlicUt_TXombXbWI6_
+2016-08-19 11:37:00,625 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:00,625 INFO   - search: 地址：
+2016-08-19 11:37:00,625 INFO   - search: 标题：
+2016-08-19 11:37:00,625 INFO   - search: 地址：http://www.baidu.com/link?url=b_HbW4W9paS_frmU5IW85gi-L4wfuJ5VXHUgV6KQ4odEYELuFTSe69Q0mvNZM4su
+2016-08-19 11:37:00,625 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:00,625 INFO   - search: 地址：http://www.baidu.com/link?url=Qkfo5UI9C47ErKbJ6AtkAjaPwprjbwn7PS38vcoyLL4kNp8b6jT41JWjAiwWSVaKr4P242a8zi7ox4E5ZqFHm0gQXPFxDwjgNj9N-6GmrckRx6YQ2SMgjRN1IjiECptb8_oRO1jWIS1ARegl3MZjp6yI8ReSFnMzH9bR62-Wf0_
+2016-08-19 11:37:00,625 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:00,625 INFO   - search: 地址：http://www.baidu.com/link?url=Qkfo5UI9C47ErKbJ6AtkAnVVVCzX6_9jZon6NzUyXz2crWpNggxlwZEFfMXI9wg6xud3j_VVT0J6ZtdeJjVt6ThwjYxMpe1yBtokEkPLtuS
+2016-08-19 11:37:00,625 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:00,625 INFO   - search: 地址：http://www.baidu.com/link?url=YzI31aAqXPJIchjbmJ8gtU1lfe64G61ZzAFqmREqFdBDAIv0Gz-ed-RbrOInRlpVfwFuHg20303Cu-K3C8_44K
+2016-08-19 11:37:00,625 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:00,625 INFO   - search: 地址：http://www.baidu.com/link?url=f1P-kDhJNBUJzDYfQ-Xsj184UHHtzQHcP4OJwcVdsHSbiEqiXVUAvkZsgOe6ptnf1cgCFKTDh-xH3vQFRGr9Y4XydjkuR_Pub8O2llAbnHe7ydm0uION41I6XezkQRkH
+2016-08-19 11:37:00,625 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:00,625 INFO   - search: 地址：http://www.baidu.com/link?url=KEp1OApylPw9BgAy5bLED6-RpUS1cvPIrKGir5QdQBB1GKux1ytL-BqtUK4igBnUhEDXxSO_JTVlQEu-3NyNca
+2016-08-19 11:37:00,625 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:00,625 INFO   - search: 地址：http://www.baidu.com/link?url=Fq6vP44v-Al4KIoNKmAAysZnyTnnsv_0bDlSBJ0XnTCzxjqviWb77E8ehbjKQy2znFoxZau9wpydufC8M8x7pS160dNFWFnE_SZ23hEFIIS
+2016-08-19 11:37:00,625 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:01,048 INFO   - search: 地址：http://www.baidu.com/link?url=Fq6vP44v-Al4KIoNKmAAyya6-PWGBnuwLJJk5dvDlsI0gbnyFf0sYSL-8V6vmlcXDG4I-YIbkX6k2-M9FR0Gka
+2016-08-19 11:37:01,048 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:01,048 INFO   - search: 地址：http://www.baidu.com/link?url=0J8ZY6GeAcNcEniSv4QrBsL8EZQfRjLvU3hdLCtJ1HTEXwz9QqDTIX8fTb-cBC-xjA4-DlicUt_TXombXbWI6_
+2016-08-19 11:37:01,048 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:01,048 INFO   - search: 地址：
+2016-08-19 11:37:01,048 INFO   - search: 标题：
+2016-08-19 11:37:01,048 INFO   - search: 地址：http://www.baidu.com/link?url=b_HbW4W9paS_frmU5IW85gi-L4wfuJ5VXHUgV6KQ4odEYELuFTSe69Q0mvNZM4su
+2016-08-19 11:37:01,064 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:01,064 INFO   - search: 地址：http://www.baidu.com/link?url=Qkfo5UI9C47ErKbJ6AtkAjaPwprjbwn7PS38vcoyLL4kNp8b6jT41JWjAiwWSVaKr4P242a8zi7ox4E5ZqFHm0gQXPFxDwjgNj9N-6GmrckRx6YQ2SMgjRN1IjiECptb8_oRO1jWIS1ARegl3MZjp6yI8ReSFnMzH9bR62-Wf0_
+2016-08-19 11:37:01,064 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:01,064 INFO   - search: 地址：http://www.baidu.com/link?url=Qkfo5UI9C47ErKbJ6AtkAnVVVCzX6_9jZon6NzUyXz2crWpNggxlwZEFfMXI9wg6xud3j_VVT0J6ZtdeJjVt6ThwjYxMpe1yBtokEkPLtuS
+2016-08-19 11:37:01,064 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:01,064 INFO   - search: 地址：http://www.baidu.com/link?url=Sv5_sHR2eHlLF-I06BA7SNNCa7a66hjuNyvX5O7iHW9AltRqeIuUzTtDrm6aZV54GxWeUWd8p9tEGf2oMrt93q
+2016-08-19 11:37:01,064 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:01,064 INFO   - search: 地址：http://www.baidu.com/link?url=f1P-kDhJNBUJzDYfQ-Xsj184UHHtzQHcP4OJwcVdsHSbiEqiXVUAvkZsgOe6ptnf1cgCFKTDh-xH3vQFRGr9Y4XydjkuR_Pub8O2llAbnHe7ydm0uION41I6XezkQRkH
+2016-08-19 11:37:01,064 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:01,064 INFO   - search: 地址：http://www.baidu.com/link?url=kal5p4H26w5v5NBPuuSaMkYsIZDFDM6-1FjCmCOakRUet0XcLALkfPwdjBgf4Skdp8UJsdhco1cVuJdWUGBWe_
+2016-08-19 11:37:01,064 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:01,064 INFO   - search: 地址：http://www.baidu.com/link?url=Fq6vP44v-Al4KIoNKmAAysZnyTnnsv_0bDlSBJ0XnTCzxjqviWb77E8ehbjKQy2znFoxZau9wpydufC8M8x7pS160dNFWFnE_SZ23hEFIIS
+2016-08-19 11:37:01,064 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:01,502 INFO   - search: 地址：http://www.baidu.com/link?url=Fq6vP44v-Al4KIoNKmAAyya6-PWGBnuwLJJk5dvDlsI0gbnyFf0sYSL-8V6vmlcXDG4I-YIbkX6k2-M9FR0Gka
+2016-08-19 11:37:01,502 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:01,502 INFO   - search: 地址：http://www.baidu.com/link?url=0J8ZY6GeAcNcEniSv4QrBsL8EZQfRjLvU3hdLCtJ1HTEXwz9QqDTIX8fTb-cBC-xjA4-DlicUt_TXombXbWI6_
+2016-08-19 11:37:01,502 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:01,502 INFO   - search: 地址：
+2016-08-19 11:37:01,502 INFO   - search: 标题：
+2016-08-19 11:37:01,502 INFO   - search: 地址：http://www.baidu.com/link?url=b_HbW4W9paS_frmU5IW85gi-L4wfuJ5VXHUgV6KQ4odEYELuFTSe69Q0mvNZM4su
+2016-08-19 11:37:01,502 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:01,502 INFO   - search: 地址：http://www.baidu.com/link?url=Qkfo5UI9C47ErKbJ6AtkAjaPwprjbwn7PS38vcoyLL4kNp8b6jT41JWjAiwWSVaKr4P242a8zi7ox4E5ZqFHm0gQXPFxDwjgNj9N-6GmrckRx6YQ2SMgjRN1IjiECptb8_oRO1jWIS1ARegl3MZjp6yI8ReSFnMzH9bR62-Wf0_
+2016-08-19 11:37:01,502 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:01,502 INFO   - search: 地址：http://www.baidu.com/link?url=Qkfo5UI9C47ErKbJ6AtkAnVVVCzX6_9jZon6NzUyXz2crWpNggxlwZEFfMXI9wg6xud3j_VVT0J6ZtdeJjVt6ThwjYxMpe1yBtokEkPLtuS
+2016-08-19 11:37:01,502 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:01,502 INFO   - search: 地址：http://www.baidu.com/link?url=O0EHnrS0fcfGfW2uq1IR7qv2K4a3afZlIOYLP6VCjpE36Dj9T9-u4duHOCidbDAjeinN6esKKAE-WUHQJnrG1a
+2016-08-19 11:37:01,502 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:01,502 INFO   - search: 地址：http://www.baidu.com/link?url=f1P-kDhJNBUJzDYfQ-Xsj184UHHtzQHcP4OJwcVdsHSbiEqiXVUAvkZsgOe6ptnf1cgCFKTDh-xH3vQFRGr9Y4XydjkuR_Pub8O2llAbnHe7ydm0uION41I6XezkQRkH
+2016-08-19 11:37:01,502 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:01,502 INFO   - search: 地址：http://www.baidu.com/link?url=MqgW93gx5gq2iYyIspmyQ9vzEvOTIJnvFWWCqTAk4A2fMr_TgzhcPvP0ZEb6H-CIq6yn9O65zhiTC7C2a7AzCK
+2016-08-19 11:37:01,502 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:01,502 INFO   - search: 地址：http://www.baidu.com/link?url=Fq6vP44v-Al4KIoNKmAAysZnyTnnsv_0bDlSBJ0XnTCzxjqviWb77E8ehbjKQy2znFoxZau9wpydufC8M8x7pS160dNFWFnE_SZ23hEFIIS
+2016-08-19 11:37:01,502 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:01,925 INFO   - search: 地址：http://www.baidu.com/link?url=e_TlTvNv1PvhcB8nBr64Z4-LB4KaZ_w8TBNtNtQ0Z8vi2bAIj22ogA0KdcEpwiOWysbkPVpZsv3wZ-P3nTeEMK
+2016-08-19 11:37:01,925 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:01,925 INFO   - search: 地址：http://www.baidu.com/link?url=4Z8dLj9y3s6vpiUgGDN3YTJhAq282PUlmmn2Ij2pM_B8DfCudBB8DXKn_23meUXDDMfs_Swx3MYpGPOdfxxYEq
+2016-08-19 11:37:01,925 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:01,925 INFO   - search: 地址：
+2016-08-19 11:37:01,925 INFO   - search: 标题：
+2016-08-19 11:37:01,925 INFO   - search: 地址：http://www.baidu.com/link?url=fulZkJ-G3Xcc9neGbe06Fmmil-QUyWU95avkhiuZr3eUkpM1UymBvfbFDuURJ6jy
+2016-08-19 11:37:01,925 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:01,925 INFO   - search: 地址：http://www.baidu.com/link?url=ZdGw97evZQECv_vgOfYYObkD8gzdgJQAleLrhwO6nIQrT_x9Q_89NHQ_0TJS6bZ1VmyyTfNqieOBpx_Lu9syNgnMk4dj5tofl8i8Xw_XfLbyGCdi00erNrboHJuBPa_EzGm-LQjajztl5vNgE_7R__twEUPpeXuDgEGuhqmyMHC
+2016-08-19 11:37:01,925 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:01,925 INFO   - search: 地址：http://www.baidu.com/link?url=ZdGw97evZQECv_vgOfYYOnG_s1OMjiSBOLHXJvxd7AeoJorMk4Sm_t6X68gAOemCcCiP4Z_xBzsDK0ja7s_1FVQK6nc1ZHkvJ1Ax8xRkxSe
+2016-08-19 11:37:01,925 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:01,925 INFO   - search: 地址：http://www.baidu.com/link?url=Jnss0-f8rzScK3kYX4N-vWwDoODoxDs8sVjxXm74QKY0c_knPy8OpVokF40Iz9HkPznh-wIrDxr0zcbBfATNl_
+2016-08-19 11:37:01,925 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:01,925 INFO   - search: 地址：http://www.baidu.com/link?url=hDovVGy-9nGgbQ98hGKabsmGxvSSc3XTNdvD-QuAprt9szaP2K7u4LAMYvYd5f8AYeUBXFfy_wpzVbxD01jZ6SNeePzWsphCv7R77knMu3BXP68VKu5yVdxgqhQtXklK
+2016-08-19 11:37:01,925 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:01,925 INFO   - search: 地址：http://www.baidu.com/link?url=4RVv2nieyIzJBt_Mb5ms4ofBmJIh2OZS37C_OkaYldL_Ey32Y2XV-YFmqIXOT3fW2j6pmTHkN06PSEAlINX4CK
+2016-08-19 11:37:01,925 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:01,925 INFO   - search: 地址：http://www.baidu.com/link?url=e_TlTvNv1PvhcB8nBr64ZEiz_u3QVcSDGPxQAqyaT3nY3vuMOrbB199VFFDDnezqSBceUlVZM5mcZml2e6xFRfMkovor4B3pEVlgwS90Ocm
+2016-08-19 11:37:01,925 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:02,409 INFO   - search: 地址：http://www.baidu.com/link?url=e_TlTvNv1PvhcB8nBr64Z4-LB4KaZ_w8TBNtNtQ0Z8vi2bAIj22ogA0KdcEpwiOWysbkPVpZsv3wZ-P3nTeEMK
+2016-08-19 11:37:02,409 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:02,409 INFO   - search: 地址：http://www.baidu.com/link?url=4Z8dLj9y3s6vpiUgGDN3YTJhAq282PUlmmn2Ij2pM_B8DfCudBB8DXKn_23meUXDDMfs_Swx3MYpGPOdfxxYEq
+2016-08-19 11:37:02,409 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:02,409 INFO   - search: 地址：
+2016-08-19 11:37:02,409 INFO   - search: 标题：
+2016-08-19 11:37:02,409 INFO   - search: 地址：http://www.baidu.com/link?url=fulZkJ-G3Xcc9neGbe06Fmmil-QUyWU95avkhiuZr3eUkpM1UymBvfbFDuURJ6jy
+2016-08-19 11:37:02,425 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:02,425 INFO   - search: 地址：http://www.baidu.com/link?url=ZdGw97evZQECv_vgOfYYObkD8gzdgJQAleLrhwO6nIQrT_x9Q_89NHQ_0TJS6bZ1VmyyTfNqieOBpx_Lu9syNgnMk4dj5tofl8i8Xw_XfLbyGCdi00erNrboHJuBPa_EzGm-LQjajztl5vNgE_7R__twEUPpeXuDgEGuhqmyMHC
+2016-08-19 11:37:02,425 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:02,425 INFO   - search: 地址：http://www.baidu.com/link?url=ZdGw97evZQECv_vgOfYYOnG_s1OMjiSBOLHXJvxd7AeoJorMk4Sm_t6X68gAOemCcCiP4Z_xBzsDK0ja7s_1FVQK6nc1ZHkvJ1Ax8xRkxSe
+2016-08-19 11:37:02,425 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:02,425 INFO   - search: 地址：http://www.baidu.com/link?url=7ReT0sAaRQ2c1JlX_Y5K14HymNc6H1W_x3ShJ22D2R8qekqOhEextGS2Lmrkwz4ZLBNdbAN6LxUN-48wjfkAJa
+2016-08-19 11:37:02,425 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:02,425 INFO   - search: 地址：http://www.baidu.com/link?url=hDovVGy-9nGgbQ98hGKabsmGxvSSc3XTNdvD-QuAprt9szaP2K7u4LAMYvYd5f8AYeUBXFfy_wpzVbxD01jZ6SNeePzWsphCv7R77knMu3BXP68VKu5yVdxgqhQtXklK
+2016-08-19 11:37:02,425 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:02,425 INFO   - search: 地址：http://www.baidu.com/link?url=nIrTmDAKKzqXFRJi6d5fZ23ukw2CLiEGP89linsoQ8VsWc0pwTrg3GEgVRc1iV8rexxIrCHOM5BjmPo_SEcLy_
+2016-08-19 11:37:02,425 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:02,425 INFO   - search: 地址：http://www.baidu.com/link?url=e_TlTvNv1PvhcB8nBr64ZEiz_u3QVcSDGPxQAqyaT3nY3vuMOrbB199VFFDDnezqSBceUlVZM5mcZml2e6xFRfMkovor4B3pEVlgwS90Ocm
+2016-08-19 11:37:02,425 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:02,849 INFO   - search: 地址：http://www.baidu.com/link?url=8q6xt2Hoso9vju72TzlrmsYVT5hydgVirfTj77hHDvvH5HMZmO7HPf-Z3l6aWGKB3WOjbJPAE9scr7y51kRVO_
+2016-08-19 11:37:02,865 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:02,865 INFO   - search: 地址：http://www.baidu.com/link?url=Fumy-4jtEE1lQ6WOWPSOtY2IJKWgzKBOvzDEBFiQTogyHB5I6AqdLIJupYHKutQT80hmEjY3s8a6o-KaZblOFa
+2016-08-19 11:37:02,865 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:02,865 INFO   - search: 地址：
+2016-08-19 11:37:02,865 INFO   - search: 标题：
+2016-08-19 11:37:02,865 INFO   - search: 地址：http://www.baidu.com/link?url=_hI3fIWmAgxIJv4I5vygKwTKaCGpkvSrw2JC0GGsrogzG8QuEGOymVy367EEfr3R
+2016-08-19 11:37:02,865 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:02,865 INFO   - search: 地址：http://www.baidu.com/link?url=TnFipS3H23AJwQA53enkgExwO1v5S1zbZRdN9hT4aSYBffUoHMQ85f7x5eAT5iMK-baGdV3JxAhAaAjdcXdlxDFfPR4o4wWke-DCS8dOdqKEwjw6nF2T-5HxHlVtR003ubwqUjVYqmI0b7AOymgzH7c_xkIzPWGpHKDpO1T9W8K
+2016-08-19 11:37:02,865 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:02,865 INFO   - search: 地址：http://www.baidu.com/link?url=TnFipS3H23AJwQA53enkgEikRKFxq5TvjgIv4GSnKoZFcpxzZ8T49x5wjMTUD8mm18FPo98bCVU37JJfbJuinVpWloE1sRXOFUHKq61u4Li
+2016-08-19 11:37:02,865 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:02,865 INFO   - search: 地址：http://www.baidu.com/link?url=EXmc9byKJ3tvk_JgSn_8IaiQOfp3KohteTm-2NSdJ8pntMxJZV7A7oOkEwRINZrZaKGtJ_ccCdwhroDS0Aqe9K
+2016-08-19 11:37:02,865 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:02,865 INFO   - search: 地址：http://www.baidu.com/link?url=Zb_mVwfj-BLYAPWYkv9YGnZ2Y7IBHx48GoUvje8yidxtVORVO_QigewWKN4fS8rBgZHeXUmfQnj72JCGLu9ti3f8xOiYhx_ib5EkFXF5rFn2cfkSrwULmJNONJCKbhNH
+2016-08-19 11:37:02,865 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:02,865 INFO   - search: 地址：http://www.baidu.com/link?url=SZzSZsu7xR50kk-szulEquBSfMYLECIqQT2kGdeCP0iETf5jt6SqlkCEjuVv4czXg621Xu6UNpW8Yg1-_sKvyq
+2016-08-19 11:37:02,865 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:02,865 INFO   - search: 地址：http://www.baidu.com/link?url=8q6xt2Hoso9vju72Tzlrmvy9uPO3kkM5iMZaW_f44iPnh4RF5KQsKAJItK26ZyqUV6GGu7owpU5dOV3PoGF80HXJoxUzc0_agU9KMDeJA_W
+2016-08-19 11:37:02,865 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:03,286 INFO   - search: 地址：http://www.baidu.com/link?url=8q6xt2Hoso9vju72TzlrmsYVT5hydgVirfTj77hHDvvH5HMZmO7HPf-Z3l6aWGKB3WOjbJPAE9scr7y51kRVO_
+2016-08-19 11:37:03,286 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:03,286 INFO   - search: 地址：http://www.baidu.com/link?url=Fumy-4jtEE1lQ6WOWPSOtY2IJKWgzKBOvzDEBFiQTogyHB5I6AqdLIJupYHKutQT80hmEjY3s8a6o-KaZblOFa
+2016-08-19 11:37:03,286 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:03,286 INFO   - search: 地址：
+2016-08-19 11:37:03,286 INFO   - search: 标题：
+2016-08-19 11:37:03,286 INFO   - search: 地址：http://www.baidu.com/link?url=_hI3fIWmAgxIJv4I5vygKwTKaCGpkvSrw2JC0GGsrogzG8QuEGOymVy367EEfr3R
+2016-08-19 11:37:03,286 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:03,286 INFO   - search: 地址：http://www.baidu.com/link?url=TnFipS3H23AJwQA53enkgExwO1v5S1zbZRdN9hT4aSYBffUoHMQ85f7x5eAT5iMK-baGdV3JxAhAaAjdcXdlxDFfPR4o4wWke-DCS8dOdqKEwjw6nF2T-5HxHlVtR003ubwqUjVYqmI0b7AOymgzH7c_xkIzPWGpHKDpO1T9W8K
+2016-08-19 11:37:03,286 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:03,286 INFO   - search: 地址：http://www.baidu.com/link?url=TnFipS3H23AJwQA53enkgEikRKFxq5TvjgIv4GSnKoZFcpxzZ8T49x5wjMTUD8mm18FPo98bCVU37JJfbJuinVpWloE1sRXOFUHKq61u4Li
+2016-08-19 11:37:03,286 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:03,286 INFO   - search: 地址：http://www.baidu.com/link?url=Nz7FhO75bZiJ0tYGbH2RE0ctIOBwyzLiZmeBazBam6ZyUbqeRuk_xF--85lzNAVpS95X68-R_NfVkgjV-hsyoK
+2016-08-19 11:37:03,286 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:03,286 INFO   - search: 地址：http://www.baidu.com/link?url=Zb_mVwfj-BLYAPWYkv9YGnZ2Y7IBHx48GoUvje8yidxtVORVO_QigewWKN4fS8rBgZHeXUmfQnj72JCGLu9ti3f8xOiYhx_ib5EkFXF5rFn2cfkSrwULmJNONJCKbhNH
+2016-08-19 11:37:03,286 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:03,286 INFO   - search: 地址：http://www.baidu.com/link?url=gZdAJ90PcCNTWAb07o3jvKDdUfoMnqfBOrM8rcfOLZoKBKvcjrTnreZ57qwDuo5nkc4n1gW0K-_u5Z9WrfNsKa
+2016-08-19 11:37:03,286 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:03,286 INFO   - search: 地址：http://www.baidu.com/link?url=8q6xt2Hoso9vju72Tzlrmvy9uPO3kkM5iMZaW_f44iPnh4RF5KQsKAJItK26ZyqUV6GGu7owpU5dOV3PoGF80HXJoxUzc0_agU9KMDeJA_W
+2016-08-19 11:37:03,286 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:03,787 INFO   - search: 地址：http://www.baidu.com/link?url=MS5WstRa3W3sXAMdXd4qYcIWbFfJ6nMY33dhJwF4W8u9UWi69R_7SAbdcduHd-Zz0Ssz_oMTwJP41WieYQIcIK
+2016-08-19 11:37:03,787 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:03,787 INFO   - search: 地址：http://www.baidu.com/link?url=C6l1P1MRUX5qupUgbYcM7AJYvqA220tAypGZUySTkPup2mUv0svtqSXweq6AfW82mGLsdWqpqXo5fyxV6ZH1zK
+2016-08-19 11:37:03,787 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:03,787 INFO   - search: 地址：
+2016-08-19 11:37:03,787 INFO   - search: 标题：
+2016-08-19 11:37:03,787 INFO   - search: 地址：http://www.baidu.com/link?url=TR1dYmBiIhgvHDs6fYigMEUIuITv1-CAlAgEPvIJnDsWZpLfklYC4kTDbMtWd0jw
+2016-08-19 11:37:03,803 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:03,803 INFO   - search: 地址：http://www.baidu.com/link?url=-bAD43lbvEMOLjlT9I0CmSHZut34Y1lknzzQKPEHqwyTmcwuKRSENwVEDYpe6N6QjV3nC84LNy237Q516mrAC9Z9FItDtwv6UNXGES7QD84bPmsLSIqUPyFK8jDDYQbHfacVJMETKYkYqQWVOCQAjLBy4Fxy0cAYCmn2c0sWaEy
+2016-08-19 11:37:03,803 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:03,803 INFO   - search: 地址：http://www.baidu.com/link?url=-bAD43lbvEMOLjlT9I0CmKvrEdgaXISwXa7c_Zux2-SUy9NrE9X7bFneYPRlcFkNGI-qk6ag3-0UXF1YzqI-eFUu8ECmjLn5l1Toq3D7V2q
+2016-08-19 11:37:03,803 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:03,803 INFO   - search: 地址：http://www.baidu.com/link?url=1Ze3wi_rnRl0b8n3WQMa2m2NY9tg83940V5vDDTPCg_DR2FpJBe6N5_btkFRB4s5OXTyCbaUsYn6Atl-l7e2Uq
+2016-08-19 11:37:03,803 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:03,803 INFO   - search: 地址：http://www.baidu.com/link?url=lubn0gxuPmo_2OUu767Sxw44QWKv4F1UybrWAxYH_klF-xOqnBeNSlK-g64CaH9s7UAZWL_vhEdE9x9ci4hT7jfYQdXP-jJFH0dsK0CjQ0SrWpoO-tttYKXI4AMv25Kz
+2016-08-19 11:37:03,803 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:03,803 INFO   - search: 地址：http://www.baidu.com/link?url=RlimxBSE0YoTXtIbkCk6YV3bHnH56Jh3jf0IUHA8gD7oX38R_fKYkcaYGOhfI4uBfTZajkVY-6ZK24sBs5nvUK
+2016-08-19 11:37:03,803 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:03,803 INFO   - search: 地址：http://www.baidu.com/link?url=MS5WstRa3W3sXAMdXd4qYfBt3J5sjCrbJOotFDhk21r5JfelvFR67Do9xV-hnJY8aE20_UpUnazjTqgw9ZLaQDGr8kDKaA44Db0mPDDFZp_
+2016-08-19 11:37:03,803 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:04,225 INFO   - search: 地址：http://www.baidu.com/link?url=MS5WstRa3W3sXAMdXd4qYcIWbFfJ6nMY33dhJwF4W8u9UWi69R_7SAbdcduHd-Zz0Ssz_oMTwJP41WieYQIcIK
+2016-08-19 11:37:04,225 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:04,225 INFO   - search: 地址：http://www.baidu.com/link?url=C6l1P1MRUX5qupUgbYcM7AJYvqA220tAypGZUySTkPup2mUv0svtqSXweq6AfW82mGLsdWqpqXo5fyxV6ZH1zK
+2016-08-19 11:37:04,225 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:04,225 INFO   - search: 地址：
+2016-08-19 11:37:04,225 INFO   - search: 标题：
+2016-08-19 11:37:04,225 INFO   - search: 地址：http://www.baidu.com/link?url=TR1dYmBiIhgvHDs6fYigMEUIuITv1-CAlAgEPvIJnDsWZpLfklYC4kTDbMtWd0jw
+2016-08-19 11:37:04,225 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:04,225 INFO   - search: 地址：http://www.baidu.com/link?url=-bAD43lbvEMOLjlT9I0CmSHZut34Y1lknzzQKPEHqwyTmcwuKRSENwVEDYpe6N6QjV3nC84LNy237Q516mrAC9Z9FItDtwv6UNXGES7QD84bPmsLSIqUPyFK8jDDYQbHfacVJMETKYkYqQWVOCQAjLBy4Fxy0cAYCmn2c0sWaEy
+2016-08-19 11:37:04,225 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:04,225 INFO   - search: 地址：http://www.baidu.com/link?url=-bAD43lbvEMOLjlT9I0CmKvrEdgaXISwXa7c_Zux2-SUy9NrE9X7bFneYPRlcFkNGI-qk6ag3-0UXF1YzqI-eFUu8ECmjLn5l1Toq3D7V2q
+2016-08-19 11:37:04,225 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:04,225 INFO   - search: 地址：http://www.baidu.com/link?url=6nOo1xuJLYlHabo_xb2MgO9AYfyQ0TPGGtavVmIu_EW00QO1pcVZOqdxkvcZ7yuJUoEzR4e994VYCcEk-c9LYq
+2016-08-19 11:37:04,225 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:04,225 INFO   - search: 地址：http://www.baidu.com/link?url=lubn0gxuPmo_2OUu767Sxw44QWKv4F1UybrWAxYH_klF-xOqnBeNSlK-g64CaH9s7UAZWL_vhEdE9x9ci4hT7jfYQdXP-jJFH0dsK0CjQ0SrWpoO-tttYKXI4AMv25Kz
+2016-08-19 11:37:04,225 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:04,225 INFO   - search: 地址：http://www.baidu.com/link?url=9uZf67yWVJjWE_W6hpmnsrtlLBwHG5Wj28vhUpR4TD77A5zAWAIvBBYzS29SiVMHaeK14L8QJa3u8k7fb2XiKK
+2016-08-19 11:37:04,225 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:04,225 INFO   - search: 地址：http://www.baidu.com/link?url=MS5WstRa3W3sXAMdXd4qYfBt3J5sjCrbJOotFDhk21r5JfelvFR67Do9xV-hnJY8aE20_UpUnazjTqgw9ZLaQDGr8kDKaA44Db0mPDDFZp_
+2016-08-19 11:37:04,225 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:04,677 INFO   - search: 地址：http://www.baidu.com/link?url=c2fCoMjNDM3lZceIlW4bT1Dm2iPd-WxgS4N1grPs3b_x0_hs_IDYbcjHofvZvvDnuPvsIhSNGKpweezUPnOmx_
+2016-08-19 11:37:04,677 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:04,677 INFO   - search: 地址：http://www.baidu.com/link?url=Wic47FDgBn1jUATaTF2Z3c2TOWgD4NVHVdCW20enpDPP2GwYW9zHI0OS34uLXwr3lTn2j1RJoNCH_vOi9O9A_K
+2016-08-19 11:37:04,677 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:04,677 INFO   - search: 地址：
+2016-08-19 11:37:04,677 INFO   - search: 标题：
+2016-08-19 11:37:04,677 INFO   - search: 地址：http://www.baidu.com/link?url=mLJdry3o0ZoXN_sDGo5-2tar7iiLHeYr4ijGVkOPDvUA0S2NSNYxk1foDshNadPA
+2016-08-19 11:37:04,677 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:04,677 INFO   - search: 地址：http://www.baidu.com/link?url=abuYr01v3x6-yCItr4htp03gadeEuTFQ9eKiwenyRdEAKTicEBZpTVWBuQm9QLOITSo90zm1DHIafTwZwyVT8Al6-8KoBBa1FHbim-8HTsqI0bvbzSKKdJpQZYeZBwX_ZMLuLBMNnowIYblmejzVlkLn2JyMCVEOX6HBVGNIF6q
+2016-08-19 11:37:04,677 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:04,677 INFO   - search: 地址：http://www.baidu.com/link?url=abuYr01v3x6-yCItr4htpJIHhn8YFdPjXt7dawrd5mIN4N3-oPWnnSHCV7T5I2qUiTrtdoSO9_YXE0YV17OMfzVVwXdFB9juy5Grg8VVQXG
+2016-08-19 11:37:04,677 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:04,677 INFO   - search: 地址：http://www.baidu.com/link?url=K_BWX_eSrxEYzBPJwHZ-FGGs3VIKPw34stv3szWRBww-qAXY46z2bSujT-NeLC_M4m8MR6_91jj4uTdfQPjX2q
+2016-08-19 11:37:04,677 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:04,677 INFO   - search: 地址：http://www.baidu.com/link?url=YQARtjAlPm_v-nl4qhyKpuuSHdZ6aPa77suFu_WTQu2MSt6OJ61pUjsHEhC79mPE-Dl6o9pO3ZZ90wVCJsa-jYDrgxPXOBYVwy4qY-SYxjo_P-WftvTt2aKs75F139pG
+2016-08-19 11:37:04,677 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:04,677 INFO   - search: 地址：http://www.baidu.com/link?url=V5ca-A-yqMC0TcEv8uc8Ys-hqETVYYdx-xLwtzV0eQRXMhSZfROB1rslEhKCklklLL1cjFrhZ-4UFjzgFhq3Mq
+2016-08-19 11:37:04,677 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:04,677 INFO   - search: 地址：http://www.baidu.com/link?url=c2fCoMjNDM3lZceIlW4bT4hAHEQlrgTdqPVm54fYBJ4WTJk9v8g51kFtV5vz067LiyWiScUwWCARKiCk9EF6dhlUVI-qcsVLYn60p2pihou
+2016-08-19 11:37:04,677 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:05,116 INFO   - search: 地址：http://www.baidu.com/link?url=c2fCoMjNDM3lZceIlW4bT1Dm2iPd-WxgS4N1grPs3b_x0_hs_IDYbcjHofvZvvDnuPvsIhSNGKpweezUPnOmx_
+2016-08-19 11:37:05,116 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:05,116 INFO   - search: 地址：http://www.baidu.com/link?url=Wic47FDgBn1jUATaTF2Z3c2TOWgD4NVHVdCW20enpDPP2GwYW9zHI0OS34uLXwr3lTn2j1RJoNCH_vOi9O9A_K
+2016-08-19 11:37:05,116 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:05,116 INFO   - search: 地址：
+2016-08-19 11:37:05,132 INFO   - search: 标题：
+2016-08-19 11:37:05,132 INFO   - search: 地址：http://www.baidu.com/link?url=mLJdry3o0ZoXN_sDGo5-2tar7iiLHeYr4ijGVkOPDvUA0S2NSNYxk1foDshNadPA
+2016-08-19 11:37:05,132 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:05,132 INFO   - search: 地址：http://www.baidu.com/link?url=abuYr01v3x6-yCItr4htp03gadeEuTFQ9eKiwenyRdEAKTicEBZpTVWBuQm9QLOITSo90zm1DHIafTwZwyVT8Al6-8KoBBa1FHbim-8HTsqI0bvbzSKKdJpQZYeZBwX_ZMLuLBMNnowIYblmejzVlkLn2JyMCVEOX6HBVGNIF6q
+2016-08-19 11:37:05,132 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:05,132 INFO   - search: 地址：http://www.baidu.com/link?url=abuYr01v3x6-yCItr4htpJIHhn8YFdPjXt7dawrd5mIN4N3-oPWnnSHCV7T5I2qUiTrtdoSO9_YXE0YV17OMfzVVwXdFB9juy5Grg8VVQXG
+2016-08-19 11:37:05,132 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:05,132 INFO   - search: 地址：http://www.baidu.com/link?url=ULyux0HKpNqwI1CenwwG_vhjQBsJg65wZElTvT7MyXt57jIkOP6IuBKqsxy8dNeAbgAYn1_6-zCExI5CuqcaJ_
+2016-08-19 11:37:05,132 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:05,132 INFO   - search: 地址：http://www.baidu.com/link?url=YQARtjAlPm_v-nl4qhyKpuuSHdZ6aPa77suFu_WTQu2MSt6OJ61pUjsHEhC79mPE-Dl6o9pO3ZZ90wVCJsa-jYDrgxPXOBYVwy4qY-SYxjo_P-WftvTt2aKs75F139pG
+2016-08-19 11:37:05,132 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:05,132 INFO   - search: 地址：http://www.baidu.com/link?url=6-9U7ezASt3aZQjf4bUt0TOWyuzjlqmvfjow9K60JLqooXEXyJ_VMNCVdezf2ZdlzINvvZav-JXVXKFMOFN7Qq
+2016-08-19 11:37:05,132 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:05,132 INFO   - search: 地址：http://www.baidu.com/link?url=c2fCoMjNDM3lZceIlW4bT4hAHEQlrgTdqPVm54fYBJ4WTJk9v8g51kFtV5vz067LiyWiScUwWCARKiCk9EF6dhlUVI-qcsVLYn60p2pihou
+2016-08-19 11:37:05,132 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:05,601 INFO   - search: 地址：http://www.baidu.com/link?url=Qt3k1ZJGaFhYmcSDe5FpvjrJQwR6ZgPGG7WlzHJg8sfiMI91odxHQ4Vh9rJf_CrxrQDmrpVg-2d4heuSipspd_
+2016-08-19 11:37:05,616 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:05,616 INFO   - search: 地址：http://www.baidu.com/link?url=xl4Ws9r7GJiu7v3sbvaZc4BoVVqv2pRA8TtsP23-d79j-zyJfiVMF0nFUSXqXdwowfHqktT_-OJ80r-s37mF1K
+2016-08-19 11:37:05,616 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:05,616 INFO   - search: 地址：
+2016-08-19 11:37:05,616 INFO   - search: 标题：
+2016-08-19 11:37:05,616 INFO   - search: 地址：http://www.baidu.com/link?url=M5uoKpqhVT0HQi1Xk2wbsCAy-y5vtDMPDXUqnsz8U6tOryVO8Usagos7Yfrh_ULq
+2016-08-19 11:37:05,616 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:05,616 INFO   - search: 地址：http://www.baidu.com/link?url=qWVHjWHE2zipmGDDSN9H8h6ejwl_pWun-5-i9xQ3JKO5wWu0yWHEn0fvzr2LNmxe2NIjC4g-k-XTdH7Suec2wO_Se1OzV00NUDBJGkQAR2ygv1LJJs5zWMLsawtSBMUsNjtKw_S6OQaNv7l9Ycogsgz2nwn3CSzZKdnIr6SrFwy
+2016-08-19 11:37:05,616 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:05,616 INFO   - search: 地址：http://www.baidu.com/link?url=qWVHjWHE2zipmGDDSN9H8mVTtlJT8XLm9vNJdDhK5xcsqVWA75ZsRDBBA4kcQ0F_EFkKve4UOBoNwhgdYnuAyIivSZa1q-TKJtQh08GuveG
+2016-08-19 11:37:05,616 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:05,616 INFO   - search: 地址：http://www.baidu.com/link?url=D5w9CDdv0lKrF7eB_uproq9wq80TP6m6AfH0bKo4-KstDT5Mu8mFMBFcS7xaBvilJYE5ueshMLUlRnuS9kr_Mq
+2016-08-19 11:37:05,616 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:05,616 INFO   - search: 地址：http://www.baidu.com/link?url=sWBxJ3mPI6_p3YEB_anEqw6IP0jZEICJTPkBEE2WPmX-pRa4eFgcCNsINMI-O0SAeo7YLXTsLN9maSR8LaKEv5qGifUtS7Ae5XUgK3n-dt9ZQAF_PFQNAFCplEgpzXXb
+2016-08-19 11:37:05,616 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:05,616 INFO   - search: 地址：http://www.baidu.com/link?url=r8EpJpRAOkGZ84QOFw0ndfMUtmoJC7Vh-hydvhKVgFSCA4dPWk-wyPbx8aIFZZK4HeLXt4qIgZira74_S8LU0K
+2016-08-19 11:37:05,616 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:05,616 INFO   - search: 地址：http://www.baidu.com/link?url=Qt3k1ZJGaFhYmcSDe5Fpvl2zJsEHxA5dKCWnVbLQJLA14GFlnKzDhW3ehxtZD_7W3fAKiIHAgks38q2SmSIeS4U0eSh928gMYRQZy2sVqJW
+2016-08-19 11:37:05,616 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:06,055 INFO   - search: 地址：http://www.baidu.com/link?url=Qt3k1ZJGaFhYmcSDe5FpvjrJQwR6ZgPGG7WlzHJg8sfiMI91odxHQ4Vh9rJf_CrxrQDmrpVg-2d4heuSipspd_
+2016-08-19 11:37:06,055 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:06,055 INFO   - search: 地址：http://www.baidu.com/link?url=xl4Ws9r7GJiu7v3sbvaZc4BoVVqv2pRA8TtsP23-d79j-zyJfiVMF0nFUSXqXdwowfHqktT_-OJ80r-s37mF1K
+2016-08-19 11:37:06,055 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:06,055 INFO   - search: 地址：
+2016-08-19 11:37:06,055 INFO   - search: 标题：
+2016-08-19 11:37:06,055 INFO   - search: 地址：http://www.baidu.com/link?url=M5uoKpqhVT0HQi1Xk2wbsCAy-y5vtDMPDXUqnsz8U6tOryVO8Usagos7Yfrh_ULq
+2016-08-19 11:37:06,055 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:06,055 INFO   - search: 地址：http://www.baidu.com/link?url=qWVHjWHE2zipmGDDSN9H8h6ejwl_pWun-5-i9xQ3JKO5wWu0yWHEn0fvzr2LNmxe2NIjC4g-k-XTdH7Suec2wO_Se1OzV00NUDBJGkQAR2ygv1LJJs5zWMLsawtSBMUsNjtKw_S6OQaNv7l9Ycogsgz2nwn3CSzZKdnIr6SrFwy
+2016-08-19 11:37:06,055 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:06,055 INFO   - search: 地址：http://www.baidu.com/link?url=qWVHjWHE2zipmGDDSN9H8mVTtlJT8XLm9vNJdDhK5xcsqVWA75ZsRDBBA4kcQ0F_EFkKve4UOBoNwhgdYnuAyIivSZa1q-TKJtQh08GuveG
+2016-08-19 11:37:06,055 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:06,055 INFO   - search: 地址：http://www.baidu.com/link?url=TFcU0aQ8-ht4Eyyx1Ou-OaqOHInNHXeo9k7eGPS9r-QIP1ptb5ZON_c4XNjncfE1Ry19bK0PidOwPheE0uUyeq
+2016-08-19 11:37:06,055 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:06,055 INFO   - search: 地址：http://www.baidu.com/link?url=sWBxJ3mPI6_p3YEB_anEqw6IP0jZEICJTPkBEE2WPmX-pRa4eFgcCNsINMI-O0SAeo7YLXTsLN9maSR8LaKEv5qGifUtS7Ae5XUgK3n-dt9ZQAF_PFQNAFCplEgpzXXb
+2016-08-19 11:37:06,055 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:06,055 INFO   - search: 地址：http://www.baidu.com/link?url=01GeRnU75ABVJZ54vLBq9T1ggTalZM6LC1KpwWF9RjWnyEonQt_lESd13NZHTpEftq_JTLNEAu-C02tZ5ALUha
+2016-08-19 11:37:06,055 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:06,055 INFO   - search: 地址：http://www.baidu.com/link?url=Qt3k1ZJGaFhYmcSDe5Fpvl2zJsEHxA5dKCWnVbLQJLA14GFlnKzDhW3ehxtZD_7W3fAKiIHAgks38q2SmSIeS4U0eSh928gMYRQZy2sVqJW
+2016-08-19 11:37:06,055 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:06,476 INFO   - search: 地址：http://www.baidu.com/link?url=Qt3k1ZJGaFhYmcSDe5FpvjrJQwR6ZgPGG7WlzHJg8sfiMI91odxHQ4Vh9rJf_CrxrQDmrpVg-2d4heuSipspd_
+2016-08-19 11:37:06,476 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:06,476 INFO   - search: 地址：http://www.baidu.com/link?url=xl4Ws9r7GJiu7v3sbvaZc4BoVVqv2pRA8TtsP23-d79j-zyJfiVMF0nFUSXqXdwowfHqktT_-OJ80r-s37mF1K
+2016-08-19 11:37:06,476 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:06,476 INFO   - search: 地址：
+2016-08-19 11:37:06,476 INFO   - search: 标题：
+2016-08-19 11:37:06,476 INFO   - search: 地址：http://www.baidu.com/link?url=M5uoKpqhVT0HQi1Xk2wbsCAy-y5vtDMPDXUqnsz8U6tOryVO8Usagos7Yfrh_ULq
+2016-08-19 11:37:06,492 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:06,492 INFO   - search: 地址：http://www.baidu.com/link?url=qWVHjWHE2zipmGDDSN9H8h6ejwl_pWun-5-i9xQ3JKO5wWu0yWHEn0fvzr2LNmxe2NIjC4g-k-XTdH7Suec2wO_Se1OzV00NUDBJGkQAR2ygv1LJJs5zWMLsawtSBMUsNjtKw_S6OQaNv7l9Ycogsgz2nwn3CSzZKdnIr6SrFwy
+2016-08-19 11:37:06,492 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:06,492 INFO   - search: 地址：http://www.baidu.com/link?url=qWVHjWHE2zipmGDDSN9H8mVTtlJT8XLm9vNJdDhK5xcsqVWA75ZsRDBBA4kcQ0F_EFkKve4UOBoNwhgdYnuAyIivSZa1q-TKJtQh08GuveG
+2016-08-19 11:37:06,492 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:06,492 INFO   - search: 地址：http://www.baidu.com/link?url=UlSKdHNmH-tR1_Wp37BXxykZCN8Ljblio_BPNjpfaTK8EGmi3bPMHE1BIIO2ny7MWc99A1wSmYMJBHznnPGlOq
+2016-08-19 11:37:06,492 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:06,492 INFO   - search: 地址：http://www.baidu.com/link?url=sWBxJ3mPI6_p3YEB_anEqw6IP0jZEICJTPkBEE2WPmX-pRa4eFgcCNsINMI-O0SAeo7YLXTsLN9maSR8LaKEv5qGifUtS7Ae5XUgK3n-dt9ZQAF_PFQNAFCplEgpzXXb
+2016-08-19 11:37:06,492 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:06,492 INFO   - search: 地址：http://www.baidu.com/link?url=t0ERdsA_PSNcld-vIFV3Qh4EMUGwcVjDdYyiXpiPS5zuanN2aOWKtt_9bXxFJcuOIg_If3_lC05rgzk40dNyEK
+2016-08-19 11:37:06,492 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:06,492 INFO   - search: 地址：http://www.baidu.com/link?url=Qt3k1ZJGaFhYmcSDe5Fpvl2zJsEHxA5dKCWnVbLQJLA14GFlnKzDhW3ehxtZD_7W3fAKiIHAgks38q2SmSIeS4U0eSh928gMYRQZy2sVqJW
+2016-08-19 11:37:06,492 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:06,916 INFO   - search: 地址：http://www.baidu.com/link?url=cbXKYdyfY0_1cArC5acpQQXhRlChsDi8VApP6xu-pwRSP8u6TjgvsEYO9BlwHYi7STIplBOBLCRclpMzbBIgI_
+2016-08-19 11:37:06,916 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:06,916 INFO   - search: 地址：http://www.baidu.com/link?url=M5semFfE8aZPdociDZOGQyIwMXd55e_w2Wm1svBJtwwqbkY8tbbXjuNsRo1Z3oFSFbEe0PwwVPerSpkFTT7Csa
+2016-08-19 11:37:06,916 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:06,916 INFO   - search: 地址：
+2016-08-19 11:37:06,916 INFO   - search: 标题：
+2016-08-19 11:37:06,916 INFO   - search: 地址：http://www.baidu.com/link?url=YVndCutnoqKy-QM8pQpwLWdNHs8h-ml8u3iYr1hqs1XuTK8dRqTHJMFVh1_vN0Wk
+2016-08-19 11:37:06,916 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:06,916 INFO   - search: 地址：http://www.baidu.com/link?url=nYwM-by_WZ3pjFFIJv_iUyHOdSWe28LmJFpU2ypdXIF5MhiC3J-7L61gMLOV6msmubtuvhghKd-I41Hy5gepTRtcLh24v_3ig_gVFJ7qKWK6xV8QGJBVU_6isrqmCQruPXJQFVXLJxvQHUk4xVnyc237RRNXVA6P0o0b_eGW__a
+2016-08-19 11:37:06,916 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:06,916 INFO   - search: 地址：http://www.baidu.com/link?url=nYwM-by_WZ3pjFFIJv_iU8VbMbv1Goo438QcadwZWDMGuMDLys8M-ZXuZ_SRdv40h7MIBrlDrJlfgOThV8UW4epmAouoARtXQYO2Z4idD8y
+2016-08-19 11:37:06,916 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:06,916 INFO   - search: 地址：http://www.baidu.com/link?url=hLbZ156fnifd4BGZZXGfcFvofV5JmiOKV37zYGDYJus-asQQg3TeW3mkJ8ewxjsfMwNVOkj1-pUBOrvGpgRgUq
+2016-08-19 11:37:06,916 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:06,916 INFO   - search: 地址：http://www.baidu.com/link?url=beV7R4Sf3d50VqkUWCLN1vM0fJtmW2yn-qe1KMpOzWLEO7dVR42ZsgDsGmYkWbt34RwLZ5v6BCLqGVGxDdwyT16gOt7Xwusi5MKaR07FsUlCUVwWE0WpHSWXnUxAjqXQ
+2016-08-19 11:37:06,916 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:06,916 INFO   - search: 地址：http://www.baidu.com/link?url=_MufNMVruM_8SlZ14rSnlRUgMNk6jW62gdaKVIHFlRdEQ_icT7iMfp5DNSglSmInuHSGD_HKS6iXfxsppKykm_
+2016-08-19 11:37:06,916 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:06,916 INFO   - search: 地址：http://www.baidu.com/link?url=cbXKYdyfY0_1cArC5acpQUtC3oYu2fV-2QpQ0_LeACZlJokIvlHYwsG7T37agjf1ZdtE4uhXoSDnEJDvHfcavOOBtsqLwZLV__MedTYKAw3
+2016-08-19 11:37:06,916 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:07,322 INFO   - search: 地址：http://www.baidu.com/link?url=cbXKYdyfY0_1cArC5acpQQXhRlChsDi8VApP6xu-pwRSP8u6TjgvsEYO9BlwHYi7STIplBOBLCRclpMzbBIgI_
+2016-08-19 11:37:07,322 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:07,322 INFO   - search: 地址：http://www.baidu.com/link?url=M5semFfE8aZPdociDZOGQyIwMXd55e_w2Wm1svBJtwwqbkY8tbbXjuNsRo1Z3oFSFbEe0PwwVPerSpkFTT7Csa
+2016-08-19 11:37:07,322 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:07,322 INFO   - search: 地址：
+2016-08-19 11:37:07,322 INFO   - search: 标题：
+2016-08-19 11:37:07,322 INFO   - search: 地址：http://www.baidu.com/link?url=YVndCutnoqKy-QM8pQpwLWdNHs8h-ml8u3iYr1hqs1XuTK8dRqTHJMFVh1_vN0Wk
+2016-08-19 11:37:07,322 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:07,322 INFO   - search: 地址：http://www.baidu.com/link?url=nYwM-by_WZ3pjFFIJv_iUyHOdSWe28LmJFpU2ypdXIF5MhiC3J-7L61gMLOV6msmubtuvhghKd-I41Hy5gepTRtcLh24v_3ig_gVFJ7qKWK6xV8QGJBVU_6isrqmCQruPXJQFVXLJxvQHUk4xVnyc237RRNXVA6P0o0b_eGW__a
+2016-08-19 11:37:07,322 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:07,322 INFO   - search: 地址：http://www.baidu.com/link?url=nYwM-by_WZ3pjFFIJv_iU8VbMbv1Goo438QcadwZWDMGuMDLys8M-ZXuZ_SRdv40h7MIBrlDrJlfgOThV8UW4epmAouoARtXQYO2Z4idD8y
+2016-08-19 11:37:07,322 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:07,322 INFO   - search: 地址：http://www.baidu.com/link?url=7yWZcUoq78t2Dh4nt__Ue0Jv5deaM8XRe5ORc_G4mJMQJWRiNyQJqVneD4K0AcdjeJC3EvB0kS2hDz1iztQ4tK
+2016-08-19 11:37:07,322 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:07,322 INFO   - search: 地址：http://www.baidu.com/link?url=beV7R4Sf3d50VqkUWCLN1vM0fJtmW2yn-qe1KMpOzWLEO7dVR42ZsgDsGmYkWbt34RwLZ5v6BCLqGVGxDdwyT16gOt7Xwusi5MKaR07FsUlCUVwWE0WpHSWXnUxAjqXQ
+2016-08-19 11:37:07,322 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:07,322 INFO   - search: 地址：http://www.baidu.com/link?url=pzxYJWFkyQQ9kD99U4eg8UJc6DjJZd42Gp9FzTNZoutnKjsQmXygifDumPJZ0uZb9W0Tn6j92kUgk6UUhk4xXq
+2016-08-19 11:37:07,322 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:07,322 INFO   - search: 地址：http://www.baidu.com/link?url=cbXKYdyfY0_1cArC5acpQUtC3oYu2fV-2QpQ0_LeACZlJokIvlHYwsG7T37agjf1ZdtE4uhXoSDnEJDvHfcavOOBtsqLwZLV__MedTYKAw3
+2016-08-19 11:37:07,322 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:07,770 INFO   - search: 地址：http://www.baidu.com/link?url=YC-DffQF0B-nvn2Sw-UChmPMlpDGpCSwzxb9jnLKQeWK_1oN0GjW9VcXwIHyKk147z7MVZaAAOYE_z6oaVzonK
+2016-08-19 11:37:07,770 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:07,770 INFO   - search: 地址：http://www.baidu.com/link?url=5kNvkZguhTzDtdrw5WfRe-Epg2-zLw1X-R_mYJN6zG9glWPjz7iFpsJEht8DQe_QJqzu20HkXQH-6ASibqwUsa
+2016-08-19 11:37:07,770 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:07,770 INFO   - search: 地址：
+2016-08-19 11:37:07,770 INFO   - search: 标题：
+2016-08-19 11:37:07,770 INFO   - search: 地址：http://www.baidu.com/link?url=zRVZGW3LKeZigeLDWvk5UY324OGh9SDaCHpZc_vD_-8EcocOd92IJS4VFTAZAcwn
+2016-08-19 11:37:07,786 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:07,786 INFO   - search: 地址：http://www.baidu.com/link?url=A9xPhkOUc1QlTZ2voWu20g5IV9mXQl8EuUAtaD1yIxNb2hu9P8ehwcBlGLMy1dcljSuv9tqOm6w6_6ZWdQ6kajXvgN2Bdj-V6EQZLrfXFSSUc13xnK-adrFMhI3GORxrv1KDHmZzfzR4AAdHNp5LwpdfWvwgmqezkk2vH8x3rjy
+2016-08-19 11:37:07,786 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:07,786 INFO   - search: 地址：http://www.baidu.com/link?url=A9xPhkOUc1QlTZ2voWu20kH1QaC5eOgaF2KrBw-8vwzyHpkUaYtlPvo8oAH14k0I2qgdnqX0bYEhj96PljGUaGAA_xz-i2-7txSLcOStgke
+2016-08-19 11:37:07,786 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:07,786 INFO   - search: 地址：http://www.baidu.com/link?url=LS2e4kMHwy8nTT9UXuS4okA54khxX3RqcyJCp2eP1BMtTa0PgjTybSpqcR_4hvP7A0QZq-A4VBKAVZubGEp0Hq
+2016-08-19 11:37:07,786 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:07,786 INFO   - search: 地址：http://www.baidu.com/link?url=XIU1mZu-gnb72jALmxNcFIAorP10uHDLFi1KeH1EJLgaVIfTgJlPdJxQaNALo28Qb_bKwTPYreuhXDOcVXswVu57-kbQedOwEA59MNP_nvGNfIWQ9OlPL-nwhNWmMEJE
+2016-08-19 11:37:07,786 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:07,786 INFO   - search: 地址：http://www.baidu.com/link?url=62uKBkvuVl3DtQ6R3QbXyl7lgnsvjncnaSbaHK7bqjt6WxQUg5S5Tx7u5vl6iQX0a6TPh_mtCzTHoBmg9TNG0_
+2016-08-19 11:37:07,786 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:07,786 INFO   - search: 地址：http://www.baidu.com/link?url=YC-DffQF0B-nvn2Sw-UChaLKt4PbwjHajfPHJrT6HqTa810-20z1uzoabAOGuKwZUlyKMUsuGYuezSWTWwr-bnfp5OaSi6Xt6V04ivP6s-W
+2016-08-19 11:37:07,786 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:08,192 INFO   - search: 地址：http://www.baidu.com/link?url=YC-DffQF0B-nvn2Sw-UChmPMlpDGpCSwzxb9jnLKQeWK_1oN0GjW9VcXwIHyKk147z7MVZaAAOYE_z6oaVzonK
+2016-08-19 11:37:08,192 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:08,192 INFO   - search: 地址：http://www.baidu.com/link?url=5kNvkZguhTzDtdrw5WfRe-Epg2-zLw1X-R_mYJN6zG9glWPjz7iFpsJEht8DQe_QJqzu20HkXQH-6ASibqwUsa
+2016-08-19 11:37:08,192 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:08,208 INFO   - search: 地址：
+2016-08-19 11:37:08,208 INFO   - search: 标题：
+2016-08-19 11:37:08,208 INFO   - search: 地址：http://www.baidu.com/link?url=zRVZGW3LKeZigeLDWvk5UY324OGh9SDaCHpZc_vD_-8EcocOd92IJS4VFTAZAcwn
+2016-08-19 11:37:08,208 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:08,208 INFO   - search: 地址：http://www.baidu.com/link?url=A9xPhkOUc1QlTZ2voWu20g5IV9mXQl8EuUAtaD1yIxNb2hu9P8ehwcBlGLMy1dcljSuv9tqOm6w6_6ZWdQ6kajXvgN2Bdj-V6EQZLrfXFSSUc13xnK-adrFMhI3GORxrv1KDHmZzfzR4AAdHNp5LwpdfWvwgmqezkk2vH8x3rjy
+2016-08-19 11:37:08,208 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:08,208 INFO   - search: 地址：http://www.baidu.com/link?url=A9xPhkOUc1QlTZ2voWu20kH1QaC5eOgaF2KrBw-8vwzyHpkUaYtlPvo8oAH14k0I2qgdnqX0bYEhj96PljGUaGAA_xz-i2-7txSLcOStgke
+2016-08-19 11:37:08,208 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:08,208 INFO   - search: 地址：http://www.baidu.com/link?url=y0yBnZV_Sg6tMknFn2SAXR2fi3fWHXvSvdClgJ-tGuZcjqhOBeZ61adCAr685RFgE7FJQLfdUQ-EkplzM6CCIK
+2016-08-19 11:37:08,208 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:08,208 INFO   - search: 地址：http://www.baidu.com/link?url=XIU1mZu-gnb72jALmxNcFIAorP10uHDLFi1KeH1EJLgaVIfTgJlPdJxQaNALo28Qb_bKwTPYreuhXDOcVXswVu57-kbQedOwEA59MNP_nvGNfIWQ9OlPL-nwhNWmMEJE
+2016-08-19 11:37:08,208 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:08,208 INFO   - search: 地址：http://www.baidu.com/link?url=A-9V83S_tnmr9_SRZ1ojRNCJzzxkloEu12YwZtjS1HBiSWw8CdNTusQXiX5MdLvxBqyWPyBoPZ_XeJC5948aY_
+2016-08-19 11:37:08,208 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:08,208 INFO   - search: 地址：http://www.baidu.com/link?url=YC-DffQF0B-nvn2Sw-UChaLKt4PbwjHajfPHJrT6HqTa810-20z1uzoabAOGuKwZUlyKMUsuGYuezSWTWwr-bnfp5OaSi6Xt6V04ivP6s-W
+2016-08-19 11:37:08,208 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:08,582 INFO   - search: 地址：http://www.baidu.com/link?url=kX-kOTdsxfzrrY93BdxoxqMciEa0JHPbXx_Ze4v24jWE0oOiXp-hoHxBVYo0J1THRePC8vzEL0_3EcbM05vx9a
+2016-08-19 11:37:08,582 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:08,582 INFO   - search: 地址：http://www.baidu.com/link?url=3oxEhrrgxr-1NioedqVEmlkTww7OpywupUErxdwZ6sIdsZD4tGCRmempyLnehVjCez46WswYx-6cO3l7xHtNMK
+2016-08-19 11:37:08,582 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:08,582 INFO   - search: 地址：
+2016-08-19 11:37:08,582 INFO   - search: 标题：
+2016-08-19 11:37:08,582 INFO   - search: 地址：http://www.baidu.com/link?url=wx-liXaWq3SGUEem8S1ujhjkHDztM0Zlm_gTbjSaK4uYZLb4hozocl7b8CetX1eB
+2016-08-19 11:37:08,582 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:08,582 INFO   - search: 地址：http://www.baidu.com/link?url=2bjzu7MUPbpEnUHexsdnnqN24rqV_5guvxdMagXVxEY6eRit0genFwv0VBSUOfiWMCFIcew8obIkuwDvZ2Hxfj5leS1AFZlcwBFZPR0aa4jTbvYL2RoTfyU3lmlWQ70DJhEVeVSvmXT76eLGT5sLCqJTj6GMzkHTUoyUGvKsWqq
+2016-08-19 11:37:08,582 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:08,582 INFO   - search: 地址：http://www.baidu.com/link?url=2bjzu7MUPbpEnUHexsdnntjXAmvtZEcRrJeWRmh0QaGXuiNDVO0AfOJPWUYQFEyEFGrZfoPbFl90u2lOFfYPSTH8XnzyCGW3XYEuRz82mdW
+2016-08-19 11:37:08,582 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:08,582 INFO   - search: 地址：http://www.baidu.com/link?url=Axj_aeJXBOWDwlxlDeHbYVFeA8vsylShpVqW7WmQFuZEMAjCNSW_L6gFCqChtDnEKIg9Wh6X4gyHPL-2KT-msK
+2016-08-19 11:37:08,582 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:08,582 INFO   - search: 地址：http://www.baidu.com/link?url=4d5e1tge6VLlHprnch2V9AsKAETOlXkl2bTg6YTTKkG2gGdJI1ARsWLgQcaas6puD_mXbXSwsP9T1bOvtTQJbLYRMYIiSRSzr6zGB9KhTrfVnkXQ5lAlCJJVW4odcPJZ
+2016-08-19 11:37:08,582 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:08,582 INFO   - search: 地址：http://www.baidu.com/link?url=J-EYF2qAgEyEbqqeSmLVsjVUguN7S6Vy1YUgneMvuOQd_O5NpFGZMr9MRTuEye4kkrGC2EILhUVLKKHtOwnc_a
+2016-08-19 11:37:08,582 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:08,582 INFO   - search: 地址：http://www.baidu.com/link?url=kX-kOTdsxfzrrY93BdxoxzO2fav8dm_i5941Ja5bjMI-lYqe_J-_s_6kX_0JeGV4khuaMU1DdtHaWvwdSYMW5Vxi5KOOwC33VqDmlEq5bfe
+2016-08-19 11:37:08,582 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:09,002 INFO   - search: 地址：http://www.baidu.com/link?url=kX-kOTdsxfzrrY93BdxoxqMciEa0JHPbXx_Ze4v24jWE0oOiXp-hoHxBVYo0J1THRePC8vzEL0_3EcbM05vx9a
+2016-08-19 11:37:09,002 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:09,002 INFO   - search: 地址：http://www.baidu.com/link?url=3oxEhrrgxr-1NioedqVEmlkTww7OpywupUErxdwZ6sIdsZD4tGCRmempyLnehVjCez46WswYx-6cO3l7xHtNMK
+2016-08-19 11:37:09,002 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:09,002 INFO   - search: 地址：
+2016-08-19 11:37:09,002 INFO   - search: 标题：
+2016-08-19 11:37:09,002 INFO   - search: 地址：http://www.baidu.com/link?url=wx-liXaWq3SGUEem8S1ujhjkHDztM0Zlm_gTbjSaK4uYZLb4hozocl7b8CetX1eB
+2016-08-19 11:37:09,017 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:09,017 INFO   - search: 地址：http://www.baidu.com/link?url=2bjzu7MUPbpEnUHexsdnnqN24rqV_5guvxdMagXVxEY6eRit0genFwv0VBSUOfiWMCFIcew8obIkuwDvZ2Hxfj5leS1AFZlcwBFZPR0aa4jTbvYL2RoTfyU3lmlWQ70DJhEVeVSvmXT76eLGT5sLCqJTj6GMzkHTUoyUGvKsWqq
+2016-08-19 11:37:09,017 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:09,017 INFO   - search: 地址：http://www.baidu.com/link?url=2bjzu7MUPbpEnUHexsdnntjXAmvtZEcRrJeWRmh0QaGXuiNDVO0AfOJPWUYQFEyEFGrZfoPbFl90u2lOFfYPSTH8XnzyCGW3XYEuRz82mdW
+2016-08-19 11:37:09,017 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:09,017 INFO   - search: 地址：http://www.baidu.com/link?url=dpZmBM0ZYA-6IIfcyHFdR67Re0LrQl9N3tNFijCLvEUaGTIe_myFTLwMCQ5A18CsZKKAhP7M1btFdQq0j6PXXq
+2016-08-19 11:37:09,017 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:09,017 INFO   - search: 地址：http://www.baidu.com/link?url=4d5e1tge6VLlHprnch2V9AsKAETOlXkl2bTg6YTTKkG2gGdJI1ARsWLgQcaas6puD_mXbXSwsP9T1bOvtTQJbLYRMYIiSRSzr6zGB9KhTrfVnkXQ5lAlCJJVW4odcPJZ
+2016-08-19 11:37:09,017 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:09,017 INFO   - search: 地址：http://www.baidu.com/link?url=e2Koyl1fzlrUcpr_RfxFzbeLFCY9xuBtsmeYgJwFu6AZxXWgUoYBum9B6T3yhh2EXhBtWaH5T-XdxItnhmgSia
+2016-08-19 11:37:09,017 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:09,017 INFO   - search: 地址：http://www.baidu.com/link?url=kX-kOTdsxfzrrY93BdxoxzO2fav8dm_i5941Ja5bjMI-lYqe_J-_s_6kX_0JeGV4khuaMU1DdtHaWvwdSYMW5Vxi5KOOwC33VqDmlEq5bfe
+2016-08-19 11:37:09,017 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:09,440 INFO   - search: 地址：http://www.baidu.com/link?url=kX-kOTdsxfzrrY93BdxoxqMciEa0JHPbXx_Ze4v24jWE0oOiXp-hoHxBVYo0J1THRePC8vzEL0_3EcbM05vx9a
+2016-08-19 11:37:09,440 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:09,440 INFO   - search: 地址：http://www.baidu.com/link?url=3oxEhrrgxr-1NioedqVEmlkTww7OpywupUErxdwZ6sIdsZD4tGCRmempyLnehVjCez46WswYx-6cO3l7xHtNMK
+2016-08-19 11:37:09,440 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:09,440 INFO   - search: 地址：
+2016-08-19 11:37:09,440 INFO   - search: 标题：
+2016-08-19 11:37:09,440 INFO   - search: 地址：http://www.baidu.com/link?url=wx-liXaWq3SGUEem8S1ujhjkHDztM0Zlm_gTbjSaK4uYZLb4hozocl7b8CetX1eB
+2016-08-19 11:37:09,440 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:09,440 INFO   - search: 地址：http://www.baidu.com/link?url=2bjzu7MUPbpEnUHexsdnnqN24rqV_5guvxdMagXVxEY6eRit0genFwv0VBSUOfiWMCFIcew8obIkuwDvZ2Hxfj5leS1AFZlcwBFZPR0aa4jTbvYL2RoTfyU3lmlWQ70DJhEVeVSvmXT76eLGT5sLCqJTj6GMzkHTUoyUGvKsWqq
+2016-08-19 11:37:09,440 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:09,440 INFO   - search: 地址：http://www.baidu.com/link?url=2bjzu7MUPbpEnUHexsdnntjXAmvtZEcRrJeWRmh0QaGXuiNDVO0AfOJPWUYQFEyEFGrZfoPbFl90u2lOFfYPSTH8XnzyCGW3XYEuRz82mdW
+2016-08-19 11:37:09,440 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:09,440 INFO   - search: 地址：http://www.baidu.com/link?url=Wyw5m7FB1SGpsSDiDAbK_fQszBO6K6Qii_ijZ0hs-rjtNzFrVjfeM7CjKwuY1sH8SSEc_lRdd0iEDTpy78QpUa
+2016-08-19 11:37:09,440 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:09,440 INFO   - search: 地址：http://www.baidu.com/link?url=4d5e1tge6VLlHprnch2V9AsKAETOlXkl2bTg6YTTKkG2gGdJI1ARsWLgQcaas6puD_mXbXSwsP9T1bOvtTQJbLYRMYIiSRSzr6zGB9KhTrfVnkXQ5lAlCJJVW4odcPJZ
+2016-08-19 11:37:09,440 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:09,440 INFO   - search: 地址：http://www.baidu.com/link?url=SlDGgKod3crtnXbDMPOQH7vZng6_7QxuwLEOg-Zudp-CtMZgQ777ew68HxtcsLl3jSTIpKHLZ2DjJbZRyGlqYq
+2016-08-19 11:37:09,440 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:09,440 INFO   - search: 地址：http://www.baidu.com/link?url=kX-kOTdsxfzrrY93BdxoxzO2fav8dm_i5941Ja5bjMI-lYqe_J-_s_6kX_0JeGV4khuaMU1DdtHaWvwdSYMW5Vxi5KOOwC33VqDmlEq5bfe
+2016-08-19 11:37:09,440 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:09,863 INFO   - search: 地址：http://www.baidu.com/link?url=P9YJQJNReMPk19RDaewN_kFXboqANPewV931ENIeY4EC1dFJtbu8qxGzMv9smwYxrmZhPjAPqOHqQUyBW6GutK
+2016-08-19 11:37:09,863 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:09,863 INFO   - search: 地址：http://www.baidu.com/link?url=7YrGqAUdOfY8Z7Hu4x0t7_j9PRQDGsaq-S49CQdHugmOKykRdIPtfJe-l_fa7KKAxC05doT_Hh5sXEVC8FUmoq
+2016-08-19 11:37:09,863 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:09,863 INFO   - search: 地址：
+2016-08-19 11:37:09,863 INFO   - search: 标题：
+2016-08-19 11:37:09,863 INFO   - search: 地址：http://www.baidu.com/link?url=YCUtDJZRUH7EN40V9Lc2Ev_9p0CBOu87dNvQdBnCQLk63ZIYSxI2qWnRAfcX5x2m
+2016-08-19 11:37:09,863 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:09,863 INFO   - search: 地址：http://www.baidu.com/link?url=tQFyNaZ9oQczoRElOl3-HKDLdEXaotVVr48rM3e9T4bBPlGkV9jQKVDJnEFSjEcG1An7ZVwugp7Z8SG4aOeAjhSmO-GGJUdoY1AQRCGZPH8nF1gY1k0FbaZqjnjjkvcN59C5CyGQ-3tWnV0mx0ZAzCffCT7IakYxlInWFq2qyBu
+2016-08-19 11:37:09,863 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:09,863 INFO   - search: 地址：http://www.baidu.com/link?url=tQFyNaZ9oQczoRElOl3-HWft61-H8966qFGkh51-iW9t_lV-UErWIyXFS14yKDLFcgpUzfQUgzVDDwq9uepsw4wVyXIAOYo0esrMSgG8Wz_
+2016-08-19 11:37:09,863 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:09,863 INFO   - search: 地址：http://www.baidu.com/link?url=7nCfxCwnAAhpmIY2CIx9MWGlZIFdygKawclOAo6mGaVaNbjL0fr-28umRFDq8NwWhMAaDMRu0g2mQ7sZorQA4q
+2016-08-19 11:37:09,863 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:09,863 INFO   - search: 地址：http://www.baidu.com/link?url=3F2U5b3jDNy995tyRS0DEsonRrx5d281aGu0pzwdCLMTXIMVf09nG3e1AiDzPzJg9HpDxQ2Nxwc6OEmcZd3MwQfqrEmIhxhh3Dx61LYnSgj7rY1EKyPYBTDLhQGykJLP
+2016-08-19 11:37:09,863 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:09,863 INFO   - search: 地址：http://www.baidu.com/link?url=yz2QVm54fuucvJPNLMCwRwDme0WiYzakRSzDj4I4CUz5sjv7OngJORlW2keb1jMsf16HRfU4AmLMAZaIJxIZR_
+2016-08-19 11:37:09,863 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:09,863 INFO   - search: 地址：http://www.baidu.com/link?url=P9YJQJNReMPk19RDaewN_m7rPd0dbDtlhwWeB98dlxmWLRgDSyhVxHYBmUEk-mPb8Xi4BDnl2HcH19w17IqsEekLnaHSxzoDZy_ig1ESS_3
+2016-08-19 11:37:09,863 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:10,315 INFO   - search: 地址：http://www.baidu.com/link?url=P9YJQJNReMPk19RDaewN_kFXboqANPewV931ENIeY4EC1dFJtbu8qxGzMv9smwYxrmZhPjAPqOHqQUyBW6GutK
+2016-08-19 11:37:10,315 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:10,315 INFO   - search: 地址：http://www.baidu.com/link?url=7YrGqAUdOfY8Z7Hu4x0t7_j9PRQDGsaq-S49CQdHugmOKykRdIPtfJe-l_fa7KKAxC05doT_Hh5sXEVC8FUmoq
+2016-08-19 11:37:10,315 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:10,315 INFO   - search: 地址：
+2016-08-19 11:37:10,315 INFO   - search: 标题：
+2016-08-19 11:37:10,315 INFO   - search: 地址：http://www.baidu.com/link?url=YCUtDJZRUH7EN40V9Lc2Ev_9p0CBOu87dNvQdBnCQLk63ZIYSxI2qWnRAfcX5x2m
+2016-08-19 11:37:10,331 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:10,331 INFO   - search: 地址：http://www.baidu.com/link?url=tQFyNaZ9oQczoRElOl3-HKDLdEXaotVVr48rM3e9T4bBPlGkV9jQKVDJnEFSjEcG1An7ZVwugp7Z8SG4aOeAjhSmO-GGJUdoY1AQRCGZPH8nF1gY1k0FbaZqjnjjkvcN59C5CyGQ-3tWnV0mx0ZAzCffCT7IakYxlInWFq2qyBu
+2016-08-19 11:37:10,331 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:10,331 INFO   - search: 地址：http://www.baidu.com/link?url=tQFyNaZ9oQczoRElOl3-HWft61-H8966qFGkh51-iW9t_lV-UErWIyXFS14yKDLFcgpUzfQUgzVDDwq9uepsw4wVyXIAOYo0esrMSgG8Wz_
+2016-08-19 11:37:10,331 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:10,331 INFO   - search: 地址：http://www.baidu.com/link?url=hdwzT8vmdrMk7sLoCkWhMvFic6Xdm_FwtaUrvdYuw_ZePHRdW8vCo-N3ISTLd9swwzV6NWudAWfOLdU2ULoNZa
+2016-08-19 11:37:10,331 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:10,331 INFO   - search: 地址：http://www.baidu.com/link?url=3F2U5b3jDNy995tyRS0DEsonRrx5d281aGu0pzwdCLMTXIMVf09nG3e1AiDzPzJg9HpDxQ2Nxwc6OEmcZd3MwQfqrEmIhxhh3Dx61LYnSgj7rY1EKyPYBTDLhQGykJLP
+2016-08-19 11:37:10,331 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:10,331 INFO   - search: 地址：http://www.baidu.com/link?url=8vAdz3r4V5tbJi0n_Prszow590QZCGGCpDsbH9tUad-dbmyAoGzTGKO1sQnldR9jad4ymQsFyqocOYwMR-9kva
+2016-08-19 11:37:10,331 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:10,331 INFO   - search: 地址：http://www.baidu.com/link?url=P9YJQJNReMPk19RDaewN_m7rPd0dbDtlhwWeB98dlxmWLRgDSyhVxHYBmUEk-mPb8Xi4BDnl2HcH19w17IqsEekLnaHSxzoDZy_ig1ESS_3
+2016-08-19 11:37:10,331 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:10,706 INFO   - search: 地址：http://www.baidu.com/link?url=X8OIKynLYoafMpvuPUuNCiRRmrRnNBudLgHiOUVx3pyBUgdJMQlS_jE-Wyg6vhSQP-oJfnQtMW9aUfNhRGTD4K
+2016-08-19 11:37:10,706 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:10,706 INFO   - search: 地址：http://www.baidu.com/link?url=DhKgEmUSrdZqRifP88-tdEqkD6qROiTYl-I7UJvgIBpAobrrya_FMk_RzYOpBp1S8y5ckLcUPaaXsrDl2ShRHq
+2016-08-19 11:37:10,706 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:10,706 INFO   - search: 地址：
+2016-08-19 11:37:10,706 INFO   - search: 标题：
+2016-08-19 11:37:10,706 INFO   - search: 地址：http://www.baidu.com/link?url=UQjmjLjmXJRvvgCSPR_cFVnxawDV8_3dXTRVDEUsRWqE8pjPDctNQMzVfohqDadW
+2016-08-19 11:37:10,706 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:10,706 INFO   - search: 地址：http://www.baidu.com/link?url=ek8UbXNmQv5RDahjY1hfhFphbOdTtJpvA87zBhXNccZiGXLLbniEXG3czdPgoqRVa1Z3hH1TYaR4M76_xtIb2wubTFqdBDmQ8fZva5RnYfdjSXOx0y-OOLXyeHoFcnIsx95Bn_bah6OPWCkH4n2-lHRwg6ID9xLbxcLczVPXXLi
+2016-08-19 11:37:10,706 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:10,706 INFO   - search: 地址：http://www.baidu.com/link?url=ek8UbXNmQv5RDahjY1hfh0KrtoNkOayE0AkJ2kMcJgP5YqE9N3G6cUWDallU0KFJ83ruzQKcQlxuRPGJ7MZuq13xWfjRqUPqQosx3eOxXNe
+2016-08-19 11:37:10,706 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:10,706 INFO   - search: 地址：http://www.baidu.com/link?url=06TZVEgsHYGRi1DmG4KqRP4Ar2KQlwLcPTjuij1S9WQa-K1g-kEvF5ngCsOQj8-v1i1TIOR7V5-bARj2lz56Hq
+2016-08-19 11:37:10,706 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:10,706 INFO   - search: 地址：http://www.baidu.com/link?url=weG2X9q_8qpFrlxxKzBXpRQUmuK_ZKlH6jZKfM-g248Sq_PiNYMlmBTrvIaihg23eVQnVScorihirdp2lMIqjQ5EHlxh4wJ_FPvcxeRPUpWVxgNKFnrYRCOUyx2k7XkP
+2016-08-19 11:37:10,706 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:10,706 INFO   - search: 地址：http://www.baidu.com/link?url=i1z_86BKhk-jLzWoEdZ4-Z8WaMq1wVEkiWmeL4L9_BwaUmH7iHevgV8E92nsp_PLzeYqQsqbb5Yh78EX3omgTK
+2016-08-19 11:37:10,706 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:10,706 INFO   - search: 地址：http://www.baidu.com/link?url=X8OIKynLYoafMpvuPUuNCfdPRFiQhm5OUdJglNI4ecu9Y2T3dt4Cr5rQavvhjMGiVNxjXa5joxTSjkxqEcqidbDxJI4-aB2CbBQvy1h0Mg_
+2016-08-19 11:37:10,706 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:11,161 INFO   - search: 地址：http://www.baidu.com/link?url=X8OIKynLYoafMpvuPUuNCiRRmrRnNBudLgHiOUVx3pyBUgdJMQlS_jE-Wyg6vhSQP-oJfnQtMW9aUfNhRGTD4K
+2016-08-19 11:37:11,161 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:11,161 INFO   - search: 地址：http://www.baidu.com/link?url=DhKgEmUSrdZqRifP88-tdEqkD6qROiTYl-I7UJvgIBpAobrrya_FMk_RzYOpBp1S8y5ckLcUPaaXsrDl2ShRHq
+2016-08-19 11:37:11,161 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:11,161 INFO   - search: 地址：
+2016-08-19 11:37:11,161 INFO   - search: 标题：
+2016-08-19 11:37:11,161 INFO   - search: 地址：http://www.baidu.com/link?url=UQjmjLjmXJRvvgCSPR_cFVnxawDV8_3dXTRVDEUsRWqE8pjPDctNQMzVfohqDadW
+2016-08-19 11:37:11,161 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:11,161 INFO   - search: 地址：http://www.baidu.com/link?url=ek8UbXNmQv5RDahjY1hfhFphbOdTtJpvA87zBhXNccZiGXLLbniEXG3czdPgoqRVa1Z3hH1TYaR4M76_xtIb2wubTFqdBDmQ8fZva5RnYfdjSXOx0y-OOLXyeHoFcnIsx95Bn_bah6OPWCkH4n2-lHRwg6ID9xLbxcLczVPXXLi
+2016-08-19 11:37:11,161 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:11,161 INFO   - search: 地址：http://www.baidu.com/link?url=ek8UbXNmQv5RDahjY1hfh0KrtoNkOayE0AkJ2kMcJgP5YqE9N3G6cUWDallU0KFJ83ruzQKcQlxuRPGJ7MZuq13xWfjRqUPqQosx3eOxXNe
+2016-08-19 11:37:11,161 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:11,161 INFO   - search: 地址：http://www.baidu.com/link?url=diWN2oudZNFBCy2q25WrPJE0jzFDW8PLRAWg7jQlsN1uYtEYjzLXOgPB_wc7w4tWbV4Nk57D0VadfHmX1-7Jsq
+2016-08-19 11:37:11,161 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:11,161 INFO   - search: 地址：http://www.baidu.com/link?url=weG2X9q_8qpFrlxxKzBXpRQUmuK_ZKlH6jZKfM-g248Sq_PiNYMlmBTrvIaihg23eVQnVScorihirdp2lMIqjQ5EHlxh4wJ_FPvcxeRPUpWVxgNKFnrYRCOUyx2k7XkP
+2016-08-19 11:37:11,161 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:11,161 INFO   - search: 地址：http://www.baidu.com/link?url=b4eSggozm7wyv253bo5bEuuaobXhamxZ4kEBbzxfbGpTjSS4XzuZ_ZvAWtDHIDXi02tlk-0Ux2-HEt367eDunK
+2016-08-19 11:37:11,161 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:11,161 INFO   - search: 地址：http://www.baidu.com/link?url=X8OIKynLYoafMpvuPUuNCfdPRFiQhm5OUdJglNI4ecu9Y2T3dt4Cr5rQavvhjMGiVNxjXa5joxTSjkxqEcqidbDxJI4-aB2CbBQvy1h0Mg_
+2016-08-19 11:37:11,161 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:11,582 INFO   - search: 地址：http://www.baidu.com/link?url=WuoFo2Sf_RtSkp9bqp__rHfczi6Sr-6OwiMv56KQeaJH3KixJfHWm2GcuDUy8pbhDV60NN5uT2G41piLblde8_
+2016-08-19 11:37:11,582 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:11,582 INFO   - search: 地址：http://www.baidu.com/link?url=ftFJxKlPCmqPaInucoVJ7oQfivTxR1hN-sLDTfMMmaGphDpgutgzGdV2y2abPiAmFI--7ZliRNo4ldNRuJ-Xp_
+2016-08-19 11:37:11,582 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:11,582 INFO   - search: 地址：
+2016-08-19 11:37:11,582 INFO   - search: 标题：
+2016-08-19 11:37:11,597 INFO   - search: 地址：http://www.baidu.com/link?url=aPKddH4EP2-m_XShGDGvzMhngbq83B02uC0WoItbSsN14n2aZZEksdGLGniDFf-u
+2016-08-19 11:37:11,597 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:11,597 INFO   - search: 地址：http://www.baidu.com/link?url=niz-9JNAi3hITzKnCEfJ9m3huaQcz8gWhfUxRO5l0MkUUgVQd8j7g415Zjvgj-5z4QES8CT0zu7St1Rqqs3c4rdVmLnw88SoV_Qxb5CLwc-XPuPWOA9KCHfK97C8pC5oyYA3RyMvaA3BUm2CjsBcixP-DCVw8x2frHPM2BrLeu7
+2016-08-19 11:37:11,597 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:11,597 INFO   - search: 地址：http://www.baidu.com/link?url=niz-9JNAi3hITzKnCEfJ9a3vxaTwNia0I4OpmGaHgwMuJ9VTy5Zp2c1Wj7e2TnGrmKTVOm2lwXE1zTXk3T3xBaAEbnNBHvR2Xk_2MBK56PO
+2016-08-19 11:37:11,597 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:11,597 INFO   - search: 地址：http://www.baidu.com/link?url=FPAq02fsut87t2ooRU-i4R3EestaIgzZXB63fYdVV_S-pgRhtbP9uEmVpNlgCjYVFQ6nddymLLj64AXIfFBAwK
+2016-08-19 11:37:11,597 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:11,597 INFO   - search: 地址：http://www.baidu.com/link?url=sI72BM3RandSMmUzXFS_F1Q-JW2t9VKUtwslaISfeu55qXjmS6rPpxhcOeGut1mlpj6xNzFL2sqIOvKPOTuuTU3zBWv3sHn9aphQ2pfb4hEVFzZj9d9AmWtdr6Eqq5bY
+2016-08-19 11:37:11,597 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:11,597 INFO   - search: 地址：http://www.baidu.com/link?url=7lmCd6NH8W1wYHuDmLASiLhE1XUA2wHKTBNrAF-8XvqnUhGDTWHsTWSTl4ElT6ZFEudJXOOo8PqhngoPBPbE7_
+2016-08-19 11:37:11,597 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:11,597 INFO   - search: 地址：http://www.baidu.com/link?url=WuoFo2Sf_RtSkp9bqp__rBuYBHI_gDdHpzBNXNAc08IIqYIDTcYennzyoWvPP4CmHcClUqYfbv4BmgcyA58cI-W9iUu6gQmhCZeDfu_VtES
+2016-08-19 11:37:11,597 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:12,022 INFO   - search: 地址：http://www.baidu.com/link?url=WuoFo2Sf_RtSkp9bqp__rHfczi6Sr-6OwiMv56KQeaJH3KixJfHWm2GcuDUy8pbhDV60NN5uT2G41piLblde8_
+2016-08-19 11:37:12,022 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:12,022 INFO   - search: 地址：http://www.baidu.com/link?url=ftFJxKlPCmqPaInucoVJ7oQfivTxR1hN-sLDTfMMmaGphDpgutgzGdV2y2abPiAmFI--7ZliRNo4ldNRuJ-Xp_
+2016-08-19 11:37:12,022 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:12,022 INFO   - search: 地址：
+2016-08-19 11:37:12,022 INFO   - search: 标题：
+2016-08-19 11:37:12,022 INFO   - search: 地址：http://www.baidu.com/link?url=aPKddH4EP2-m_XShGDGvzMhngbq83B02uC0WoItbSsN14n2aZZEksdGLGniDFf-u
+2016-08-19 11:37:12,022 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:12,022 INFO   - search: 地址：http://www.baidu.com/link?url=niz-9JNAi3hITzKnCEfJ9m3huaQcz8gWhfUxRO5l0MkUUgVQd8j7g415Zjvgj-5z4QES8CT0zu7St1Rqqs3c4rdVmLnw88SoV_Qxb5CLwc-XPuPWOA9KCHfK97C8pC5oyYA3RyMvaA3BUm2CjsBcixP-DCVw8x2frHPM2BrLeu7
+2016-08-19 11:37:12,022 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:12,022 INFO   - search: 地址：http://www.baidu.com/link?url=niz-9JNAi3hITzKnCEfJ9a3vxaTwNia0I4OpmGaHgwMuJ9VTy5Zp2c1Wj7e2TnGrmKTVOm2lwXE1zTXk3T3xBaAEbnNBHvR2Xk_2MBK56PO
+2016-08-19 11:37:12,022 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:12,022 INFO   - search: 地址：http://www.baidu.com/link?url=1_aZe5-6kvTDEeBADhogM-X9DPCDZn3GDGzA8CLTi7uPsKpDVUxH6C4nkiwFT86InfsykNyqQ9adWwqBJtzLJ_
+2016-08-19 11:37:12,022 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:12,022 INFO   - search: 地址：http://www.baidu.com/link?url=sI72BM3RandSMmUzXFS_F1Q-JW2t9VKUtwslaISfeu55qXjmS6rPpxhcOeGut1mlpj6xNzFL2sqIOvKPOTuuTU3zBWv3sHn9aphQ2pfb4hEVFzZj9d9AmWtdr6Eqq5bY
+2016-08-19 11:37:12,022 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:12,022 INFO   - search: 地址：http://www.baidu.com/link?url=FaEZVIg5gfgvd0Rccvl2TSAkDLGgVKpAKsoiU_bIslUYW6bYuHeh8LzbfT2JtMOzxYIm1PYylKeDp9bhwwB7Fq
+2016-08-19 11:37:12,022 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:12,022 INFO   - search: 地址：http://www.baidu.com/link?url=WuoFo2Sf_RtSkp9bqp__rBuYBHI_gDdHpzBNXNAc08IIqYIDTcYennzyoWvPP4CmHcClUqYfbv4BmgcyA58cI-W9iUu6gQmhCZeDfu_VtES
+2016-08-19 11:37:12,022 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:12,427 INFO   - search: 地址：http://www.baidu.com/link?url=WuoFo2Sf_RtSkp9bqp__rHfczi6Sr-6OwiMv56KQeaJH3KixJfHWm2GcuDUy8pbhDV60NN5uT2G41piLblde8_
+2016-08-19 11:37:12,427 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:12,427 INFO   - search: 地址：http://www.baidu.com/link?url=ftFJxKlPCmqPaInucoVJ7oQfivTxR1hN-sLDTfMMmaGphDpgutgzGdV2y2abPiAmFI--7ZliRNo4ldNRuJ-Xp_
+2016-08-19 11:37:12,427 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:12,427 INFO   - search: 地址：
+2016-08-19 11:37:12,427 INFO   - search: 标题：
+2016-08-19 11:37:12,427 INFO   - search: 地址：http://www.baidu.com/link?url=aPKddH4EP2-m_XShGDGvzMhngbq83B02uC0WoItbSsN14n2aZZEksdGLGniDFf-u
+2016-08-19 11:37:12,427 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:12,427 INFO   - search: 地址：http://www.baidu.com/link?url=niz-9JNAi3hITzKnCEfJ9m3huaQcz8gWhfUxRO5l0MkUUgVQd8j7g415Zjvgj-5z4QES8CT0zu7St1Rqqs3c4rdVmLnw88SoV_Qxb5CLwc-XPuPWOA9KCHfK97C8pC5oyYA3RyMvaA3BUm2CjsBcixP-DCVw8x2frHPM2BrLeu7
+2016-08-19 11:37:12,427 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:12,427 INFO   - search: 地址：http://www.baidu.com/link?url=niz-9JNAi3hITzKnCEfJ9a3vxaTwNia0I4OpmGaHgwMuJ9VTy5Zp2c1Wj7e2TnGrmKTVOm2lwXE1zTXk3T3xBaAEbnNBHvR2Xk_2MBK56PO
+2016-08-19 11:37:12,427 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:12,427 INFO   - search: 地址：http://www.baidu.com/link?url=nMgYRb2HKErhABA8Ko8l4gBoCsNijanEBKEYMYiGEWhN-aJJmrn9Rh3QtYX44jPxj8hGW5tEljaioxxOsHbR6_
+2016-08-19 11:37:12,427 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:12,427 INFO   - search: 地址：http://www.baidu.com/link?url=sI72BM3RandSMmUzXFS_F1Q-JW2t9VKUtwslaISfeu55qXjmS6rPpxhcOeGut1mlpj6xNzFL2sqIOvKPOTuuTU3zBWv3sHn9aphQ2pfb4hEVFzZj9d9AmWtdr6Eqq5bY
+2016-08-19 11:37:12,427 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:12,427 INFO   - search: 地址：http://www.baidu.com/link?url=-pmjQTdmwmSrV-IVeJgDUSsuzeIy8FQ-sGgUwoZk7HKzEUuAHe4KwPHkITX9IhuSeI9rRWSyldFYyVTpn3X6fa
+2016-08-19 11:37:12,427 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:12,427 INFO   - search: 地址：http://www.baidu.com/link?url=WuoFo2Sf_RtSkp9bqp__rBuYBHI_gDdHpzBNXNAc08IIqYIDTcYennzyoWvPP4CmHcClUqYfbv4BmgcyA58cI-W9iUu6gQmhCZeDfu_VtES
+2016-08-19 11:37:12,427 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:12,850 INFO   - search: 地址：http://www.baidu.com/link?url=JVXkE7YhmJVCN16HlKzyCHKAFD_yKk5vc8v5eS4KF0kTKCm_83-BDzXbnQyds8q8nVRHBZ0qxrOTIIZ-Fwt6l_
+2016-08-19 11:37:12,850 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:12,850 INFO   - search: 地址：http://www.baidu.com/link?url=G5Xw8GbVUjyS4f3rBDLhhAdmawC9HSSOcrB8o06ae8o2i6wtlLxsvNFRqqAHukI3UdjKnu2gflyHRjAFBErPN_
+2016-08-19 11:37:12,850 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:12,850 INFO   - search: 地址：
+2016-08-19 11:37:12,850 INFO   - search: 标题：
+2016-08-19 11:37:12,850 INFO   - search: 地址：http://www.baidu.com/link?url=0RhpbUAviUgJVodMsrCFfHqkva1zeudSKj-5sEwxCz5f-UQm_TLDvthbv-YZrISg
+2016-08-19 11:37:12,866 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:12,866 INFO   - search: 地址：http://www.baidu.com/link?url=DE3GhE83F9JKzKwaiFdLQnxNxB5q3KAjthBKgpamDsClMqmgFDLOda5tShFDmM-oEvk2xHYNdYqqwtMHSRfg16BWF4AoYPuqNN-MH4SVqMOen8Id5lh2lUaooCpPaIQyBkFflXo4BwNH10ym4NF2OJN-ukO8Yk6CDtyAgCYaLQq
+2016-08-19 11:37:12,866 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:12,866 INFO   - search: 地址：http://www.baidu.com/link?url=DE3GhE83F9JKzKwaiFdLQnY5LmIcZyGabqwdnshfHwZX3boiImUjio36t3GP6pKFHRSB5I2JR3NU5T2ZoTZ73f3LF45PHLGIv6QmNSO2Bq7
+2016-08-19 11:37:12,866 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:12,866 INFO   - search: 地址：http://www.baidu.com/link?url=rwXqys5RLxv6htkWCKGSkaRT3MvNZUKZ2uwwOfHsR5AEKhUwE92MxfIPWUii3-MKGrxZBbRRdPJhWPHfEIOCFK
+2016-08-19 11:37:12,866 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:12,866 INFO   - search: 地址：http://www.baidu.com/link?url=K5v8k1EOvvU2v9z-KrrNfCuBk_T-HSm7ZJ_yLnv3HCv-ivGRb2F4Hg9KPsVURTIf_Q4q2NN8MGjD4dtmjNacaCqBzwDFEXac1w8j-wwOkRh6xUYcrHAis2vUP8IuMuIK
+2016-08-19 11:37:12,866 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:12,866 INFO   - search: 地址：http://www.baidu.com/link?url=S_5FEHCad2aNidQLtsbDQrFu0bxCihdUlhtjcf67P_kMLW9z7-cUl1tSSmxIXFWvjF8aKYqB0lIDdt-fT-QfPq
+2016-08-19 11:37:12,866 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:12,866 INFO   - search: 地址：http://www.baidu.com/link?url=JVXkE7YhmJVCN16HlKzyCA99DEDRtu0ACkIM8pczs3c0H0BJ7hft_Emu6uT6Yx5iB8XArYV16hFEYFH4Hvq2azYeZVzaB8L9xHA3jM7BlzO
+2016-08-19 11:37:12,866 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:13,288 INFO   - search: 地址：http://www.baidu.com/link?url=JVXkE7YhmJVCN16HlKzyCHKAFD_yKk5vc8v5eS4KF0kTKCm_83-BDzXbnQyds8q8nVRHBZ0qxrOTIIZ-Fwt6l_
+2016-08-19 11:37:13,288 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:13,288 INFO   - search: 地址：http://www.baidu.com/link?url=G5Xw8GbVUjyS4f3rBDLhhAdmawC9HSSOcrB8o06ae8o2i6wtlLxsvNFRqqAHukI3UdjKnu2gflyHRjAFBErPN_
+2016-08-19 11:37:13,288 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:13,288 INFO   - search: 地址：
+2016-08-19 11:37:13,288 INFO   - search: 标题：
+2016-08-19 11:37:13,288 INFO   - search: 地址：http://www.baidu.com/link?url=0RhpbUAviUgJVodMsrCFfHqkva1zeudSKj-5sEwxCz5f-UQm_TLDvthbv-YZrISg
+2016-08-19 11:37:13,288 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:13,288 INFO   - search: 地址：http://www.baidu.com/link?url=DE3GhE83F9JKzKwaiFdLQnxNxB5q3KAjthBKgpamDsClMqmgFDLOda5tShFDmM-oEvk2xHYNdYqqwtMHSRfg16BWF4AoYPuqNN-MH4SVqMOen8Id5lh2lUaooCpPaIQyBkFflXo4BwNH10ym4NF2OJN-ukO8Yk6CDtyAgCYaLQq
+2016-08-19 11:37:13,288 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:13,288 INFO   - search: 地址：http://www.baidu.com/link?url=DE3GhE83F9JKzKwaiFdLQnY5LmIcZyGabqwdnshfHwZX3boiImUjio36t3GP6pKFHRSB5I2JR3NU5T2ZoTZ73f3LF45PHLGIv6QmNSO2Bq7
+2016-08-19 11:37:13,288 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:13,288 INFO   - search: 地址：http://www.baidu.com/link?url=erPfWlsYHvWqLLep05MBoxPE_Yrkp56xWF2Aye4r2yK6TM4LmDBbLo8PjY58EiAwYm8nzWQ7H8QFOfJvFYjUf_
+2016-08-19 11:37:13,288 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:13,288 INFO   - search: 地址：http://www.baidu.com/link?url=K5v8k1EOvvU2v9z-KrrNfCuBk_T-HSm7ZJ_yLnv3HCv-ivGRb2F4Hg9KPsVURTIf_Q4q2NN8MGjD4dtmjNacaCqBzwDFEXac1w8j-wwOkRh6xUYcrHAis2vUP8IuMuIK
+2016-08-19 11:37:13,288 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:13,288 INFO   - search: 地址：http://www.baidu.com/link?url=zdpBJWZodd68YapZFtqfKK0HmnCi4Cmsci-VpIoMxjs9FDmKuuoRBJqBZ4co6NsKrgocSElgFS6F9YTM5NpFDq
+2016-08-19 11:37:13,288 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:13,288 INFO   - search: 地址：http://www.baidu.com/link?url=JVXkE7YhmJVCN16HlKzyCA99DEDRtu0ACkIM8pczs3c0H0BJ7hft_Emu6uT6Yx5iB8XArYV16hFEYFH4Hvq2azYeZVzaB8L9xHA3jM7BlzO
+2016-08-19 11:37:13,288 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:13,709 INFO   - search: 地址：http://www.baidu.com/link?url=aBtB-zuB6BjR-0Is9P8VmL1ypWgDmpiLcHYDFmsvhOdWVcpVJ7mPLcDngehrUnWrj8XEPPkTmIePdc3VoarnIq
+2016-08-19 11:37:13,709 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:13,709 INFO   - search: 地址：http://www.baidu.com/link?url=4mKEl2D5IQusXmM9eQMOW5nZVIRyDyBKUxpIwVS4fB-QJphsVCDx8s9Ei_IS3RnN0_SV3ZB37JOZWQJv3cBJAq
+2016-08-19 11:37:13,709 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:13,709 INFO   - search: 地址：
+2016-08-19 11:37:13,709 INFO   - search: 标题：
+2016-08-19 11:37:13,709 INFO   - search: 地址：http://www.baidu.com/link?url=mVRR7VRX0Ie8waezVzRhwWFIVY2UOL_C65dku_SfU2t0duHOxmTHLEWHlk0iEr2r
+2016-08-19 11:37:13,709 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:13,709 INFO   - search: 地址：http://www.baidu.com/link?url=oYwFYYtzl2gxSt4QAQWAFwyj1pug5lixzAfSaUVcE-3ndgZOtXFILdDPCz4PO215Tv6cH_7DzYAtgAIq4AxGerGyaSFxk81LHb4vWh-UzzcoeGuWd5UK6s20IJL69qN_eKAcEWERfiFAPvXyGOZ_N0i0CObOtA0Dvmz-KS_h7C3
+2016-08-19 11:37:13,709 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:13,709 INFO   - search: 地址：http://www.baidu.com/link?url=oYwFYYtzl2gxSt4QAQWAF638B24JKhVS0CJyf1CncurHmENZQb62mdfXBk_w3GF9-1Q3QIYMHdvVJN-cyMux51rvzsGBOzXkoQ4x1vGKiSO
+2016-08-19 11:37:13,709 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:13,709 INFO   - search: 地址：http://www.baidu.com/link?url=r9zUJAS0hOU1tONW36JfSyA0eZd0T1BA6lBGCFiV_4eyR-Iu9xiQiLmtQPKhBic6JIk5kToEINE1thF43FqUnK
+2016-08-19 11:37:13,709 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:13,709 INFO   - search: 地址：http://www.baidu.com/link?url=Jz-whihOF1GpYBhmhrcyfuyUh_YvBIkR2fpPz0ck_VVUfvf41apZsj70PXqqMVBind5NqoSWi7irmHhMaboZoIbgVuacmx0g7bnR8cdIiT_jGePaGGluPPh_aNO7Z1Hf
+2016-08-19 11:37:13,709 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:13,709 INFO   - search: 地址：http://www.baidu.com/link?url=ZCjHf-5MfOLFcZLBQ97hD-n85oV2fbeaqrkx2X8eXcGY3ib9FWuxgWKYJEVQd_BiuAa7VpfVo-9ETq5Q2Ydws_
+2016-08-19 11:37:13,709 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:13,709 INFO   - search: 地址：http://www.baidu.com/link?url=aBtB-zuB6BjR-0Is9P8VmYTS6B9_QgzjmwiNeXq8E62IWIQsljS7ZDRicp6cevmBAi6_rjLmj4YHwXoE2GrXyHYn2r_kkRgpTnqUCVMr9YC
+2016-08-19 11:37:13,709 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:14,117 INFO   - search: 地址：http://www.baidu.com/link?url=aBtB-zuB6BjR-0Is9P8VmL1ypWgDmpiLcHYDFmsvhOdWVcpVJ7mPLcDngehrUnWrj8XEPPkTmIePdc3VoarnIq
+2016-08-19 11:37:14,117 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:14,117 INFO   - search: 地址：http://www.baidu.com/link?url=4mKEl2D5IQusXmM9eQMOW5nZVIRyDyBKUxpIwVS4fB-QJphsVCDx8s9Ei_IS3RnN0_SV3ZB37JOZWQJv3cBJAq
+2016-08-19 11:37:14,117 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:14,117 INFO   - search: 地址：
+2016-08-19 11:37:14,117 INFO   - search: 标题：
+2016-08-19 11:37:14,117 INFO   - search: 地址：http://www.baidu.com/link?url=mVRR7VRX0Ie8waezVzRhwWFIVY2UOL_C65dku_SfU2t0duHOxmTHLEWHlk0iEr2r
+2016-08-19 11:37:14,133 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:14,133 INFO   - search: 地址：http://www.baidu.com/link?url=oYwFYYtzl2gxSt4QAQWAFwyj1pug5lixzAfSaUVcE-3ndgZOtXFILdDPCz4PO215Tv6cH_7DzYAtgAIq4AxGerGyaSFxk81LHb4vWh-UzzcoeGuWd5UK6s20IJL69qN_eKAcEWERfiFAPvXyGOZ_N0i0CObOtA0Dvmz-KS_h7C3
+2016-08-19 11:37:14,133 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:14,133 INFO   - search: 地址：http://www.baidu.com/link?url=oYwFYYtzl2gxSt4QAQWAF638B24JKhVS0CJyf1CncurHmENZQb62mdfXBk_w3GF9-1Q3QIYMHdvVJN-cyMux51rvzsGBOzXkoQ4x1vGKiSO
+2016-08-19 11:37:14,133 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:14,133 INFO   - search: 地址：http://www.baidu.com/link?url=buIL3yCCho0CHExqCglRrQFMTHhNJWZAYLV9cHnwW-AL1-Rl2N6ig6p6uAK9XO1FKtJ0c6FRDB0bJpZUYklXga
+2016-08-19 11:37:14,133 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:14,133 INFO   - search: 地址：http://www.baidu.com/link?url=Jz-whihOF1GpYBhmhrcyfuyUh_YvBIkR2fpPz0ck_VVUfvf41apZsj70PXqqMVBind5NqoSWi7irmHhMaboZoIbgVuacmx0g7bnR8cdIiT_jGePaGGluPPh_aNO7Z1Hf
+2016-08-19 11:37:14,133 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:14,133 INFO   - search: 地址：http://www.baidu.com/link?url=qLkom1wm3QYm97ZeObSF4G2nIMCZSNJqCjy9_G_RIUEZ8TDlypHvbJdMkxLOiYDFxBpz09PuludeApSKA2nEU_
+2016-08-19 11:37:14,133 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:14,133 INFO   - search: 地址：http://www.baidu.com/link?url=aBtB-zuB6BjR-0Is9P8VmYTS6B9_QgzjmwiNeXq8E62IWIQsljS7ZDRicp6cevmBAi6_rjLmj4YHwXoE2GrXyHYn2r_kkRgpTnqUCVMr9YC
+2016-08-19 11:37:14,133 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:14,586 INFO   - search: 地址：http://www.baidu.com/link?url=aBtB-zuB6BjR-0Is9P8VmL1ypWgDmpiLcHYDFmsvhOdWVcpVJ7mPLcDngehrUnWrj8XEPPkTmIePdc3VoarnIq
+2016-08-19 11:37:14,586 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:14,586 INFO   - search: 地址：http://www.baidu.com/link?url=4mKEl2D5IQusXmM9eQMOW5nZVIRyDyBKUxpIwVS4fB-QJphsVCDx8s9Ei_IS3RnN0_SV3ZB37JOZWQJv3cBJAq
+2016-08-19 11:37:14,586 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:14,586 INFO   - search: 地址：
+2016-08-19 11:37:14,586 INFO   - search: 标题：
+2016-08-19 11:37:14,586 INFO   - search: 地址：http://www.baidu.com/link?url=mVRR7VRX0Ie8waezVzRhwWFIVY2UOL_C65dku_SfU2t0duHOxmTHLEWHlk0iEr2r
+2016-08-19 11:37:14,586 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:14,586 INFO   - search: 地址：http://www.baidu.com/link?url=oYwFYYtzl2gxSt4QAQWAFwyj1pug5lixzAfSaUVcE-3ndgZOtXFILdDPCz4PO215Tv6cH_7DzYAtgAIq4AxGerGyaSFxk81LHb4vWh-UzzcoeGuWd5UK6s20IJL69qN_eKAcEWERfiFAPvXyGOZ_N0i0CObOtA0Dvmz-KS_h7C3
+2016-08-19 11:37:14,586 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:14,586 INFO   - search: 地址：http://www.baidu.com/link?url=oYwFYYtzl2gxSt4QAQWAF638B24JKhVS0CJyf1CncurHmENZQb62mdfXBk_w3GF9-1Q3QIYMHdvVJN-cyMux51rvzsGBOzXkoQ4x1vGKiSO
+2016-08-19 11:37:14,586 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:14,586 INFO   - search: 地址：http://www.baidu.com/link?url=ACOcH_YLUjhgUJv_Ryh_8FTmESOvVIHkEg8uDxftW9EbPvhm8mf6k2ZafZVUnIXpv0VcjWF0bW0GcjIrSX9qga
+2016-08-19 11:37:14,586 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:14,586 INFO   - search: 地址：http://www.baidu.com/link?url=Jz-whihOF1GpYBhmhrcyfuyUh_YvBIkR2fpPz0ck_VVUfvf41apZsj70PXqqMVBind5NqoSWi7irmHhMaboZoIbgVuacmx0g7bnR8cdIiT_jGePaGGluPPh_aNO7Z1Hf
+2016-08-19 11:37:14,586 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:14,586 INFO   - search: 地址：http://www.baidu.com/link?url=Jw3w9aT4JN-Bjto1oA_m5FpC9iibP28ddWuFATyucL-iVDyh4bG_f_tIr_0uNwSsqytduRHFIE6ec-EwZMRAz_
+2016-08-19 11:37:14,586 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:14,586 INFO   - search: 地址：http://www.baidu.com/link?url=aBtB-zuB6BjR-0Is9P8VmYTS6B9_QgzjmwiNeXq8E62IWIQsljS7ZDRicp6cevmBAi6_rjLmj4YHwXoE2GrXyHYn2r_kkRgpTnqUCVMr9YC
+2016-08-19 11:37:14,586 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:14,962 INFO   - search: 地址：http://www.baidu.com/link?url=FWX_WSbCSztykIPNsSPhw6GTjrZqvVOH8fnHjpkZJZIWJqnEEQc473r3aQ8-XNiEPtaGulnAgANsFgYu0rAipK
+2016-08-19 11:37:14,962 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:14,962 INFO   - search: 地址：http://www.baidu.com/link?url=lYhBV1OVrbl2hx1p8ebRlp23-Q3GJU2OAEM1RCBO3rbh8guFn0R4xOipuzXmmInVvVKOn12NUZC2dsLfnsNPiK
+2016-08-19 11:37:14,962 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:14,962 INFO   - search: 地址：
+2016-08-19 11:37:14,962 INFO   - search: 标题：
+2016-08-19 11:37:14,962 INFO   - search: 地址：http://www.baidu.com/link?url=sT850bZ97GafFYeegdZ1yFl9lUpjNjcKCXm-PDNI3LT7pw39RAAbaseaPQ9r4qtx
+2016-08-19 11:37:14,962 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:14,962 INFO   - search: 地址：http://www.baidu.com/link?url=CP2C_jW-FplZh6u2bjXfDLvCmk2hK0RTKSCaT9XWeCuJfNL1p3CF3ukkSKMB7fZ4_Xkwf1P0eBHiXm8fCaXm8cv13KHHAbd2bFGTjy4ng7d7zbY1GDCgJ_2BTGf22ansJIJvKLO9tJ-WpZIno5V5Ml1JY7kAgQ_76MwXt2xwKhC
+2016-08-19 11:37:14,962 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:14,962 INFO   - search: 地址：http://www.baidu.com/link?url=CP2C_jW-FplZh6u2bjXfDY4tAo7FPAUQCTE6zuXrL8d6fMQBbm6_ufk7k7jR4fDiDaw1X-CejBAMWZqvKY_2KSq-LUekTbZhK8CU4A1eopG
+2016-08-19 11:37:14,962 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:14,962 INFO   - search: 地址：http://www.baidu.com/link?url=pMgCSVNG-T5WU617eVuwwI9QrkR_yjA9MrdCYpG19rtJlvnvnZ6anwHrH6361R-ejCtt2uD8qZnxvZp_Yg4AxK
+2016-08-19 11:37:14,962 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:14,962 INFO   - search: 地址：http://www.baidu.com/link?url=lVTLDjCHsDvNZ3LdYAz-paYeS_PYFF008LeQDt7kHyGPIGisPYDOLgndpLh9R1XIeSiMGfxGmfmrQcYOoV4fFY2iFFUNZuZkPyzVNkl42pLiNFUkAoRIznUuRHzZMBRX
+2016-08-19 11:37:14,962 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:14,962 INFO   - search: 地址：http://www.baidu.com/link?url=7iLZzDESM5v4rVJsSjL846PwBdu3Dh3JHEfyxS65--QPd7bP47XNON9A4V0CCm4o2N4rmYONJMq005NCtWZSAK
+2016-08-19 11:37:14,962 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:14,962 INFO   - search: 地址：http://www.baidu.com/link?url=FWX_WSbCSztykIPNsSPhw652NSNPAPDXlZRi4BgwaXV4Y40xOge8NMakQcRFXw70wr1xoSYPXdfN6oc55NeDAknKn2fIM4RzBL2-hlhSfZ_
+2016-08-19 11:37:14,962 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:15,384 INFO   - search: 地址：http://www.baidu.com/link?url=FWX_WSbCSztykIPNsSPhw6GTjrZqvVOH8fnHjpkZJZIWJqnEEQc473r3aQ8-XNiEPtaGulnAgANsFgYu0rAipK
+2016-08-19 11:37:15,384 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:15,384 INFO   - search: 地址：http://www.baidu.com/link?url=lYhBV1OVrbl2hx1p8ebRlp23-Q3GJU2OAEM1RCBO3rbh8guFn0R4xOipuzXmmInVvVKOn12NUZC2dsLfnsNPiK
+2016-08-19 11:37:15,384 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:15,384 INFO   - search: 地址：
+2016-08-19 11:37:15,384 INFO   - search: 标题：
+2016-08-19 11:37:15,384 INFO   - search: 地址：http://www.baidu.com/link?url=sT850bZ97GafFYeegdZ1yFl9lUpjNjcKCXm-PDNI3LT7pw39RAAbaseaPQ9r4qtx
+2016-08-19 11:37:15,399 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:15,399 INFO   - search: 地址：http://www.baidu.com/link?url=CP2C_jW-FplZh6u2bjXfDLvCmk2hK0RTKSCaT9XWeCuJfNL1p3CF3ukkSKMB7fZ4_Xkwf1P0eBHiXm8fCaXm8cv13KHHAbd2bFGTjy4ng7d7zbY1GDCgJ_2BTGf22ansJIJvKLO9tJ-WpZIno5V5Ml1JY7kAgQ_76MwXt2xwKhC
+2016-08-19 11:37:15,399 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:15,399 INFO   - search: 地址：http://www.baidu.com/link?url=CP2C_jW-FplZh6u2bjXfDY4tAo7FPAUQCTE6zuXrL8d6fMQBbm6_ufk7k7jR4fDiDaw1X-CejBAMWZqvKY_2KSq-LUekTbZhK8CU4A1eopG
+2016-08-19 11:37:15,399 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:15,399 INFO   - search: 地址：http://www.baidu.com/link?url=JPJHJ1dRUxlWX96-1YN4Twq6FIEv0NWs-nViXCulracIjBtHT-Dqjw3fcDXTxAJqtE5aPB0-kSbtjfgKoA3_7K
+2016-08-19 11:37:15,399 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:15,399 INFO   - search: 地址：http://www.baidu.com/link?url=lVTLDjCHsDvNZ3LdYAz-paYeS_PYFF008LeQDt7kHyGPIGisPYDOLgndpLh9R1XIeSiMGfxGmfmrQcYOoV4fFY2iFFUNZuZkPyzVNkl42pLiNFUkAoRIznUuRHzZMBRX
+2016-08-19 11:37:15,399 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:15,399 INFO   - search: 地址：http://www.baidu.com/link?url=A0ZHBbQ-PlJ09dr0JraJkfDmkYMP-5piea9Ej7cwtFyTKDR6iC-ifxX2UltyBwEqXYGESLIVsRwYUnp81DFXsq
+2016-08-19 11:37:15,399 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:15,399 INFO   - search: 地址：http://www.baidu.com/link?url=FWX_WSbCSztykIPNsSPhw652NSNPAPDXlZRi4BgwaXV4Y40xOge8NMakQcRFXw70wr1xoSYPXdfN6oc55NeDAknKn2fIM4RzBL2-hlhSfZ_
+2016-08-19 11:37:15,399 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:15,810 INFO   - search: 地址：http://www.baidu.com/link?url=FMlUNycq3PeqSYCH4CaXzDsMH5kkmti1dM4mGfY4hJrU-9Yztfu6Louwddobz8u1IY7Sz2ucvVa3gOk0DpwNrq
+2016-08-19 11:37:15,810 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:15,810 INFO   - search: 地址：http://www.baidu.com/link?url=o9zDXepTkHjBD-qitIouexx3Ov-sgZShkhQYsQ2k44suf4zJaUYWsVMViTkFzn3PJf6rx8Z5sP_03A8ECv4Wpq
+2016-08-19 11:37:15,810 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:15,810 INFO   - search: 地址：
+2016-08-19 11:37:15,810 INFO   - search: 标题：
+2016-08-19 11:37:15,810 INFO   - search: 地址：http://www.baidu.com/link?url=ueWoLAQKJQGzL_QY-6uA1HqYy3pS2960sNlU5WexcW0ZrPVkVw0wPQC-2t57bVZ2
+2016-08-19 11:37:15,810 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:15,810 INFO   - search: 地址：http://www.baidu.com/link?url=AnqKMKBj1eyScIF98fyQnN5Isyv0v7zoqfqvp5ppXxHjxux8Bi9PmQyHHpL5dlSuTSR7WqvbKFxz_kfdAb_y8KltfN4yTTQXhPuuGLwQGNePkLr5BhwEtE2Acan-RYPuNIoqxZCY_ygYVWXwMyUveOZtntfWYG0m72Yc7AZ4MDe
+2016-08-19 11:37:15,810 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:15,810 INFO   - search: 地址：http://www.baidu.com/link?url=AnqKMKBj1eyScIF98fyQnKrz4y_lPEpE8rP-aqBxd5Q1Ttwo4EFs2qy3GxtKXN8ZhVpGzsvyiBAj2WT_t-2v-2W1xxfOEXHPSbxvIn7-Oj7
+2016-08-19 11:37:15,810 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:15,810 INFO   - search: 地址：http://www.baidu.com/link?url=IaSO4gLyIcTY-h952ScikDXqiPTcK7stAaeQy9kLZ69EQ2jKF5oAQoGiGbIcMtqlb6zB5co_5EgbAHnijJP99a
+2016-08-19 11:37:15,810 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:15,810 INFO   - search: 地址：http://www.baidu.com/link?url=TRfJ8Qhi3Bl2kAILD5OYBVPTpo36YFr6xBl8TMxu_tbE9Rtjwjf-thQY0plHf9YE17Uxvj7DlqJ1vCb3zYPtTArpiVVAA9ju_h3uxzKhNmDMy9dmBRA9jYRMjXqmqvhl
+2016-08-19 11:37:15,810 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:15,810 INFO   - search: 地址：http://www.baidu.com/link?url=mLqy01chYf0yg_hpjrWf6BpYHhQlzZKtSm10z8p0epSCV0FkUpATcTulPSbBdy_NLUaf_nv7qSgiWDX2i44uVa
+2016-08-19 11:37:15,810 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:15,810 INFO   - search: 地址：http://www.baidu.com/link?url=FMlUNycq3PeqSYCH4CaXz_AyPyvcpqLmArKkzz3FtBwuauRfSC6NPiaeN7D5uixqvtTvDQk2SwMnghQ5kg3iMxiHKNgcbGgbbwHKVbjRyAm
+2016-08-19 11:37:15,810 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:16,262 INFO   - search: 地址：http://www.baidu.com/link?url=FMlUNycq3PeqSYCH4CaXzDsMH5kkmti1dM4mGfY4hJrU-9Yztfu6Louwddobz8u1IY7Sz2ucvVa3gOk0DpwNrq
+2016-08-19 11:37:16,262 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:16,262 INFO   - search: 地址：http://www.baidu.com/link?url=o9zDXepTkHjBD-qitIouexx3Ov-sgZShkhQYsQ2k44suf4zJaUYWsVMViTkFzn3PJf6rx8Z5sP_03A8ECv4Wpq
+2016-08-19 11:37:16,262 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:16,262 INFO   - search: 地址：
+2016-08-19 11:37:16,262 INFO   - search: 标题：
+2016-08-19 11:37:16,262 INFO   - search: 地址：http://www.baidu.com/link?url=ueWoLAQKJQGzL_QY-6uA1HqYy3pS2960sNlU5WexcW0ZrPVkVw0wPQC-2t57bVZ2
+2016-08-19 11:37:16,262 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:16,262 INFO   - search: 地址：http://www.baidu.com/link?url=AnqKMKBj1eyScIF98fyQnN5Isyv0v7zoqfqvp5ppXxHjxux8Bi9PmQyHHpL5dlSuTSR7WqvbKFxz_kfdAb_y8KltfN4yTTQXhPuuGLwQGNePkLr5BhwEtE2Acan-RYPuNIoqxZCY_ygYVWXwMyUveOZtntfWYG0m72Yc7AZ4MDe
+2016-08-19 11:37:16,262 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:16,262 INFO   - search: 地址：http://www.baidu.com/link?url=AnqKMKBj1eyScIF98fyQnKrz4y_lPEpE8rP-aqBxd5Q1Ttwo4EFs2qy3GxtKXN8ZhVpGzsvyiBAj2WT_t-2v-2W1xxfOEXHPSbxvIn7-Oj7
+2016-08-19 11:37:16,262 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:16,262 INFO   - search: 地址：http://www.baidu.com/link?url=SOp-YQOBAGHHLJJC3MYy9RbJ60ZVDul2FInFzaJOmud3hOmQiVegjbnYnakc5geZw-o8jU1B6dMbAVhaVFbcqa
+2016-08-19 11:37:16,262 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:16,262 INFO   - search: 地址：http://www.baidu.com/link?url=TRfJ8Qhi3Bl2kAILD5OYBVPTpo36YFr6xBl8TMxu_tbE9Rtjwjf-thQY0plHf9YE17Uxvj7DlqJ1vCb3zYPtTArpiVVAA9ju_h3uxzKhNmDMy9dmBRA9jYRMjXqmqvhl
+2016-08-19 11:37:16,262 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:16,262 INFO   - search: 地址：http://www.baidu.com/link?url=HZD-awakHLu-TD-PfOOYf0mUqiDWyqPaklVjrjhkxF3vhDnl4vnGLgmeiNrgXZEIzW98x76Oxglx48GFePtk0_
+2016-08-19 11:37:16,262 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:16,262 INFO   - search: 地址：http://www.baidu.com/link?url=FMlUNycq3PeqSYCH4CaXz_AyPyvcpqLmArKkzz3FtBwuauRfSC6NPiaeN7D5uixqvtTvDQk2SwMnghQ5kg3iMxiHKNgcbGgbbwHKVbjRyAm
+2016-08-19 11:37:16,262 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:16,715 INFO   - search: 地址：http://www.baidu.com/link?url=8SA1UGBiDCYjjUxCwsQxpxuZ8bpbk5cwiT42uQldsheyrS70usGZSJu7gNJHLV_jSMlVQSWI1vOH5aWp74nTaa
+2016-08-19 11:37:16,715 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:16,715 INFO   - search: 地址：http://www.baidu.com/link?url=Tfyjn1eQ6QC0WoVirayg_wtm5ozWVewfo95-kOFOKTjwzKoWoP8Dr78jURatNOwV0hClj4Q8itE-wN8ZTqN5Ba
+2016-08-19 11:37:16,715 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:16,715 INFO   - search: 地址：
+2016-08-19 11:37:16,715 INFO   - search: 标题：
+2016-08-19 11:37:16,715 INFO   - search: 地址：http://www.baidu.com/link?url=k8RbBYNouyTeWpbtwjmbhqbQaPxksmoGpNjBRo9ZaHzr2e1hepVFqRIm5EYc6Bow
+2016-08-19 11:37:16,730 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:16,730 INFO   - search: 地址：http://www.baidu.com/link?url=ZCZldPP5piXQFe1i_z2W1kLhe55Kt2XUhpMsvBDKZ5Vmvt9eaRExsjkqWCAbL86SsnfT4XTvz5oeVji9p_E23gFvguzdT8JVKOnscBHD7jEOxwmyoFlrIWC7hUe-GAvXbCeCpSMgojiWVHjxQga8SCJK2KY2h_KF72zcVXPv7Cu
+2016-08-19 11:37:16,730 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:16,730 INFO   - search: 地址：http://www.baidu.com/link?url=ZCZldPP5piXQFe1i_z2W1h1ITrlbVAR2BYWgsMHusPXW9G7eOcPEc7k7rRx87jRAb43IbiONpmpO0zj3KaGnbjtu-nQ3anoP9_zOKaLM5PK
+2016-08-19 11:37:16,730 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:16,730 INFO   - search: 地址：http://www.baidu.com/link?url=ndzDxWLneXxggY5CnFaRzfvgQIP9UpO7hL7SgXOLLy1bQbUqgRgEqRbOQjr6AkFHxO3HVGhiRYZ3Dv_y84aukK
+2016-08-19 11:37:16,730 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:16,730 INFO   - search: 地址：http://www.baidu.com/link?url=8uMwlpT_3Cx-bNg6nV6JvkS_OnK7GQPOReUKjV5jFvySrJSL7-wDxUAvZJcUY42obVQCXlpzV0rvsqCZJCJB_ADUiLeK9zlW_om7nPQ7Z8DCk4D2C2KKG7-uwcMSlI9C
+2016-08-19 11:37:16,731 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:16,731 INFO   - search: 地址：http://www.baidu.com/link?url=Wzk9OysnepfqeYH8Tgu4H7WABME1f8ZOpCKftBlGzowNnEzHr3tPFAjnS1WL9gr2Wf2Nk1fP89b6Nc7dlc2anK
+2016-08-19 11:37:16,731 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:16,731 INFO   - search: 地址：http://www.baidu.com/link?url=8SA1UGBiDCYjjUxCwsQxp8FBXCyIL-SSv6d-q_l-8mNjLzkiVMELobsWutPbJ-iyjWnTIzxHoF880Oh-oz4l1fca_HOJdeqCc9KZHPDr6ne
+2016-08-19 11:37:16,731 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:17,093 INFO   - search: 地址：http://www.baidu.com/link?url=8SA1UGBiDCYjjUxCwsQxpxuZ8bpbk5cwiT42uQldsheyrS70usGZSJu7gNJHLV_jSMlVQSWI1vOH5aWp74nTaa
+2016-08-19 11:37:17,093 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:17,093 INFO   - search: 地址：http://www.baidu.com/link?url=Tfyjn1eQ6QC0WoVirayg_wtm5ozWVewfo95-kOFOKTjwzKoWoP8Dr78jURatNOwV0hClj4Q8itE-wN8ZTqN5Ba
+2016-08-19 11:37:17,093 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:17,093 INFO   - search: 地址：
+2016-08-19 11:37:17,093 INFO   - search: 标题：
+2016-08-19 11:37:17,093 INFO   - search: 地址：http://www.baidu.com/link?url=k8RbBYNouyTeWpbtwjmbhqbQaPxksmoGpNjBRo9ZaHzr2e1hepVFqRIm5EYc6Bow
+2016-08-19 11:37:17,093 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:17,093 INFO   - search: 地址：http://www.baidu.com/link?url=ZCZldPP5piXQFe1i_z2W1kLhe55Kt2XUhpMsvBDKZ5Vmvt9eaRExsjkqWCAbL86SsnfT4XTvz5oeVji9p_E23gFvguzdT8JVKOnscBHD7jEOxwmyoFlrIWC7hUe-GAvXbCeCpSMgojiWVHjxQga8SCJK2KY2h_KF72zcVXPv7Cu
+2016-08-19 11:37:17,093 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:17,093 INFO   - search: 地址：http://www.baidu.com/link?url=ZCZldPP5piXQFe1i_z2W1h1ITrlbVAR2BYWgsMHusPXW9G7eOcPEc7k7rRx87jRAb43IbiONpmpO0zj3KaGnbjtu-nQ3anoP9_zOKaLM5PK
+2016-08-19 11:37:17,093 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:17,093 INFO   - search: 地址：http://www.baidu.com/link?url=w8Quc_3IesJRQpttLM-mcVplsJqaOigUqizGxsDeNHFBqlFBLy9lzqd0oYiykJ98NiC_VMgTJltaXuqP80qR3q
+2016-08-19 11:37:17,093 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:17,093 INFO   - search: 地址：http://www.baidu.com/link?url=8uMwlpT_3Cx-bNg6nV6JvkS_OnK7GQPOReUKjV5jFvySrJSL7-wDxUAvZJcUY42obVQCXlpzV0rvsqCZJCJB_ADUiLeK9zlW_om7nPQ7Z8DCk4D2C2KKG7-uwcMSlI9C
+2016-08-19 11:37:17,093 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:17,093 INFO   - search: 地址：http://www.baidu.com/link?url=lmKBhG2OTvUaPmQkGy-uU0EUR-vq99WztHNcb5odr2dy__ukdv29hm3METKrmvxQbg8tYt8Uu3xw4QU6P5XICa
+2016-08-19 11:37:17,093 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:17,093 INFO   - search: 地址：http://www.baidu.com/link?url=8SA1UGBiDCYjjUxCwsQxp8FBXCyIL-SSv6d-q_l-8mNjLzkiVMELobsWutPbJ-iyjWnTIzxHoF880Oh-oz4l1fca_HOJdeqCc9KZHPDr6ne
+2016-08-19 11:37:17,093 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:17,514 INFO   - search: 地址：http://www.baidu.com/link?url=8SA1UGBiDCYjjUxCwsQxpxuZ8bpbk5cwiT42uQldsheyrS70usGZSJu7gNJHLV_jSMlVQSWI1vOH5aWp74nTaa
+2016-08-19 11:37:17,514 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:17,514 INFO   - search: 地址：http://www.baidu.com/link?url=Tfyjn1eQ6QC0WoVirayg_wtm5ozWVewfo95-kOFOKTjwzKoWoP8Dr78jURatNOwV0hClj4Q8itE-wN8ZTqN5Ba
+2016-08-19 11:37:17,514 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:17,514 INFO   - search: 地址：
+2016-08-19 11:37:17,514 INFO   - search: 标题：
+2016-08-19 11:37:17,514 INFO   - search: 地址：http://www.baidu.com/link?url=k8RbBYNouyTeWpbtwjmbhqbQaPxksmoGpNjBRo9ZaHzr2e1hepVFqRIm5EYc6Bow
+2016-08-19 11:37:17,514 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:17,514 INFO   - search: 地址：http://www.baidu.com/link?url=ZCZldPP5piXQFe1i_z2W1kLhe55Kt2XUhpMsvBDKZ5Vmvt9eaRExsjkqWCAbL86SsnfT4XTvz5oeVji9p_E23gFvguzdT8JVKOnscBHD7jEOxwmyoFlrIWC7hUe-GAvXbCeCpSMgojiWVHjxQga8SCJK2KY2h_KF72zcVXPv7Cu
+2016-08-19 11:37:17,514 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:17,514 INFO   - search: 地址：http://www.baidu.com/link?url=ZCZldPP5piXQFe1i_z2W1h1ITrlbVAR2BYWgsMHusPXW9G7eOcPEc7k7rRx87jRAb43IbiONpmpO0zj3KaGnbjtu-nQ3anoP9_zOKaLM5PK
+2016-08-19 11:37:17,514 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:17,514 INFO   - search: 地址：http://www.baidu.com/link?url=Ul1y21xRGt-dqgXWK3if64SzOB473fZKoujb-vBfHSAl0yAWpZprJT0Kw2_uRlLZAwFmW1gqam9pm5DrZkcS3q
+2016-08-19 11:37:17,514 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:17,514 INFO   - search: 地址：http://www.baidu.com/link?url=8uMwlpT_3Cx-bNg6nV6JvkS_OnK7GQPOReUKjV5jFvySrJSL7-wDxUAvZJcUY42obVQCXlpzV0rvsqCZJCJB_ADUiLeK9zlW_om7nPQ7Z8DCk4D2C2KKG7-uwcMSlI9C
+2016-08-19 11:37:17,514 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:17,514 INFO   - search: 地址：http://www.baidu.com/link?url=NvEwVHTBswoaTzxlH1mQZyStoWDKkadf39ikNZa5LjKOFRa_kEFIaGDABCj-iXAYfT6E5OM_ANYZQd7SO7G8Ra
+2016-08-19 11:37:17,514 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:17,514 INFO   - search: 地址：http://www.baidu.com/link?url=8SA1UGBiDCYjjUxCwsQxp8FBXCyIL-SSv6d-q_l-8mNjLzkiVMELobsWutPbJ-iyjWnTIzxHoF880Oh-oz4l1fca_HOJdeqCc9KZHPDr6ne
+2016-08-19 11:37:17,514 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:17,937 INFO   - search: 地址：http://www.baidu.com/link?url=vydtP3vBgZAOXkVEeKXeNFakibvJ130roRjPGBvHlpdNyGKR6ZvbSkrghX-tydF6-J53rUQ0rXbPP2yn1jyVPa
+2016-08-19 11:37:17,937 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:17,937 INFO   - search: 地址：http://www.baidu.com/link?url=jeV4FApYOxq1kQs4s3_IbSsEYfk3m3qTkXcg0tphDv1Xzilu6csesqws1NPBP9r7bDDUUIRO9s0QThfnDcq-gK
+2016-08-19 11:37:17,937 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:17,937 INFO   - search: 地址：
+2016-08-19 11:37:17,937 INFO   - search: 标题：
+2016-08-19 11:37:17,937 INFO   - search: 地址：http://www.baidu.com/link?url=xHuY8W0PgveAeGmsXj5P97ZbVgWQKJz-_0t-pS1quxQhnIFAN0fypI3NgN8_5skk
+2016-08-19 11:37:17,953 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:17,953 INFO   - search: 地址：http://www.baidu.com/link?url=MmxH5q1L77MZxqcQ32NBF9xvG234WSeH-FZJBGOUZKvoLssICDkdj-p5_PFMm7mpJ1KXBZHoSQP8pAfX456aBA7xxVu63R84c0gVDhb2pyQmg7Lk1gA_cqcLxLcoLNZjU1Bh4BScxDt-9ycTfKrIhTOf0-d_XPq0EGyHRakMRDW
+2016-08-19 11:37:17,953 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:17,953 INFO   - search: 地址：http://www.baidu.com/link?url=MmxH5q1L77MZxqcQ32NBF56gjqr1g4AQl6DYPjJHy_eeJ9z0K22nqjtL3of46ldp4dnvdUlyfNEPG3dzZMun8bUfMkxq7uzmyV9UTvSNRVW
+2016-08-19 11:37:17,953 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:17,953 INFO   - search: 地址：http://www.baidu.com/link?url=g8h-eX9pOQLBfUb_XS4w7YV-1PScdsCABUxVJ3moPM9jgNt7cRdP0hQL96_R_U3D4HUhcwVom0aG0Wp652SV8a
+2016-08-19 11:37:17,953 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:17,953 INFO   - search: 地址：http://www.baidu.com/link?url=M9huUsx-Y-Mz4RFT1b-7O6Ysv1IPmj9HoUj0loEDqiZvpNUFtxD-_9BHV2Qk_5y2kciFod5YuLGar9Q7wesOPEF15k82-K4LVFo-O2oMkBSXtSFTBnraX60fOVXrGb9u
+2016-08-19 11:37:17,953 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:17,953 INFO   - search: 地址：http://www.baidu.com/link?url=hDVK-OwaiSyuvzz2piJk0lsBUAwjx7DdR1RewAvZJSx9xraPRM_V1B05yd5USIF_3LQYav9wnXYwQIKWUuvTU_
+2016-08-19 11:37:17,953 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:17,953 INFO   - search: 地址：http://www.baidu.com/link?url=vydtP3vBgZAOXkVEeKXeNDr_4UZ1CpNn2J5x5PBW8F-yKHtLPzaoR6msp2hBIEiNWkoUCX0UEhEeF8iXHHQL3UaOCVpQWT6AYoehQ2x6Ay_
+2016-08-19 11:37:17,953 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:18,391 INFO   - search: 地址：http://www.baidu.com/link?url=vydtP3vBgZAOXkVEeKXeNFakibvJ130roRjPGBvHlpdNyGKR6ZvbSkrghX-tydF6-J53rUQ0rXbPP2yn1jyVPa
+2016-08-19 11:37:18,391 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:18,391 INFO   - search: 地址：http://www.baidu.com/link?url=jeV4FApYOxq1kQs4s3_IbSsEYfk3m3qTkXcg0tphDv1Xzilu6csesqws1NPBP9r7bDDUUIRO9s0QThfnDcq-gK
+2016-08-19 11:37:18,391 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:18,391 INFO   - search: 地址：
+2016-08-19 11:37:18,391 INFO   - search: 标题：
+2016-08-19 11:37:18,391 INFO   - search: 地址：http://www.baidu.com/link?url=xHuY8W0PgveAeGmsXj5P97ZbVgWQKJz-_0t-pS1quxQhnIFAN0fypI3NgN8_5skk
+2016-08-19 11:37:18,391 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:18,391 INFO   - search: 地址：http://www.baidu.com/link?url=MmxH5q1L77MZxqcQ32NBF9xvG234WSeH-FZJBGOUZKvoLssICDkdj-p5_PFMm7mpJ1KXBZHoSQP8pAfX456aBA7xxVu63R84c0gVDhb2pyQmg7Lk1gA_cqcLxLcoLNZjU1Bh4BScxDt-9ycTfKrIhTOf0-d_XPq0EGyHRakMRDW
+2016-08-19 11:37:18,391 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:18,391 INFO   - search: 地址：http://www.baidu.com/link?url=MmxH5q1L77MZxqcQ32NBF56gjqr1g4AQl6DYPjJHy_eeJ9z0K22nqjtL3of46ldp4dnvdUlyfNEPG3dzZMun8bUfMkxq7uzmyV9UTvSNRVW
+2016-08-19 11:37:18,391 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:18,391 INFO   - search: 地址：http://www.baidu.com/link?url=9aSpr3jFP645ei-eAj7wYIV9PC7y-rAY96kuBPNQ5N1R4Stefeiq8hlK3mBEp9HGdkpE9NPVRo_xipkmJfNxu_
+2016-08-19 11:37:18,391 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:18,391 INFO   - search: 地址：http://www.baidu.com/link?url=M9huUsx-Y-Mz4RFT1b-7O6Ysv1IPmj9HoUj0loEDqiZvpNUFtxD-_9BHV2Qk_5y2kciFod5YuLGar9Q7wesOPEF15k82-K4LVFo-O2oMkBSXtSFTBnraX60fOVXrGb9u
+2016-08-19 11:37:18,391 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:18,391 INFO   - search: 地址：http://www.baidu.com/link?url=oMhYucKy_3x_Ib4hJVudueTyicknOpU3djsmd4cu762h23FNY9gvCRSjjiEbHYxXVtxxDk6cdh0r2bkyYukEuq
+2016-08-19 11:37:18,391 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:18,391 INFO   - search: 地址：http://www.baidu.com/link?url=vydtP3vBgZAOXkVEeKXeNDr_4UZ1CpNn2J5x5PBW8F-yKHtLPzaoR6msp2hBIEiNWkoUCX0UEhEeF8iXHHQL3UaOCVpQWT6AYoehQ2x6Ay_
+2016-08-19 11:37:18,391 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:18,830 INFO   - search: 地址：http://www.baidu.com/link?url=k0jt_S8fLtde3b4z8kM1k8bbDYUMf0XZQh52m3WwT-KIAxbCiKU_y08xO4Z5ojYy8SdbtNlo33ajVqh_s70jC_
+2016-08-19 11:37:18,830 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:18,830 INFO   - search: 地址：http://www.baidu.com/link?url=4ALm8Agt53W75Va6JzQdZ3Ha4QbilAUEfwvurIOUlg3M4P9uZqj171rvD5JzEwCG4APvllzKBmXbBXPcmb_aYK
+2016-08-19 11:37:18,830 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:18,830 INFO   - search: 地址：
+2016-08-19 11:37:18,830 INFO   - search: 标题：
+2016-08-19 11:37:18,830 INFO   - search: 地址：http://www.baidu.com/link?url=Fe1uTmTwNwNv243AH9MJOwL62bqCw2JZ5VS2bj-ybWNJRX91b8EXsBcZA1TLr9Hi
+2016-08-19 11:37:18,830 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:18,830 INFO   - search: 地址：http://www.baidu.com/link?url=fhf-pvlrmsNhSlEGUq7mOzarpiSc2Mup_l4TwYu57JisUtstgiVhj5P5_L7biExVrHdy6ULflfmJzwbAduki7L0IJQlP0OXvQ6Ln_55-zjIJ4NxQ2rFBqBAFfR75KTuVunzXH1Kq4-D50Sq46I6jam6XTmLj1R8KqQclvhon8VC
+2016-08-19 11:37:18,830 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:18,830 INFO   - search: 地址：http://www.baidu.com/link?url=fhf-pvlrmsNhSlEGUq7mO8tn8YFirm3HC-BeBfL9sS1hJJyGfdHJ9HaoEv_Sf7Y0msSVDoRySYuxOQRkwQ_Q4LuVfz31cmd5djs9_fw8pDu
+2016-08-19 11:37:18,830 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:18,830 INFO   - search: 地址：http://www.baidu.com/link?url=pnQoryhubzcG2JhNwPkR0_k_X5AqyaCHqlcR1v96Y3SmyPgEusYFm28hqR2MY0ACLzQnMRSIYefg_aBPpwe_-_
+2016-08-19 11:37:18,830 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:18,830 INFO   - search: 地址：http://www.baidu.com/link?url=yPvyfo1ZaSA3fCxvkoKT-xRXKDfASqLrcV6LEudfmcxOcikX2EvkooTQhhCUmtmcQB8BCqTUAqIA_9tsST7lyrA7TTVYCS_gLDeOaCibOkY93-O6eGL-vYofmTj9whCB
+2016-08-19 11:37:18,830 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:18,830 INFO   - search: 地址：http://www.baidu.com/link?url=30HsZ17unGemT6BSLLTW4E53pCq9wPp5tzeDj6s3Abjxcuu3evjhzRonQ9UN9D6AMsCnC4SiwtLwJfb2YVpS0_
+2016-08-19 11:37:18,830 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:18,830 INFO   - search: 地址：http://www.baidu.com/link?url=k0jt_S8fLtde3b4z8kM1ks-SnWnb1dK-TErN1AK4rDjMNkza6e35SQce0u99HHurAsiPW7x-KJse9kJeybzVbwIj6Pe3g20kPdOduYAQgrq
+2016-08-19 11:37:18,830 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:19,251 INFO   - search: 地址：http://www.baidu.com/link?url=k0jt_S8fLtde3b4z8kM1k8bbDYUMf0XZQh52m3WwT-KIAxbCiKU_y08xO4Z5ojYy8SdbtNlo33ajVqh_s70jC_
+2016-08-19 11:37:19,251 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:19,251 INFO   - search: 地址：http://www.baidu.com/link?url=4ALm8Agt53W75Va6JzQdZ3Ha4QbilAUEfwvurIOUlg3M4P9uZqj171rvD5JzEwCG4APvllzKBmXbBXPcmb_aYK
+2016-08-19 11:37:19,251 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:19,251 INFO   - search: 地址：
+2016-08-19 11:37:19,251 INFO   - search: 标题：
+2016-08-19 11:37:19,251 INFO   - search: 地址：http://www.baidu.com/link?url=Fe1uTmTwNwNv243AH9MJOwL62bqCw2JZ5VS2bj-ybWNJRX91b8EXsBcZA1TLr9Hi
+2016-08-19 11:37:19,266 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:19,266 INFO   - search: 地址：http://www.baidu.com/link?url=fhf-pvlrmsNhSlEGUq7mOzarpiSc2Mup_l4TwYu57JisUtstgiVhj5P5_L7biExVrHdy6ULflfmJzwbAduki7L0IJQlP0OXvQ6Ln_55-zjIJ4NxQ2rFBqBAFfR75KTuVunzXH1Kq4-D50Sq46I6jam6XTmLj1R8KqQclvhon8VC
+2016-08-19 11:37:19,266 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:19,266 INFO   - search: 地址：http://www.baidu.com/link?url=fhf-pvlrmsNhSlEGUq7mO8tn8YFirm3HC-BeBfL9sS1hJJyGfdHJ9HaoEv_Sf7Y0msSVDoRySYuxOQRkwQ_Q4LuVfz31cmd5djs9_fw8pDu
+2016-08-19 11:37:19,266 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:19,266 INFO   - search: 地址：http://www.baidu.com/link?url=2I1A-wuJ64zZfVibYLHlV0IFt-B17RvbmIqk_VLksvu4vsecFpI1siNKOY1pErVHMHLeIqgroDQHB-VfLElKU_
+2016-08-19 11:37:19,266 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:19,266 INFO   - search: 地址：http://www.baidu.com/link?url=yPvyfo1ZaSA3fCxvkoKT-xRXKDfASqLrcV6LEudfmcxOcikX2EvkooTQhhCUmtmcQB8BCqTUAqIA_9tsST7lyrA7TTVYCS_gLDeOaCibOkY93-O6eGL-vYofmTj9whCB
+2016-08-19 11:37:19,266 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:19,266 INFO   - search: 地址：http://www.baidu.com/link?url=vTupNISKOFYTthREJcj3QnCU1UC0Lr6kGDPIGmQWm_VqI5YuhtnlVvE9FU7_qaepdjNQuygtQenJzOsVHUSO6K
+2016-08-19 11:37:19,266 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:19,266 INFO   - search: 地址：http://www.baidu.com/link?url=k0jt_S8fLtde3b4z8kM1ks-SnWnb1dK-TErN1AK4rDjMNkza6e35SQce0u99HHurAsiPW7x-KJse9kJeybzVbwIj6Pe3g20kPdOduYAQgrq
+2016-08-19 11:37:19,266 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:19,704 INFO   - search: 地址：http://www.baidu.com/link?url=dSKLNEkzWOV3xjIvHrqKltTHK-c23OTq39yzgmBJov1jbARj7-5clqAWMylb7qaN74YeEAIWlkb5lY5BCYFi0a
+2016-08-19 11:37:19,704 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:19,704 INFO   - search: 地址：http://www.baidu.com/link?url=xUJ1NaHaB6utU22Hi4NvsSHnbqlGzKbnQjXo8YVlGlT0bSPbJnZgiIryVyS7ndpRZecaIlZOOJQb8t93s5ocA_
+2016-08-19 11:37:19,704 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:19,704 INFO   - search: 地址：
+2016-08-19 11:37:19,704 INFO   - search: 标题：
+2016-08-19 11:37:19,704 INFO   - search: 地址：http://www.baidu.com/link?url=DQCkyWaQxAYst2_kOPfQuWAC-gcbymY4vwymLi1nxAOvMhZ_iNfnsLIxUFuNHaAC
+2016-08-19 11:37:19,704 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:19,704 INFO   - search: 地址：http://www.baidu.com/link?url=8_VHj0jbZNM3s5aoxOvpVXBlrHz-o4YsrNIstF5sQ4Sa6yjnUpAEn_a0G3w03SWNK_isJks4cAFyXAc3xTlthmDFHQZdOo-qdq9cBcYhhxkXm728FlCm_2JJNfaSJFv0g9791rm40Bwew6_h5UlbZ0odIzYtVa1K-M89cuDI6AO
+2016-08-19 11:37:19,704 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:19,704 INFO   - search: 地址：http://www.baidu.com/link?url=8_VHj0jbZNM3s5aoxOvpVMF_CiDtuJrk0nWWuz7rcpc3uztkaX4CfvfqEZCie5AcU90oDFZyChkolPj13-AJYLUCWOPLwesOIFyGppFm8vS
+2016-08-19 11:37:19,704 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:19,704 INFO   - search: 地址：http://www.baidu.com/link?url=wcbQbR29SG0nq7EWkNrRZwH1Lz-s3Uwsgu3d--6yRRjmziGdPjXmdyciajninvz_ajnHDOqQm8x7d3wUkLg46_
+2016-08-19 11:37:19,704 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:19,704 INFO   - search: 地址：http://www.baidu.com/link?url=Q06Q6DHkj-NLAlRzCPIe7ctIG5UUe5_rynuvi554dOtRlwzWhppO3d8fkKUmoGMFkNgXsUM9efJAm8x9vlA4bT7tgrFo_H7_b8KuWfmRU2XEeym49EYwFZZOgBWq9-pF
+2016-08-19 11:37:19,704 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:19,704 INFO   - search: 地址：http://www.baidu.com/link?url=sIGKcTcqBclq8RsU_OpkSt1Y3KgHv-suuQA_FUhTV0Iy4Qj3eok3Nf5c6gEJHWRbtXrhYjjKCA5T2vYtUMX7CK
+2016-08-19 11:37:19,704 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:19,704 INFO   - search: 地址：http://www.baidu.com/link?url=dSKLNEkzWOV3xjIvHrqKluVMtAbcbxJGOjBvY7AKanrOdQ9l-DchB4lYGSuu_IMEb2ewqza8PvQGXkjIX5xKymTkuU1n4gqifJXBRCoIcVO
+2016-08-19 11:37:19,704 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:20,161 INFO   - search: 地址：http://www.baidu.com/link?url=dSKLNEkzWOV3xjIvHrqKltTHK-c23OTq39yzgmBJov1jbARj7-5clqAWMylb7qaN74YeEAIWlkb5lY5BCYFi0a
+2016-08-19 11:37:20,161 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:20,161 INFO   - search: 地址：http://www.baidu.com/link?url=xUJ1NaHaB6utU22Hi4NvsSHnbqlGzKbnQjXo8YVlGlT0bSPbJnZgiIryVyS7ndpRZecaIlZOOJQb8t93s5ocA_
+2016-08-19 11:37:20,161 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:20,161 INFO   - search: 地址：
+2016-08-19 11:37:20,161 INFO   - search: 标题：
+2016-08-19 11:37:20,161 INFO   - search: 地址：http://www.baidu.com/link?url=DQCkyWaQxAYst2_kOPfQuWAC-gcbymY4vwymLi1nxAOvMhZ_iNfnsLIxUFuNHaAC
+2016-08-19 11:37:20,161 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:20,161 INFO   - search: 地址：http://www.baidu.com/link?url=8_VHj0jbZNM3s5aoxOvpVXBlrHz-o4YsrNIstF5sQ4Sa6yjnUpAEn_a0G3w03SWNK_isJks4cAFyXAc3xTlthmDFHQZdOo-qdq9cBcYhhxkXm728FlCm_2JJNfaSJFv0g9791rm40Bwew6_h5UlbZ0odIzYtVa1K-M89cuDI6AO
+2016-08-19 11:37:20,161 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:20,161 INFO   - search: 地址：http://www.baidu.com/link?url=8_VHj0jbZNM3s5aoxOvpVMF_CiDtuJrk0nWWuz7rcpc3uztkaX4CfvfqEZCie5AcU90oDFZyChkolPj13-AJYLUCWOPLwesOIFyGppFm8vS
+2016-08-19 11:37:20,161 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:20,161 INFO   - search: 地址：http://www.baidu.com/link?url=bu-GCyQ6XPD-ZCH1mdXGbmG3ITsWJrDsDU4LjoQfmPme-Rp-_tN5CtqkE5r3m9c9vqZnOCsP09mrTaCRbq1uPq
+2016-08-19 11:37:20,161 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:20,161 INFO   - search: 地址：http://www.baidu.com/link?url=Q06Q6DHkj-NLAlRzCPIe7ctIG5UUe5_rynuvi554dOtRlwzWhppO3d8fkKUmoGMFkNgXsUM9efJAm8x9vlA4bT7tgrFo_H7_b8KuWfmRU2XEeym49EYwFZZOgBWq9-pF
+2016-08-19 11:37:20,161 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:20,161 INFO   - search: 地址：http://www.baidu.com/link?url=r8gUWM1J_197VHjadVa4gvM5luT8tqEtpB1aENjYP8MZjPdwa1vx2WK-sYPOMWLFWCKIUTuZYSUu-X3bvFEB3q
+2016-08-19 11:37:20,161 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:20,161 INFO   - search: 地址：http://www.baidu.com/link?url=dSKLNEkzWOV3xjIvHrqKluVMtAbcbxJGOjBvY7AKanrOdQ9l-DchB4lYGSuu_IMEb2ewqza8PvQGXkjIX5xKymTkuU1n4gqifJXBRCoIcVO
+2016-08-19 11:37:20,161 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:20,597 INFO   - search: 地址：http://www.baidu.com/link?url=yUUu3a6x1y9eFF0PRFsD3hnX4oI5hkByTVlYPGdXftYCXG3AgVg0_KTK214cYkm92N3jJe-TF6mrySNU_WVKKq
+2016-08-19 11:37:20,613 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:20,613 INFO   - search: 地址：http://www.baidu.com/link?url=3qodkRA7k-mEn7MRTK1T9eR9Jn6ZReyvPStTKKnO82jhSLw1nGLlwnvoDtKz3T6ShRq2Gt34bNpaZa8bbdgg6q
+2016-08-19 11:37:20,613 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:20,613 INFO   - search: 地址：
+2016-08-19 11:37:20,613 INFO   - search: 标题：
+2016-08-19 11:37:20,613 INFO   - search: 地址：http://www.baidu.com/link?url=xd-qKKivH9tzN5fr9ri1kWfwCqt5l1xFntk12U9PglK5KzaCTggUQAqtOfuea8Ak
+2016-08-19 11:37:20,629 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:20,629 INFO   - search: 地址：http://www.baidu.com/link?url=SVnTxi2a85CWVvWfaIPU60LbRUwxW2tzDupZbGMg8FyOqwXARvgBxz323SXSosIdlraJbfteTD_MXhce4qEYS9PXqAJeuV_NmFHGYtBYfSdxVx6y6RR-OMnj5lnQQ34anWDFZUeq5ll6gfWzB-mIGefOYYUlBb-5B6Dn5VRRv0W
+2016-08-19 11:37:20,629 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:20,629 INFO   - search: 地址：http://www.baidu.com/link?url=SVnTxi2a85CWVvWfaIPU60nlcvjCsPn9IBmSXiZfo3lZk_fuQ3YvgcKr2M1eZxcEwADwMSnsnBkMwQdbno54ic1IboT2XvuTuJvLktHgqO7
+2016-08-19 11:37:20,629 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:20,629 INFO   - search: 地址：http://www.baidu.com/link?url=fKYugssJZKriYkRxPSdxpKEsJihYNe7ZROzUslPhN5bnDWXo_1udwhZJ4Dzf0AI3bQqGTEfuBxSjnBW7GPo5Z_
+2016-08-19 11:37:20,629 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:20,629 INFO   - search: 地址：http://www.baidu.com/link?url=9Mou90XsI5z_kRe350FdVgKojUrRVEittOLtY82HMeel3J2aewa9jwYAez1hNjQ1HbwA53PqXZVDz4XQ3sKKZUO3XDc4uLnLRCs4yzqIpcwgdVoRYLjSUD3cteDXRbfu
+2016-08-19 11:37:20,629 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:20,629 INFO   - search: 地址：http://www.baidu.com/link?url=Kplc_1gc2W8CXBMOUhazBgmRU8-7dm1VNVHjIc-pHUWdYiR1g54kr181HDMUTfen5xsKExlQxKmgA7tWrBEam_
+2016-08-19 11:37:20,629 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:20,629 INFO   - search: 地址：http://www.baidu.com/link?url=yUUu3a6x1y9eFF0PRFsD3olbPjpZkhRBVBo-O0AOVIq_wpas6b2jEBi9OfHhYQ7CcjJZL62NSictVMEn9pM3DzbswbCCYGCZpQDfvlcX2qy
+2016-08-19 11:37:20,629 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:21,084 INFO   - search: 地址：http://www.baidu.com/link?url=yUUu3a6x1y9eFF0PRFsD3hnX4oI5hkByTVlYPGdXftYCXG3AgVg0_KTK214cYkm92N3jJe-TF6mrySNU_WVKKq
+2016-08-19 11:37:21,084 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:21,084 INFO   - search: 地址：http://www.baidu.com/link?url=3qodkRA7k-mEn7MRTK1T9eR9Jn6ZReyvPStTKKnO82jhSLw1nGLlwnvoDtKz3T6ShRq2Gt34bNpaZa8bbdgg6q
+2016-08-19 11:37:21,084 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:21,084 INFO   - search: 地址：
+2016-08-19 11:37:21,084 INFO   - search: 标题：
+2016-08-19 11:37:21,084 INFO   - search: 地址：http://www.baidu.com/link?url=xd-qKKivH9tzN5fr9ri1kWfwCqt5l1xFntk12U9PglK5KzaCTggUQAqtOfuea8Ak
+2016-08-19 11:37:21,084 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:21,084 INFO   - search: 地址：http://www.baidu.com/link?url=SVnTxi2a85CWVvWfaIPU60LbRUwxW2tzDupZbGMg8FyOqwXARvgBxz323SXSosIdlraJbfteTD_MXhce4qEYS9PXqAJeuV_NmFHGYtBYfSdxVx6y6RR-OMnj5lnQQ34anWDFZUeq5ll6gfWzB-mIGefOYYUlBb-5B6Dn5VRRv0W
+2016-08-19 11:37:21,084 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:21,084 INFO   - search: 地址：http://www.baidu.com/link?url=SVnTxi2a85CWVvWfaIPU60nlcvjCsPn9IBmSXiZfo3lZk_fuQ3YvgcKr2M1eZxcEwADwMSnsnBkMwQdbno54ic1IboT2XvuTuJvLktHgqO7
+2016-08-19 11:37:21,084 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:21,084 INFO   - search: 地址：http://www.baidu.com/link?url=vC_xqQZHbcxQFEFQRtQ1NFqs0d3i6GMTFDJYiu6hqvWg1aepmVTZLMqLC-wBgSGr4c891kqu5ZgHTcQ0T6XHUK
+2016-08-19 11:37:21,084 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:21,084 INFO   - search: 地址：http://www.baidu.com/link?url=9Mou90XsI5z_kRe350FdVgKojUrRVEittOLtY82HMeel3J2aewa9jwYAez1hNjQ1HbwA53PqXZVDz4XQ3sKKZUO3XDc4uLnLRCs4yzqIpcwgdVoRYLjSUD3cteDXRbfu
+2016-08-19 11:37:21,084 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:21,084 INFO   - search: 地址：http://www.baidu.com/link?url=A5aFroDiJfRB-0u_6n7gSIMqTLkXKbzlgCet4M8wgUbXxCFUcLQ7z0SACydUGWa9tIbjiFbLvVuJS4MOB0-xh_
+2016-08-19 11:37:21,084 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:21,084 INFO   - search: 地址：http://www.baidu.com/link?url=yUUu3a6x1y9eFF0PRFsD3olbPjpZkhRBVBo-O0AOVIq_wpas6b2jEBi9OfHhYQ7CcjJZL62NSictVMEn9pM3DzbswbCCYGCZpQDfvlcX2qy
+2016-08-19 11:37:21,084 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 11:37:21,474 INFO   - search: 地址：http://www.baidu.com/link?url=yUUu3a6x1y9eFF0PRFsD3hnX4oI5hkByTVlYPGdXftYCXG3AgVg0_KTK214cYkm92N3jJe-TF6mrySNU_WVKKq
+2016-08-19 11:37:21,474 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 11:37:21,474 INFO   - search: 地址：http://www.baidu.com/link?url=3qodkRA7k-mEn7MRTK1T9eR9Jn6ZReyvPStTKKnO82jhSLw1nGLlwnvoDtKz3T6ShRq2Gt34bNpaZa8bbdgg6q
+2016-08-19 11:37:21,474 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 11:37:21,474 INFO   - search: 地址：
+2016-08-19 11:37:21,474 INFO   - search: 标题：
+2016-08-19 11:37:21,474 INFO   - search: 地址：http://www.baidu.com/link?url=xd-qKKivH9tzN5fr9ri1kWfwCqt5l1xFntk12U9PglK5KzaCTggUQAqtOfuea8Ak
+2016-08-19 11:37:21,474 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 11:37:21,474 INFO   - search: 地址：http://www.baidu.com/link?url=SVnTxi2a85CWVvWfaIPU60LbRUwxW2tzDupZbGMg8FyOqwXARvgBxz323SXSosIdlraJbfteTD_MXhce4qEYS9PXqAJeuV_NmFHGYtBYfSdxVx6y6RR-OMnj5lnQQ34anWDFZUeq5ll6gfWzB-mIGefOYYUlBb-5B6Dn5VRRv0W
+2016-08-19 11:37:21,474 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 11:37:21,474 INFO   - search: 地址：http://www.baidu.com/link?url=SVnTxi2a85CWVvWfaIPU60nlcvjCsPn9IBmSXiZfo3lZk_fuQ3YvgcKr2M1eZxcEwADwMSnsnBkMwQdbno54ic1IboT2XvuTuJvLktHgqO7
+2016-08-19 11:37:21,474 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 11:37:21,474 INFO   - search: 地址：http://www.baidu.com/link?url=DCQ2JkwVi2cfNhx3thD_mHiqWX6K3L0eZD8qwifDmXoCU7Qj_Z9djbjHCGJmIRtoHABjPeImOPoaVlFIoKiKwa
+2016-08-19 11:37:21,474 INFO   - search: 标题：2016年里约热内卢奥运会_百度百科
+2016-08-19 11:37:21,474 INFO   - search: 地址：http://www.baidu.com/link?url=9Mou90XsI5z_kRe350FdVgKojUrRVEittOLtY82HMeel3J2aewa9jwYAez1hNjQ1HbwA53PqXZVDz4XQ3sKKZUO3XDc4uLnLRCs4yzqIpcwgdVoRYLjSUD3cteDXRbfu
+2016-08-19 11:37:21,474 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 11:37:21,474 INFO   - search: 地址：http://www.baidu.com/link?url=Rtvl6tHkGuNBXxYsPwzcd9GI6ppEAJzenP74M5zB24rSQzT-O3KVOGGw7X2BvBvx5iCB7-Vbi4iVneiFW3zT4_
+2016-08-19 11:37:21,474 INFO   - search: 标题：里约奥运,最逗比的竟不是傅园慧……--百度百家
+2016-08-19 11:37:21,474 INFO   - search: 地址：http://www.baidu.com/link?url=yUUu3a6x1y9eFF0PRFsD3olbPjpZkhRBVBo-O0AOVIq_wpas6b2jEBi9OfHhYQ7CcjJZL62NSictVMEn9pM3DzbswbCCYGCZpQDfvlcX2qy
+2016-08-19 11:37:21,474 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 14:11:19,740 INFO   - main: 10秒后启动采集
+2016-08-19 14:12:01,579 INFO   - search: 地址：http://www.baidu.com/link?url=EDwui-b-7UC0GKBTzQ-cRnPHRFE1JJMq3edLl2TTwFT4Rw7ryjZ9v286JX-415bDZzWX0DH0hCDLvf82jNbCWK
+2016-08-19 14:12:01,579 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 14:12:01,579 INFO   - search: 地址：http://www.baidu.com/link?url=eLPvIh4vFNFf6u1Td9ESLZnQPEHhq_sAuKkJ-uas4zOzv59DWfZJ62EOR_Zqb4VsgU4ia0T84T4pYKwCOIOr1K
+2016-08-19 14:12:01,674 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 14:12:01,674 INFO   - search: 地址：http://www.baidu.com/link?url=j3RDLai69IGAKP-hsDDKccqV951CspeS4lvO6um5T5VnqLeq9svNvK1I0P4Tu3mV
+2016-08-19 14:12:01,674 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 14:12:01,674 INFO   - search: 地址：
+2016-08-19 14:12:01,674 INFO   - search: 标题：
+2016-08-19 14:12:01,674 INFO   - search: 地址：http://www.baidu.com/link?url=EDwui-b-7UC0GKBTzQ-cRdFBp5PN-lZJ3btCTBJe780VqkIFnRl--hC2JW2yZDBOD82ud1N497YVi7nfxcqnH-1swNJJninxx6CqyZeqdOG
+2016-08-19 14:12:01,674 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 14:12:01,674 INFO   - search: 地址：http://www.baidu.com/link?url=OqU8fGgWSaW3u-f7qfMUTMlJ3_QhPYEPCIi9gcBHl1l916a4ksUMI-6vLW6FPXP6Vr0JG4aaYAU6hOUqLIoIgQFGwuystEZmSWT5gNkl7m6fqZnJrEinXj9XNXMuTtrY779EOreCybOZHM7wvueEFLrcnxEdd6DqbCNeWDKAgsu
+2016-08-19 14:12:01,674 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 14:12:01,674 INFO   - search: 地址：http://www.baidu.com/link?url=OqU8fGgWSaW3u-f7qfMUTYObNcTAkmlyD_Wp23psQdiD8mwRqxs7s27dL0rlk8x8RbtdHnxBvxtYvUiTPnYW5BsZ3jv73cD38L8ys5DaW5S
+2016-08-19 14:12:01,674 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 14:12:01,674 INFO   - search: 地址：http://www.baidu.com/link?url=hxeiaa4BfLJeFOnMv1uM-Upa0zoX0f4vTjgj7GJ3WgPjewFb9gWc5WoZ_OJrJa3-myE4FHJq3oTmQv1e4_NDPOM6KAKjnU9PrjISHnb6CldeEIqX4tqUb6t1aJQ_i_XD
+2016-08-19 14:12:01,690 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 14:12:01,690 INFO   - search: 地址：http://www.baidu.com/link?url=j3RDLai69IGAKP-hsDDKcpLIF6LDFEe-6uOPCu82GVGlnV0gPcoh5h5K7Y2R-jKQa0lvmY2tKrNLvVfjMzjsmA3Mr3FGiZrnHQtUahjQP7YeazKuJfBqyqeCU5UNmnlCL6KeIwV9vG9bUrXXQotM6QK656QgzsudmMo6KNXTrJkzjZKJx8MqrZgpRsVGtzrJ60PNsk1iRf5_1fUEhA3yhWZ-aSFEMiUYE7oMyLNiTCyoPXjypFLH5HgX9wW6n3pX
+2016-08-19 14:12:01,690 INFO   - search: 标题：奥运会_百度图片 举报图片
+2016-08-19 14:12:01,690 INFO   - search: 地址：http://www.baidu.com/link?url=e8BPvwdxi22_GvFUlG6Ot_Mm9DNKigN3sEtknEHSFAjskcKT7irsRuTeZIPK7b0_
+2016-08-19 14:12:01,690 INFO   - search: 标题：2008北京奥运会经典时刻_百山探索
+2016-08-19 14:12:08,062 INFO   - search: 地址：http://www.baidu.com/link?url=YUr0FY5gRsm17vXVyIW3KuYAx8HklbU5AreEI4SwvYAghXI73iuEXi4OBNhNpiSy
+2016-08-19 14:12:08,062 INFO   - search: 标题：2016年里约奥运会_新浪奥运_新浪网
+2016-08-19 14:12:08,062 INFO   - search: 地址：http://www.baidu.com/link?url=7a3L3GtgIFYRZf6s2IAC7H7BnZlTKeEPO04Ms85XBha
+2016-08-19 14:12:08,062 INFO   - search: 标题：2016里约奥运会|第31届奥运会-搜狐体育
+2016-08-19 14:12:08,062 INFO   - search: 地址：http://www.baidu.com/link?url=14euHvbvfD7pgZgRCerkSUYpPTd3ajt0anCICZwvRWa
+2016-08-19 14:12:08,077 INFO   - search: 标题：2016里约奥运会_网易体育
+2016-08-19 14:12:08,077 INFO   - search: 地址：http://www.baidu.com/link?url=2mFjoi5e_T7cU1z_FFO_Ci6S6MB5ZjI3ApWi6YecLDSr0pex0WrOzhrtqfItJGzVsphquMplS4KxemL08KIDb_
+2016-08-19 14:12:08,077 INFO   - search: 标题：奥运会概念股龙头-奥运会概念股有哪些-奥运会概念股一览表__...
+2016-08-19 14:12:08,077 INFO   - search: 地址：http://www.baidu.com/link?url=IEzml3BY38mA7eeQSSUgirxIpEtfqbCZEgw67TFF15CXOSVQGnAIfGljRBY56ejDJUJ05iUkIznfQj40HN6U-a
+2016-08-19 14:12:08,077 INFO   - search: 标题：2016年里约奥运会完整版赛程表一览 焦点赛程时间表查看-闽南网
+2016-08-19 14:12:08,077 INFO   - search: 地址：http://www.baidu.com/link?url=Kx2FmWpwJLHwfaRvxeZCanM8sPO9RvFhB6j0rWH4ciemIteXy3PrM-ndqTq66EE-CsXTtS3XXkzUenSEa3dUnq
+2016-08-19 14:12:08,077 INFO   - search: 标题：伦敦奥运会男篮小组赛 美国VS尼日利亚 20120802-乐视体育
+2016-08-19 14:12:08,077 INFO   - search: 地址：http://www.baidu.com/link?url=UTaCzP9_WM9WDTrF2HMv_zjy9xJEejAf-Q_rFv1dxCrmac11XYW5R91OwPohLvdeWPtf0vQ2piuz7SxOA_Tc7_
+2016-08-19 14:12:08,077 INFO   - search: 标题：2012伦敦奥运会羽毛球男单决赛 林丹vs李宗伟-高清观看-腾讯视频
+2016-08-19 14:12:08,077 INFO   - search: 地址：http://www.baidu.com/link?url=eCCZQn51YZ5uZOxiYkCDFblXtUeuPdfj2vHWrUIQAXbqjquUOF8_br1bSaY5x8MrBeDjCG2ccEo5yV0xioSuW_BzsZx7E_gFXLv4C_KPULK
+2016-08-19 14:12:08,077 INFO   - search: 标题：《自然传奇》 20130717 动物奥运会_自然传奇(CCTV-10科教..._...
+2016-08-19 14:12:08,077 INFO   - search: 地址：http://www.baidu.com/link?url=jkjpWFOw_eZ0XSTUUoMfAuSYTrkPrYMGKSsbw-geAUyKLGkgrdIoKwZ0LUe1ZHZweP0F0Uh6zJuxGEq7KEbgya
+2016-08-19 14:12:08,077 INFO   - search: 标题：08奥运会 乒乓球女单第4轮 大魔王vs.福原爱_运动_生活_bilibil...
+2016-08-19 14:12:08,077 INFO   - search: 地址：http://www.baidu.com/link?url=kHwTWBDsQR6SVdp9-CzkowNlUZHoIqjgZ4sb4YgioBj_xJn69IyLtQ1zlKSQyYT5XwPKGyNxa2dDrT_uexBd8q
+2016-08-19 14:12:08,077 INFO   - search: 标题：北京奥运会(高清)闭幕式—在线播放—优酷网,视频高清在线观看
+2016-08-19 14:12:12,378 INFO   - search: 地址：http://www.baidu.com/link?url=5u2KEKyO8qmiAkYIfevM1v0SyegyvT5Sunf3v3ypKkUQNBeWDdPAZy8e7ROhfCVB-RLDhHvWHg0JMXcCnBrN0K
+2016-08-19 14:12:12,378 INFO   - search: 标题：奥林匹克运动会‭ - 等待回答 - 知乎
+2016-08-19 14:12:12,378 INFO   - search: 地址：http://www.baidu.com/link?url=sCWD_nPojQQOB-23qoG7eZHbVm38TDRE1ADGZUduAEeq_AxTjw_NVpZzPBev8oNxWNNcMwb7U-FJK9GnkiNCHHnHPamTCjll7xjNvuLRZ_3
+2016-08-19 14:12:12,378 INFO   - search: 标题：我家的奥运会——身边奥运影像全记录
+2016-08-19 14:12:12,394 INFO   - search: 地址：http://www.baidu.com/link?url=eppy8l4XzgWxfPdcgJecAgfXMuF2XqY9-eI1kc2olz3YlJidRtftAMN6-OpxTTu_7R0PoX3gh0LDUGm81vzt0K
+2016-08-19 14:12:12,394 INFO   - search: 标题：2008北京奥运会开幕式录像CCTV版 超清_土豆_高清视频在线观看
+2016-08-19 14:12:12,394 INFO   - search: 地址：http://www.baidu.com/link?url=xe0cvfXH5wbQG1fKQJHja0W47_ubKuM1fA0gUT9hahCMpdEcGJ7lyX0BlB-XyKK_lK4r7YTlUN4HUqZngoezWa
+2016-08-19 14:12:12,394 INFO   - search: 标题：张艺谋的2008:北京奥运会开幕式幕后大揭秘 - 搜狐视频
+2016-08-19 14:12:12,394 INFO   - search: 地址：http://www.baidu.com/link?url=mdPSm4FwQ-HYCal00HRJWCUnZsyi6I4vlgq4DiECRgAZ73A2yVVLMcqAEla80NQ9q_BcCkUSwva6M4RHhY1N8a
+2016-08-19 14:12:12,394 INFO   - search: 标题：2004奥运会女排决赛中国-俄罗斯_视频在线观看 - 56.com
+2016-08-19 14:12:12,394 INFO   - search: 地址：http://www.baidu.com/link?url=O40rBx527obxaXwLbR7FWRx95miiPmc-VxKzfbc3-g9g3slCTNukCEpOWUqaOG59t5QRFNwxn1qGXxaROWsI3q
+2016-08-19 14:12:12,394 INFO   - search: 标题：2020年夏季奥运主办城市揭晓_新闻频道_央视网
+2016-08-19 14:12:12,394 INFO   - search: 地址：http://www.baidu.com/link?url=ufWB-xvaRBPK7ATjFZNb-8-wYD8_0OCoqmwbTDpwWrtyw5hgNj1_4_DxNOSMUYYm
+2016-08-19 14:12:12,394 INFO   - search: 标题：伦敦奥运会2012,伦敦奥运会2012下载,伦敦奥运会2012中文版下载,...
+2016-08-19 14:12:12,394 INFO   - search: 地址：http://www.baidu.com/link?url=16R8c2b7Vz3QCmfL_aLjz5rGMaeX7WKcDidiGJ2SNKAuaK7GBA01Df9vpIUSfreEtCCHlZ4wjs_ytba89iK3ta
+2016-08-19 14:12:12,394 INFO   - search: 标题：奥运会口号_英文_历届奥运会口号
+2016-08-19 14:12:12,394 INFO   - search: 地址：http://www.baidu.com/link?url=FM3hSTEOJolTNdyGHcrBw7U8m59j9WNze6EjBRMnbJprdAMSX8iEvqJaSQoSU71_
+2016-08-19 14:12:12,394 INFO   - search: 标题：奥运开幕式_2012伦敦奥运会开幕式_中国网络电视台
+2016-08-19 14:12:12,394 INFO   - search: 地址：http://www.baidu.com/link?url=-pWeYkDrmF64z1XhzrHzjhPG_5lx986PjWIofRn9d3cVh_Kk0x3zw-bHoQdqVWyb
+2016-08-19 14:12:12,394 INFO   - search: 标题：2012伦敦奥运会羽毛球比赛高清视频专辑 - 菜头羽毛球网
+2016-08-19 14:12:12,974 INFO   - search: 地址：http://www.baidu.com/link?url=o0CPVzuBDLJMt0_7Qph1Tt3QQG5zAQiSbdl0sHGZAj-0r48pob9svsBWa3UuICz6
+2016-08-19 14:12:12,974 INFO   - search: 标题：奥运站_2008北京奥运会_新浪网
+2016-08-19 14:12:12,974 INFO   - search: 地址：http://www.baidu.com/link?url=NkHvx8fx17eKWEJNWViXB6SmZmkNXCa9rCTiN-uYj9oCFjx1K9b9i2yQpDntGkPa
+2016-08-19 14:12:12,974 INFO   - search: 标题：奥林匹克运动会的微博_微博
+2016-08-19 14:12:12,974 INFO   - search: 地址：http://www.baidu.com/link?url=5P60dU7qTONtkgbPTuwpykYoz_Jtd92OhX-cZTCTm9v85sW6QCH-zY-gmr3TRn_U
+2016-08-19 14:12:12,974 INFO   - search: 标题：解密奥运会,奥运会资料,奥运会介绍,奥运会图片,奥运会新闻 - 铁血网
+2016-08-19 14:12:12,974 INFO   - search: 地址：http://www.baidu.com/link?url=g-xIGa2XdeP4PiMHRLX2LiimbPtvvlKT5FgfBhALxzvx1c7P1ltIAzBGpyb4qZyd
+2016-08-19 14:12:12,974 INFO   - search: 标题：London 2012 Summer Olympics - results & video highlights
+2016-08-19 14:12:12,974 INFO   - search: 地址：http://www.baidu.com/link?url=0eCzyIzcTXEgUvYUv64WL8aFZybHWP7hKqfPT5lNPITmZFPeWcqUaUAZ-8EslGYgajKAxDHCt553Kgdft_qCp_
+2016-08-19 14:12:12,974 INFO   - search: 标题：奥运会_奥运安防_hc360慧聪网安防行业
+2016-08-19 14:12:12,974 INFO   - search: 地址：http://www.baidu.com/link?url=gGzOYoyG_HzdomHZZMxR_GEboGCsQRazbHRk5vZxQUW
+2016-08-19 14:12:12,974 INFO   - search: 标题：奥运首页_北京2008奥运会_奥运频道_网易奥运
+2016-08-19 14:12:12,974 INFO   - search: 地址：http://www.baidu.com/link?url=F8ODKmjKcFJxqgagJOOU_rI0RR1r8ahqz0RPjdsjR22UxghUJt_79tk5lQdMfGqu
+2016-08-19 14:12:12,974 INFO   - search: 标题：2016里约奥运会-乐视体育
+2016-08-19 14:12:12,974 INFO   - search: 地址：http://www.baidu.com/link?url=_pxsPlSCyPbdY-qcCwIC_givkAOLOLOvlR3GgKuceVdWljPanDSIZ4Wwnb6v0USf
+2016-08-19 14:12:12,974 INFO   - search: 标题：2012年伦敦奥运会_新浪奥运_新浪网
+2016-08-19 14:12:12,974 INFO   - search: 地址：http://www.baidu.com/link?url=-80IKLk3RmM6nlgEh6OtQE9Rp6Bc1r_KZR03BWoYXtAvU0bMnTv9gqtEzGRprrC-6bo2oZ-8br9CowUqp2qjlK
+2016-08-19 14:12:12,974 INFO   - search: 标题：奥运会_YOKA时尚网
+2016-08-19 14:12:12,974 INFO   - search: 地址：http://www.baidu.com/link?url=_S7GJjOunMfsTj_Eotvep62j4CPT8KrT3pwCT_wrJ_W
+2016-08-19 14:12:12,974 INFO   - search: 标题：2008北京奥运会_腾讯网
+2016-08-19 14:12:13,507 INFO   - search: 地址：http://www.baidu.com/link?url=AMx_HKH8G4um9OGorpnLBXyB_qzY2N2axZnrTezSPzq
+2016-08-19 14:12:13,507 INFO   - search: 标题：2012伦敦奥运会_腾讯奥运_腾讯网
+2016-08-19 14:12:13,507 INFO   - search: 地址：http://www.baidu.com/link?url=tHMBSHqhaZIEf4T3W_wKJ16ph97hdM0wCMaOiVqAfgO4dvCThAYiKbiL2IJ56Yn3dUpt7kP1aR33IRpa14-uwq
+2016-08-19 14:12:13,507 INFO   - search: 标题：奥运会 - 2ch中文网
+2016-08-19 14:12:13,507 INFO   - search: 地址：http://www.baidu.com/link?url=mgv7bymTvn5_GMDOl87fjHtVG1HP-KO29GlYWgHqVixRP3KhfOTy1gHMzorgKuysEQ__LWDpVlq17qkTo7VDNa
+2016-08-19 14:12:13,522 INFO   - search: 标题：英国奖牌榜_2012伦敦奥运会_新浪网
+2016-08-19 14:12:13,522 INFO   - search: 地址：http://www.baidu.com/link?url=0GTQ5HKMH-yFDPcM9Weym6IqsnbsSXx4TibexehK_fNJFuLhVifZ1emb2Bj55ah2xj6sjYhSQGAZKdu0Mxs4kRoskKZavQucjDe0P_frgxa
+2016-08-19 14:12:13,522 INFO   - search: 标题：欧米茄腕表: 欧米茄世界 - 运动精神 - 奥运会
+2016-08-19 14:12:13,522 INFO   - search: 地址：http://www.baidu.com/link?url=rQvlSyf_jscRtojyHuKgBGIFdHwC0MY-n56Yj8evpmRtAfQSCcnZolK389sxAtpFtZwJMb9i40HYZHTwYFs6Z6nhHW2cBbd4BThP1m9ZgqwWxDqJauUMkGzAJlh8UyU4
+2016-08-19 14:12:13,522 INFO   - search: 标题：奥运会 搜库-专找视频
+2016-08-19 14:12:13,522 INFO   - search: 地址：http://www.baidu.com/link?url=p5YYqFQq9qkja6VTNHKjSSydJvhkrfgP5xz5xmsrVHq
+2016-08-19 14:12:13,522 INFO   - search: 标题：奥运频道-2008北京奥运会-搜狐
+2016-08-19 14:12:13,522 INFO   - search: 地址：http://www.baidu.com/link?url=8PzJvuFi0WmUeKZMDGl8m54UdNQeF2nXwRyo4iiftb65PSYTjbuiOGpTdzbKDZv5
+2016-08-19 14:12:13,522 INFO   - search: 标题：2004雅典奥运会_新浪奥运站_新浪网
+2016-08-19 14:12:13,522 INFO   - search: 地址：http://www.baidu.com/link?url=RiZslDk4GwX17j-eQlYF4H690neNqZiLsPa7Zd75A9Qbyd-dsdTdGork1J1IuM_2zrqfw3S_7D-Yllm3r1B1Ele_1952sb-9037mfpN0ewfyNyIOAWYjzd8BmYJjoSNr
+2016-08-19 14:12:13,522 INFO   - search: 标题：1896年4月4日首届现代奥运会在雅典举行_历史上的今天
+2016-08-19 14:12:13,522 INFO   - search: 地址：http://www.baidu.com/link?url=Mk2s12UfhTMsmghnV3rzWj35YLsRZY-8OJxLG2pP3nK2ItbATms21g8jhuko_AHrl0419nFpJvuPc0kDtY-OMK
+2016-08-19 14:12:13,522 INFO   - search: 标题：奥运会 - 标志情报局
+2016-08-19 14:12:13,522 INFO   - search: 地址：http://www.baidu.com/link?url=63wmipsx4RedtQVc6sWy3Vgc8MXzzLOWb8Drbe1cDXzOhvEZZOAvcc6av3HKdVwd
+2016-08-19 14:12:13,522 INFO   - search: 标题：奥运直播|2016巴西奥运会|里约热内卢奥运会直播|奥运视频直播-...
+2016-08-19 14:12:14,009 INFO   - search: 地址：http://www.baidu.com/link?url=_WNNhMJRhfvbebS_Recg17zdN-sdk5s6q_TD0NurIDMEfn0sDM_voa47u9sFNLYAg6g1gtwzD8FEQ3NVcM1h6uKZtnigP7VhRIFlYIWM9Fi
+2016-08-19 14:12:14,009 INFO   - search: 标题：奥运会_奥运会最新消息,新闻,图片,视频_聚合阅读_新浪网
+2016-08-19 14:12:14,009 INFO   - search: 地址：http://www.baidu.com/link?url=Cv_gOfD60vGVqtlvJ7J5hinV037sZRxadNnWuXLfXUP1667bX96nvzKRe7cSEAzS
+2016-08-19 14:12:14,009 INFO   - search: 标题：奥运频道 - 快乐奥运 2008年奥运特别报道 - 酷6网 www.ku6.com
+2016-08-19 14:12:14,009 INFO   - search: 地址：http://www.baidu.com/link?url=UYrXhugLaMK99sarpNWwgsTMhX0E_PgwOGvkCW1J-Mm
+2016-08-19 14:12:14,009 INFO   - search: 标题：2012伦敦奥运会|第30届奥运会-搜狐体育
+2016-08-19 14:12:14,009 INFO   - search: 地址：http://www.baidu.com/link?url=gDpronZtOWsBvkIlKO1G-vxUv0i0NcK85gT5Dg4Z0h3Po9xJxxwTVthoeI6vNf8cKlRn89h9QnS9ZLPfT0Dcnq
+2016-08-19 14:12:14,009 INFO   - search: 标题：【2012奥运会】2012伦敦奥运会_开幕式直播_时间_吉..._太平洋电脑网
+2016-08-19 14:12:14,009 INFO   - search: 地址：http://www.baidu.com/link?url=-X5nRKyTEYSzvg46vgfkDEHaZ8_zhtWW9siWXggQ_IiyInatUUTZo-n_odaY4Pe_-eTuB6IVhQ6hOletwVvh6_
+2016-08-19 14:12:14,009 INFO   - search: 标题：2012年伦敦奥运会--体育--人民网
+2016-08-19 14:12:14,009 INFO   - search: 地址：http://www.baidu.com/link?url=cUbwG0zZPWCJr49IWEh7rNAM0DnUOut8r8eYnMWzKvJzYIbrKaQgAfkhQiDSG9co
+2016-08-19 14:12:14,009 INFO   - search: 标题：【奥运会】最新出价_奥运会收藏品-博宝在线拍卖网
+2016-08-19 14:12:14,009 INFO   - search: 地址：http://www.baidu.com/link?url=cP38y0hUOUdM5tzuLoFy4-aTPmxKV6044vzQmSXNRMMsZYrZr0tcI5iF_Q68ZvIm-SAVEqynFqTXj8fTf7QxW_
+2016-08-19 14:12:14,009 INFO   - search: 标题：2012年奥运会羽毛球比赛 - 比赛视频专辑 - 爱羽客
+2016-08-19 14:12:14,009 INFO   - search: 地址：http://www.baidu.com/link?url=_cnvkzJvtJ_3cyfAEmDl1I-3nHtHlcnZqZndBdXqtPYE2l_zsIyQURR6g67G90ChbYCEYNG9E2WlMU46MNzydq
+2016-08-19 14:12:14,009 INFO   - search: 标题：奥运会开闭幕式_奥运开闭幕式_科技魅力震撼世界 盘点奥运开闭幕式...
+2016-08-19 14:12:14,009 INFO   - search: 地址：http://www.baidu.com/link?url=hRsM99W2jxtqwCvTvPBexUgCXmELaJ8yyop2P4-eY0ZofzIo_KQW6OR2MUrhsSKq
+2016-08-19 14:12:14,009 INFO   - search: 标题：奥运会图片素材_奥运会图片素材免费下载_奥运会背景素材_..._我图网
+2016-08-19 14:12:14,009 INFO   - search: 地址：http://www.baidu.com/link?url=EoqqR3T-MmvuD048J0W0ectGQ_e69rNyd7NuRKodJnIVIrxdv-HjoG03NVmxzI8J
+2016-08-19 14:12:14,009 INFO   - search: 标题：【奥运会小游戏】奥运会小游戏大全,最好玩的奥运会小游戏专题排行...
+2016-08-19 14:12:14,602 INFO   - search: 地址：http://www.baidu.com/link?url=K0mqV6X6q4rBlrQioWrSCh-wF4sMMHbGexBawV3z7rB7vg2-JPFsHax75C7a26lN
+2016-08-19 14:12:14,602 INFO   - search: 标题：奥运会游戏_运动会游戏大合集
+2016-08-19 14:12:14,602 INFO   - search: 地址：http://www.baidu.com/link?url=vrN3eJgReV1mF-L4hG0RzhVeK7PcyIo--8t13O7S16z7CflIg27v7iT8BVrLAsyI
+2016-08-19 14:12:14,602 INFO   - search: 标题：奥运频道_百度视频
+2016-08-19 14:12:14,602 INFO   - search: 地址：http://www.baidu.com/link?url=MjDcdr_D6EojZiNMdEjtAMU3FbSMN_cefEtf-jhui0SnT-jUSQ82hZJrPoniac8r
+2016-08-19 14:12:14,617 INFO   - search: 标题：奥运会录像|奥运会重播|里约奥运会|巴西奥运会|回放|视频|集锦|赛况
+2016-08-19 14:12:14,617 INFO   - search: 地址：http://www.baidu.com/link?url=WdcTXV6j6ygwM-MbBftPg-ICgt0Jx5gMZ78bNNB2TaeDTe09SReTAy8_97BPGmrcP87e24anJ-mAuZi_rTLPBK
+2016-08-19 14:12:14,617 INFO   - search: 标题：中原网奥运专题-2008北京奥运会
+2016-08-19 14:12:14,617 INFO   - search: 地址：http://www.baidu.com/link?url=ghGPi-cAQi-8mV4rQckshV3GA30RibhVF1uP5gZU-TVw0xYUpy4TRWumUSRSqyiw
+2016-08-19 14:12:14,617 INFO   - search: 标题：奥运会 - 今日头条(Toutiao.com)
+2016-08-19 14:12:14,617 INFO   - search: 地址：http://www.baidu.com/link?url=P-5Qd8AVxo4P4R8hC2jJsjHZ4_JWxqSS-4Y3aBK5j6vxUiwoQV1ls5EYwHU9TFy9
+2016-08-19 14:12:14,617 INFO   - search: 标题：奥运会-微头条(wtoutiao.com)
+2016-08-19 14:12:14,617 INFO   - search: 地址：http://www.baidu.com/link?url=u1JBtJC-gsO6_Pa26NFsElHISBB7aYroizo8pN_YWJGVJ5SxVkv6WEJxGZ0TRrKGJwC0aHStx7NNC0X7xyT-m_
+2016-08-19 14:12:14,617 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 14:12:14,617 INFO   - search: 地址：http://www.baidu.com/link?url=3Rc6AWlS2nHnfiqgsMBmfy1NEYqON7rhRXfLeFc9WYjf8Zs__Vzrg87X_KhcAWFAhmp7aElzm6cC3AeOH20y_K
+2016-08-19 14:12:14,617 INFO   - search: 标题：五城市申办2012年奥运会_NIKE新浪竞技风暴_新浪网
+2016-08-19 14:12:14,617 INFO   - search: 地址：http://www.baidu.com/link?url=NZpJuzPvrkeaGnXOKnjbxBp0TeJH-I-OdORoWTpcJvx9Ae-PPVQ4--iMzg-w-1IdQRnwUa8WRez75gjnVXaONq
+2016-08-19 14:12:14,617 INFO   - search: 标题：2016年奥运会在哪举办?2016年奥运会什么时候举办? - 3158展会网
+2016-08-19 14:12:14,617 INFO   - search: 地址：http://www.baidu.com/link?url=er6MZM9tnfARVhieNsR_lSsnfr5s2zIYYroz8mgLWuX21nhk_DSaugG_BD3TU9enyB5XIF4PhgQrVD8z2lXSva
+2016-08-19 14:12:14,617 INFO   - search: 标题：【奥运会手抄报】奥运会手抄报内容_运动会手抄报_太平洋亲子网
+2016-08-19 14:12:15,151 INFO   - search: 地址：http://www.baidu.com/link?url=RNUZOE95dQBRQN0yp8w2R1-C9fSiUh7kCaVMgvO-QUkfwMFkV9yiRLM57jZpGFr_
+2016-08-19 14:12:15,151 INFO   - search: 标题：2004年雅典奥运会-搜狐奥运网站
+2016-08-19 14:12:15,151 INFO   - search: 地址：http://www.baidu.com/link?url=P1EQOFw_Z2WdLi4B7qh8UBfnLmBBXjrpiy2Df-BbmxQezRG-SU__Ur61_DEjgzN4
+2016-08-19 14:12:15,151 INFO   - search: 标题：奥运会手抄报黑板报专题_中国板报网
+2016-08-19 14:12:15,151 INFO   - search: 地址：http://www.baidu.com/link?url=xTeSWxVHv6kbyb7ZQMe1u2hE6y7Oqy5tT1YP_IzuABG
+2016-08-19 14:12:15,151 INFO   - search: 标题：2012伦敦奥运会 · 超越这一天_凤凰网专题报道
+2016-08-19 14:12:15,151 INFO   - search: 地址：http://www.baidu.com/link?url=mpEglRX2qagriYvgglfVEVUufgtEOnISivm6cQfDOOC
+2016-08-19 14:12:15,151 INFO   - search: 标题：2004雅典奥运会_腾讯奥运网站
+2016-08-19 14:12:15,151 INFO   - search: 地址：http://www.baidu.com/link?url=0kjWVegqsX_UT0mwnbawdGKXifq_Ks6NaiX4Fwa7_0JNTvvnJCEg8KWgOSTGqEvnWFUFTXjHvB5occdJSGmEKa
+2016-08-19 14:12:15,151 INFO   - search: 标题：2004 Summer Olympics - Wikipedia, the free encyclopedia
+2016-08-19 14:12:15,151 INFO   - search: 地址：http://www.baidu.com/link?url=nXeBfY1e5bMV_iu-hGNow595bybZvf7W9wyd0av-Vx_3YNlaGohOYjKdHD-isz36
+2016-08-19 14:12:15,151 INFO   - search: 标题：奥运会专题_新闻中心_中华网
+2016-08-19 14:12:15,151 INFO   - search: 地址：http://www.baidu.com/link?url=iinR8MMqZFRg9URI1vyxPmtxRgwRISn9_jprUBRhcvsDBgxRjJQAC1r_q5vNzXiVsxERX0THLP6Ggp-yM01_EK
+2016-08-19 14:12:15,151 INFO   - search: 标题：奥运会-12年-巨星云集!美国梦十队伦敦奥运会集锦-专题-高清在...
+2016-08-19 14:12:15,151 INFO   - search: 地址：http://www.baidu.com/link?url=j2Zn87whXQUMT0DOLA6NoCCKb9GEy6sw55XvOjpT5tW6SOwpb9jZsNYnT23pIGv22xEJI4hyyf7b9JFEjNG4K_
+2016-08-19 14:12:15,151 INFO   - search: 标题：王力宏携手Rain等歌手演唱《北京?北京?我爱北京》 在线观看 ..._酷6
+2016-08-19 14:12:15,151 INFO   - search: 地址：http://www.baidu.com/link?url=bgpjEFouHlkKnR_fJhn6Un0TdNoNPdpZXbPT6AXJV5y
+2016-08-19 14:12:15,151 INFO   - search: 标题：2008奥运会
+2016-08-19 14:12:15,151 INFO   - search: 地址：http://www.baidu.com/link?url=qzHNasseOppHJhXQXxMqpMYnaZVYhr4_uJ5Ug9V4mZO
+2016-08-19 14:12:15,151 INFO   - search: 标题：2012伦敦奥运会_PPTV网络电视
+2016-08-19 14:12:15,697 INFO   - search: 地址：http://www.baidu.com/link?url=5pOtzEHPFsoWKCDXqRIjNU8gUOqCoe4undyuJhc4GG_kEXD98cLgInj8NuZnNrFBm4slDzkGiX0wOF7Y7D3Kiq
+2016-08-19 14:12:15,697 INFO   - search: 标题：奥运留下的思考--中国共产党新闻--中国共产党新闻-人民网
+2016-08-19 14:12:15,697 INFO   - search: 地址：http://www.baidu.com/link?url=MGI7PWjT90KLI1H0qmpHnRwLn_H1tjbMP1ybZklll3ZrSZRMDLxm8hZvl-hj9oPQ
+2016-08-19 14:12:15,697 INFO   - search: 标题：里约热内卢奥运会官网
+2016-08-19 14:12:15,712 INFO   - search: 地址：http://www.baidu.com/link?url=brec_3BVH0j3JM9D50GvhpmVMF0sJbEk8NATwkt9vLX5ZSlLs0b478clSUR84GRT
+2016-08-19 14:12:15,712 INFO   - search: 标题：2012伦敦奥运会-凤凰视频-凤凰网
+2016-08-19 14:12:15,712 INFO   - search: 地址：http://www.baidu.com/link?url=_YjiIGTH0EASIZwmXIpUHPGQZJmiUzNtiaIE5kr0JR3OSXAJDwBQissMmUOsH0lQsZ6Wwox7QiRPvnividFTnK
+2016-08-19 14:12:15,712 INFO   - search: 标题：2008年奥运会中国男篮vs美国录像回放 - CC直播吧
+2016-08-19 14:12:15,712 INFO   - search: 地址：http://www.baidu.com/link?url=IjP0wj7hVaJhOMPhyq373S0EL00QDvnLXFcTPULcdaxuKIJGO5gj9gFyK5rOfolylRFqDpIaMQ_fn88FQQVVha
+2016-08-19 14:12:15,712 INFO   - search: 标题：[重温2012]伦敦奥运男篮决赛 美国队VS西班牙队_体育台_中国网...
+2016-08-19 14:12:15,712 INFO   - search: 地址：http://www.baidu.com/link?url=XcvRWxwykzD-hQxK-xYTVp7JJfN1Und65ITSgDJ8OzbjAqNCmJrLTNl9rDiCBfXO
+2016-08-19 14:12:15,712 INFO   - search: 标题：北京2008年奥运会官方网站
+2016-08-19 14:12:15,712 INFO   - search: 地址：http://www.baidu.com/link?url=rBEZiAhojp3CWystj7OdgE8_G_znYYib5qpdeeFfwfbtAS2tyzOVgLtRnRMQc4Oe
+2016-08-19 14:12:15,712 INFO   - search: 标题：2008北京奥运会 - 中国奥委会官方网站
+2016-08-19 14:12:15,712 INFO   - search: 地址：http://www.baidu.com/link?url=ImzLGcv80epGmEUdMyp4UKWONvBQOI2W5a8A9GqAJOriAoqvgsP6Nig23kbrS3HOj4HPwqmFjfVZbqF5dSeh7K
+2016-08-19 14:12:15,712 INFO   - search: 标题：苏菲:东京奥运会屡屡丢人现眼,这个锅谁来背?
+2016-08-19 14:12:15,712 INFO   - search: 地址：http://www.baidu.com/link?url=eYz4eNX8-uEMv4xyROLZIimKL_x8NgLx4dQQh166A-Nk-KXyMhT5kuQxD4UdpD7gE5TN_gjuU-EkrajcCdXnC-Q7_xfiws5opDD0q-7E0qfe5rjeumVIYNYIf524OrTZ
+2016-08-19 14:12:15,712 INFO   - search: 标题：2012伦敦奥运会_2012伦敦奥运会中文版下载_汉化_攻略_视频 _游民...
+2016-08-19 14:12:15,712 INFO   - search: 地址：http://www.baidu.com/link?url=ZKUcQ0VjxRqxCcmOVyDYnDkg7H0YvZk7_BVUi7qHpt03m8TJ774SO6ILTsE3FaRV
+2016-08-19 14:12:15,712 INFO   - search: 标题：奥运小游戏_奥运小游戏大全_奥运游戏全集_7k7k奥运小游戏
+2016-08-19 14:12:16,246 INFO   - search: 地址：http://www.baidu.com/link?url=pc02oDyNqcDUKYlxXP1U46d94U17PpgZ_R_mA8SK4qP-HgNKB7ANeO8sRq-wednU-NmtAERJUCThNEFb_9MOu_
+2016-08-19 14:12:16,246 INFO   - search: 标题：2016奥运会图片免费下载_2016奥运会素材_2016奥运会模板-..._千图网
+2016-08-19 14:12:16,246 INFO   - search: 地址：http://www.baidu.com/link?url=3_A3i1WbSHYwPvIoGTeKqCEwQbl5GiyYSceSZrNCC8a
+2016-08-19 14:12:16,246 INFO   - search: 标题：2016里约奥运会专题 - 中国奥委会官网
+2016-08-19 14:12:16,246 INFO   - search: 地址：http://www.baidu.com/link?url=jGsA2SOO1F_P0NO9nUjMYRt__5s1fr_GMp8S6QjzKWNdcVry3tt0wb-ajiuAza1t
+2016-08-19 14:12:16,246 INFO   - search: 标题：2016 Rio Olympic Games | NBC Olympics
+2016-08-19 14:12:16,246 INFO   - search: 地址：http://www.baidu.com/link?url=VkvN1Sga0-uV60uQN-dhn8F-hMew7WDL4ffibPKm9cxPG9rYGbBc4KIbhm0zJojR
+2016-08-19 14:12:16,246 INFO   - search: 标题：第二十九届奥运会 - 搜狗百科
+2016-08-19 14:12:16,246 INFO   - search: 地址：http://www.baidu.com/link?url=kOSUIbjojLb4FTKXesh9HUGTAblZBwKvpEEjU50R2h0kxO_JTlFyOMFkcUiUBmFdR2bXhAGiYMgWkUyZhzg7c_
+2016-08-19 14:12:16,246 INFO   - search: 标题：伦敦奥运会男篮|赛程|分组|梦十_网易奥运
+2016-08-19 14:12:16,246 INFO   - search: 地址：http://www.baidu.com/link?url=GnUcKGnZxn-iWIZoroimEIAkxvc16YHkJ_4GyTbW_feQbkaL7GmFJqScoZBN_c2oL4bHoT5MuuT-Vcq7V8ujHq
+2016-08-19 14:12:16,246 INFO   - search: 标题：2012伦敦奥运 男子4x100米决赛 人类速度大对决 牙买加再次刷新...
+2016-08-19 14:12:16,246 INFO   - search: 地址：http://www.baidu.com/link?url=Fx0KK3igESj54aKRM7BslCefL-z-EYp_IRQ63guGZszAKbUNzHx-iNSoP3jiEBx7Pv-FwZjoithkRBcky-1bGOl6bvHHduHSjp6oOHjKI2MD4g0lAAzxYc1N6Lip7glhtBvmQ0OAI3nH4ijt_eZWL_
+2016-08-19 14:12:16,246 INFO   - search: 标题：奥运会重播_视频在线观看-爱奇艺搜索
+2016-08-19 14:12:16,246 INFO   - search: 地址：http://www.baidu.com/link?url=dB463C9a4VZm7dUUflwpDuNmHLiaN5M-4MlCNwoqugTvG1pLpuN1WfZvgdZ3eK19
+2016-08-19 14:12:16,246 INFO   - search: 标题：东方网-第29届奥林匹克运动会
+2016-08-19 14:12:16,246 INFO   - search: 地址：http://www.baidu.com/link?url=0qvUyNZN_Z23aWm4a71rsvMC4G46r8Dqr5lMFEA3DUU0zUZmwtxFU1EcQiBCfGLAyoRGEURd_Y3ANmxmN22FhV9wIz03-MFP9wyI2cw6v_sWLeacRTnIiLavq7M8uqex
+2016-08-19 14:12:16,261 INFO   - search: 标题：伦敦奥运会开幕式表演 007与女王赴现场|开幕式_新浪视频
+2016-08-19 14:12:16,261 INFO   - search: 地址：http://www.baidu.com/link?url=b1EoQoRlASeIIkSlsNSmPYNTA_IxyI8eKFtseaA6yQ9fRHDqJO2k-Ir4EWRq7yc7HdxIcKAZ3lS6TsO2i4dqPXb7QcRT0RfXMR6Vq2-MFadGVY1ptCaMPquyQ9EVoxOv
+2016-08-19 14:12:16,261 INFO   - search: 标题：奥运会_百度文库
+2016-08-19 14:12:16,807 INFO   - search: 地址：http://www.baidu.com/link?url=h6GibfPFZ8U8Dn9uMy2Nrt9tSIJAYeswJLddshlLSqEroyKPxNiiLBRjO6M6SMK7urlmFUUFKJnD4pGbO3RRi_
+2016-08-19 14:12:16,807 INFO   - search: 标题：历届奥运会列表-奥运资料库-网易奥运
+2016-08-19 14:12:16,807 INFO   - search: 地址：http://www.baidu.com/link?url=wKtOCreUfT0g_Sw9cYob9b0hAtCrPPvYBd3IGiGX6JptvbIbWOjrYfEs_ku1_JhJ
+2016-08-19 14:12:16,807 INFO   - search: 标题：伦敦奥运会射箭比赛,伦敦奥运会射箭比赛小游戏,4399..._4399小游戏
+2016-08-19 14:12:16,823 INFO   - search: 地址：http://www.baidu.com/link?url=g0GRwBEhqakxCE0iGPdzCWXu_Rx2lUDSqIOLhVjdD-jji8-MZ4hJ0G1PNdzJ738c
+2016-08-19 14:12:16,823 INFO   - search: 标题：2016年里约热内卢奥运会官网
+2016-08-19 14:12:16,823 INFO   - search: 地址：http://www.baidu.com/link?url=duaUmp92_bvTw8MfTRvy7sJ47p3ggJCqosVQGQ4c3pK3pDztj3WZVrTEb3K01Y7q
+2016-08-19 14:12:16,823 INFO   - search: 标题：体育励志:92巴塞罗那奥运会400米决赛雷德蒙感人场面-PPS视频
+2016-08-19 14:12:16,823 INFO   - search: 地址：http://www.baidu.com/link?url=lnM34Etq3LxtGHSU-46Cc8-zRHhmWUhcpwUhwPhdEJqtJdfP9wNpC7-cu_Va6CVICIeT6AavpY6kIjzHgU4dlq
+2016-08-19 14:12:16,823 INFO   - search: 标题：2014南京青奥会|第二届青年奥运会-搜狐体育
+2016-08-19 14:12:16,823 INFO   - search: 地址：http://www.baidu.com/link?url=HdSlroafANPq5fSR8wr14jr9qW3YsGwEppcV6zuom7ZpLnY69QsZH2xfy2CLoLaHVwsjFsUy-ux-I5IUIlkvMK
+2016-08-19 14:12:16,823 INFO   - search: 标题：男足做不到女足全拿下 连胜日韩!杀进奥运会_网易体育
+2016-08-19 14:12:16,823 INFO   - search: 地址：http://www.baidu.com/link?url=TQ-y-2dKTIsAi5tM_q0Ou7AS6W1SME3avmBb7143cD_
+2016-08-19 14:12:16,823 INFO   - search: 标题：Home | The Tokyo Organising Committee of the Olympic and ...
+2016-08-19 14:12:16,823 INFO   - search: 地址：http://www.baidu.com/link?url=hVa3q03eKkFbEmQZMd_9ZAJJqdYsF-n6QfbatBy7uz9VjqamwbujlonhFq0rnli6nk0fl1LYqcPsJKJZTUYN3J6y1v0edU4mREPZN94sXyK
+2016-08-19 14:12:16,823 INFO   - search: 标题：中国女足携手澳大利亚提前一轮进军里约奥运会 -新华时政-新华网
+2016-08-19 14:12:16,823 INFO   - search: 地址：http://www.baidu.com/link?url=4RQ7D26A9G_qdD3xgORCqSDVMve_zjZlyVj1IjwSpQ25X4LBxd-sbtFRHC3-VUzV
+2016-08-19 14:12:16,823 INFO   - search: 标题：奥运广角_奥运视频_新浪奥运_新浪网
+2016-08-19 14:12:16,823 INFO   - search: 地址：http://www.baidu.com/link?url=zyecYc9Hn5k-u0OLP8P-XAQL3tZM93v2xxiRS65B9sfwZCT_8qPsN_0QHWGCLqDJt2cgO-VZReCMnpiVDcTK0a
+2016-08-19 14:12:16,823 INFO   - search: 标题：精彩回顾:2008奥运会乒乓球女单第4轮 张怡宁vs福原爱_视..._芒果TV
+2016-08-19 14:13:22,396 INFO   - main: 10秒后启动采集
+2016-08-19 14:13:39,673 INFO   - main: 10秒后启动采集
+2016-08-19 14:30:01,887 INFO   - main: 10秒后启动采集
+2016-08-19 14:30:12,615 INFO   - search: 地址：http://www.baidu.com/link?url=z8BsVyisyOloH0CuZ-TpznSBLmWXp2VTqtNRt-_JuHLi3Ch2DRw6n-BovKbrTgMzPtI34T_b5Bh53ZO_il85rq
+2016-08-19 14:30:12,616 INFO   - search: 标题：2016巴西里约奥运会赛程_央视网
+2016-08-19 14:30:12,616 INFO   - search: 地址：http://www.baidu.com/link?url=mIMbhDoF3Oj5ut81C7-yEYWyn_ZxLi8J0foV_KkNuV8LDaLxe9rsShP7q7aCac0m-8p3qwB5b-7_DGPDV0JnCK
+2016-08-19 14:30:12,617 INFO   - search: 标题：2016巴西奥运会奖牌榜_新浪体育_新浪网
+2016-08-19 14:30:12,617 INFO   - search: 地址：http://www.baidu.com/link?url=shqLs9EJzcuk7ee6wKAjDDpNMWz7sfOWkxlfT9B4A5Go5uaTFAIkrdgVHNUGKlnf
+2016-08-19 14:30:12,617 INFO   - search: 标题：2016巴西奥运会开幕式_央视网
+2016-08-19 14:30:12,618 INFO   - search: 地址：
+2016-08-19 14:30:12,618 INFO   - search: 标题：
+2016-08-19 14:30:12,618 INFO   - search: 地址：http://www.baidu.com/link?url=z8BsVyisyOloH0CuZ-TpzkvmlckxM7D0jKHyooIzEPzAv5PA_ozqcA5oyjvvsgf0rwVonyxMIE_DaporM0XW7HhJpOjdG06ZYhIJImeBvlK
+2016-08-19 14:30:12,618 INFO   - search: 标题：奥运会的相关视频 在线观看_百度视频
+2016-08-19 14:30:12,618 INFO   - search: 地址：http://www.baidu.com/link?url=Qb7XAlOBrOp8B7zY1QAKx5aKTxvnMI1nHn8Zfu4XVzF7BazWKy3PedjU7ffQgfynJGRB-747qV_Kh8FwdCncqkdCi-20XRifewUTt3poXZ5QGWgLPrVSuIaimeSrrqST2A9yzW_9VMYbHUtQnhp6sp6raVrSRT_HQMBNl4T163C
+2016-08-19 14:30:12,619 INFO   - search: 标题：奥运会_百度百科
+2016-08-19 14:30:12,619 INFO   - search: 地址：http://www.baidu.com/link?url=Qb7XAlOBrOp8B7zY1QAKxr2yW6iucnSsCH2wbjsPTbM2HnA9Yy1Zvk7q-Tt6524LWcnun9afjl4XV6oqkfcT0Wmh8QOtSDEjrMhrlcd2q0i
+2016-08-19 14:30:12,619 INFO   - search: 标题：奥运会吧_百度贴吧
+2016-08-19 14:30:12,619 INFO   - search: 地址：http://www.baidu.com/link?url=bYf-E3OQrh3jBD0BW051wb_f-S21iv-_nFGHgSCe5SC9X-lkyFCP7K3PRC6w2RT1Nk0zaudPgBXeBQHwhafrCO_gO1JGwi4mJ3ieFoH4H9VDI1r9IWQclglvhWI9WOeq
+2016-08-19 14:30:12,620 INFO   - search: 标题：奥运会的最新相关信息
+2016-08-19 14:30:12,620 INFO   - search: 地址：http://www.baidu.com/link?url=shqLs9EJzcuk7ee6wKAjD37r10RCNpHQ5LEwPk4oHEj6jqDjWkBg9HLv_U43mqAf7PgE4WVSOvUDJrjyWO-4tMmCopAmtOIjQg9d8F_enn_-CZUufoq4qc6cZz1kOfSXId3QI4xbBgQAGtgbF0Uyp7vNlp5SD90Er-MC9WRL1YNy9FhgQxu49am1l6Ce99Gzs1KxX3HV1Y257HtknFgABP62OG-0V67pdyFgm3-FD7ldfkC_mYD8v2gmL2XMH4rq
+2016-08-19 14:30:12,620 INFO   - search: 标题：奥运会_百度图片 举报图片
+2016-08-19 14:30:12,620 INFO   - search: 地址：http://www.baidu.com/link?url=dXjYN_lz_yksXDxs7Ve2rrjWAdpssv1ouglyZw5npGxwfGPcqE856Ukpv6NitVn8
+2016-08-19 14:30:12,621 INFO   - search: 标题：2008北京奥运会经典时刻_百山探索
+2016-08-19 14:30:12,983 INFO   - search: 地址：http://www.baidu.com/link?url=xZ071HtkyhgY2w8nYXhPOpdLd7zJm3yjd4vH5PW-nqHiCTZyNOACyUSe1WBzWmpc
+2016-08-19 14:30:12,983 INFO   - search: 标题：2016年里约奥运会_新浪奥运_新浪网
+2016-08-19 14:30:12,983 INFO   - search: 地址：http://www.baidu.com/link?url=5W_j1fUKEnh-vvlCdEyBTuqYSWCqA6SffTKblRPnikO
+2016-08-19 14:30:12,983 INFO   - search: 标题：2016里约奥运会|第31届奥运会-搜狐体育
+2016-08-19 14:30:12,984 INFO   - search: 地址：http://www.baidu.com/link?url=AcWpzWRLyjsAtdEiEDsUX0zyqtUeG5SnUbXNSaD7S9e
+2016-08-19 14:30:12,984 INFO   - search: 标题：2016里约奥运会_网易体育
+2016-08-19 14:30:12,984 INFO   - search: 地址：http://www.baidu.com/link?url=6G8uOCwivTa5D_wr6-6Oyoi3mwCZe99QC34ws2478WGAack_zv99h80RBFuvRkjgBTLxvqhWKoVEn_1IQ2jHxq
+2016-08-19 14:30:12,984 INFO   - search: 标题：奥运会概念股龙头-奥运会概念股有哪些-奥运会概念股一览表__...
+2016-08-19 14:30:12,984 INFO   - search: 地址：http://www.baidu.com/link?url=3ojc6hpWqgi3O8fj83FwuDAG2OY8BFyu7qHIAf-uOUU47JXH3nLLsEbdQ-d-SwsH28u1v9P-Qdj5UZzfq5OqF_
+2016-08-19 14:30:12,984 INFO   - search: 标题：2016年里约奥运会完整版赛程表一览 焦点赛程时间表查看-闽南网
+2016-08-19 14:30:12,985 INFO   - search: 地址：http://www.baidu.com/link?url=ng-4a6LIHNkNNgIrUvcyvdXa79GXHvarJlxDpaTd-FKx6rkaKHb25McOweptUww_0Ur08e-3HWvqO2pusqsIk_
+2016-08-19 14:30:12,985 INFO   - search: 标题：伦敦奥运会男篮小组赛 美国VS尼日利亚 20120802-乐视体育
+2016-08-19 14:30:12,985 INFO   - search: 地址：http://www.baidu.com/link?url=lSS0z7MDHwpyVP-BJiG3GcOgsIKI87ue50NHayVjlFthECmG_mKz1p5IPlnZekJRf53grzspzgEW83udfutska
+2016-08-19 14:30:12,985 INFO   - search: 标题：2012伦敦奥运会羽毛球男单决赛 林丹vs李宗伟-高清观看-腾讯视频
+2016-08-19 14:30:12,985 INFO   - search: 地址：http://www.baidu.com/link?url=TKBxpur8rdtjz_O7-kUUQ_aOP-iR_Bd9n401C7N0oghcPrs8NPdxY8HVthjhxbDDsIbivtqY-YOnT6TRCNPclPhhumEANOVEo7rNdeFWXxy
+2016-08-19 14:30:12,985 INFO   - search: 标题：《自然传奇》 20130717 动物奥运会_自然传奇(CCTV-10科教..._...
+2016-08-19 14:30:12,986 INFO   - search: 地址：http://www.baidu.com/link?url=S5ep8y8gEeW3ovOC2HeTP538p-wnZOAu5EiVwPFCQQApXcGMCCUxztdNhQYrbpEDenK4T9W6nkE7FwWTVtS7fK
+2016-08-19 14:30:12,986 INFO   - search: 标题：08奥运会 乒乓球女单第4轮 大魔王vs.福原爱_运动_生活_bilibil...
+2016-08-19 14:30:12,986 INFO   - search: 地址：http://www.baidu.com/link?url=ZrRjx5NISLwwC2HjTNWsh4xlwgH8azWqAhJECSfJrLWirPt7jYNgxo2qKdyxyF0F_9W3XwNAF0fTokFoW2K12a
+2016-08-19 14:30:12,986 INFO   - search: 标题：北京奥运会(高清)闭幕式—在线播放—优酷网,视频高清在线观看
+2016-08-19 15:11:55,926 INFO   - main: 10秒后启动采集
+2016-08-19 15:14:16,160 INFO   - main: 10秒后启动采集
+2016-08-19 15:18:58,068 INFO   - main: 10秒后启动采集
+2016-08-19 15:20:04,610 INFO   - main: 10秒后启动采集
+2016-08-19 15:21:43,169 INFO   - main: 10秒后启动采集
+2016-08-19 15:21:53,337 INFO   - main: 10秒后启动采集
+2016-08-19 15:23:38,762 INFO   - main: 10秒后启动采集
+2016-08-19 15:25:28,189 INFO   - main: 10秒后启动采集
+2016-08-19 15:29:19,540 INFO   - main: 10秒后启动采集
+2016-08-19 15:30:03,263 INFO   - main: 10秒后启动采集
+2016-08-19 15:30:44,123 INFO   - main: 10秒后启动采集
+2016-08-19 15:47:55,858 INFO   - main: 10秒后启动采集
+2016-08-19 15:48:45,102 INFO   - main: 10秒后启动采集
+2016-08-19 15:49:52,782 INFO   - main: 10秒后启动采集
+2016-08-19 15:50:38,926 INFO   - main: 10秒后启动采集
+2016-08-19 15:51:32,342 INFO   - main: 10秒后启动采集
+2016-08-19 16:01:10,533 INFO   - main: 10秒后启动采集
+2016-08-19 16:02:07,542 INFO   - main: 10秒后启动采集
+2016-08-19 16:07:34,929 INFO   - main: 10秒后启动采集
+2016-08-19 16:10:25,359 INFO   - main: 10秒后启动采集
+2016-08-19 16:13:37,023 INFO   - main: 10秒后启动采集

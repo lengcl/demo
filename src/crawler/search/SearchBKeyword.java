@@ -8,9 +8,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 /**
- * @see 搜索关键字
- * @author Herman.Xiong
- * @date 2014年6月19日 13:54:13
+ *  搜索关键字
  */
 public class SearchBKeyword {
 	
@@ -22,7 +20,7 @@ public class SearchBKeyword {
 	/**设置超时时间 */
 	private static final int timeout=50000;
 	
-	private static  String url="http://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7&pn=10&oq=%E4%B8%8A%E6%B5%B7&tn=baidu&ie=utf-8&usm=8";
+	private static  String url="http://www.baidu.com";
 	
 	public static LinkedBlockingQueue<String> keywordList = new LinkedBlockingQueue<String>();
 	
@@ -41,11 +39,16 @@ public class SearchBKeyword {
 				try {
 					url="http://www.baidu.com/s?wd="+URLEncoder.encode(keyword, "UTF-8")+"&pn="+(y*10)+"&oq="+URLEncoder.encode(keyword, "UTF-8")+"&tn=baidu&ie=utf-8&usm=8";
 					Document doc=Jsoup.connect(url).userAgent(USERAGENT).timeout(timeout).get();
-					Elements elements=doc.select("#content_left .c-container");
+					Elements elements=doc.select("#content_left .c-container");//div class="f13"
+					System.out.println("111"+elements);
 					if(elements!=null&&elements.size()>0){
 						for (Element e:elements) {
-							log4j.info(new String("地址："+e.select("h3.t a").attr("abs:href")));
-							log4j.info(new String("标题："+e.select("h3.t a").text()));
+							FileReaderWriter.writeIntoFile(e.select("h3.t a").attr("abs:href"),  
+				                    "D:/爬虫.txt", true); 
+							FileReaderWriter.writeIntoFile(e.select("h3.t a").text(),  
+				                    "D:/爬虫.txt", true);
+//							log4j.info(new String("地址："+e.select("h3.t a").attr("abs:href")));
+//							log4j.info(new String("标题："+e.select("h3.t a").text()));
 						}
 					}
 				} catch (Exception e) {

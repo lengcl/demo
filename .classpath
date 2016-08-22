@@ -52,5 +52,6 @@
 	<classpathentry kind="lib" path="lib/xalan-2.7.1.jar"/>
 	<classpathentry kind="lib" path="lib/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="lib/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="D:/httpclient/HttpClient 和 HtmlParser 实现简易爬虫用到的jar包/htmlparser.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

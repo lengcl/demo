@@ -4,9 +4,7 @@ import org.apache.log4j.Logger;
 
 import crawler.timerManager.TimerManager;
 /**
- * @see 测试程序
- * @author Herman.Xiong
- * @date 2014年6月19日 13:55:33
+ *  测试程序
  */
 public class AppletClient {
 	

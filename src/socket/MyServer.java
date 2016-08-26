@@ -3,6 +3,7 @@ package socket;
 import java.io.DataInputStream;  
 import java.io.DataOutputStream;  
 import java.io.IOException;  
+import java.io.InputStreamReader;
 import java.net.ServerSocket;  
 import java.net.Socket;  
 import java.util.concurrent.ExecutorService;  
@@ -19,6 +20,7 @@ public class MyServer {
 	private static int TOTAL_R_NUM = 0;
     private ServerSocket serverSocket; //   
     private ExecutorService servicePool; // 线程池  
+    private ServerSocket s;
   
     public MyServer(int port) {  
         try {  
@@ -29,8 +31,11 @@ public class MyServer {
         }  
     }  
   
-    public static void main(String[] args) {  
+    public static void main(String[] args) throws IOException {  
         new MyServer(6666).service();   
+        ServerSocket ss = new ServerSocket(6666);
+        Socket s = ss.accept();
+        
     }  
   
     public void service() {  
@@ -51,7 +56,9 @@ public class MyServer {
   
     class Handler implements Runnable {  
         private Socket socket;  
-  
+        private DataOutputStream dos;  
+        private DataInputStream dis;
+        
         public Handler(Socket socket) {  
             this.socket = socket;  
         }  
@@ -67,7 +74,7 @@ public class MyServer {
                 String str;  
                 while (null != (str = dis.readUTF())) {
                 	String[] a = str.split(":");
-                	System.out.println(dis);
+                	//System.out.println(dis);
                 	//System.out.println(a[0]); 
                 	//System.out.println(a[1]);
                 	if(a[0].equals("TOTAL_R")){
@@ -77,7 +84,8 @@ public class MyServer {
                 			//System.out.println(TOTAL_R_NUM);
                 		}
                 	}
-                    System.out.println(a[0]+":"+TOTAL_R_NUM);  
+                    String ans = a[0]+":"+TOTAL_R_NUM;
+                    System.out.println(ans);
                     if ("exit".equals(str)) {  
                         System.out.println("客户端发出中断请求");  
                         dos.writeUTF("服务器已经关闭本次连接.");  
@@ -88,7 +96,10 @@ public class MyServer {
                         dos.close();  
                         dis.close();  
                         break;  
-                    }  
+                    }else { 
+                        this.dos.writeUTF(ans+"\n");// 每读一行就发送一行  
+                        this.dos.flush();  
+                    } 
                 }  
   
             } catch (IOException e) {  

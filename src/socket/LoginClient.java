@@ -20,8 +20,9 @@ public class LoginClient {
             //输入流  
             InputStream is=socket.getInputStream();  
             BufferedReader br=new BufferedReader(new InputStreamReader(is));  
+            BufferedReader in=new BufferedReader(new InputStreamReader(System.in));
             //3.利用流按照一定的操作，对socket进行读写操作  
-            String info="用户名：Tom,用户密码：123456";  
+            String info=in.readLine();  
             pw.write(info);  
             pw.flush();  
             socket.shutdownOutput();  

@@ -41,8 +41,10 @@ public class MyClient {
             while (flag) {  
                 try {  
                     String str = br.readLine(); 
+//                    String ans = dis.readUTF();
+//                    System.out.println(ans);
 //                    String anw = dis.readUTF();
-//                    System.out.println(anw);
+//                    System.out.println(ans);
                     if ("exit".equals(str)) { // 客户端终止发送信息标记 exit  
                         this.br.close();   
                         this.dos.writeUTF(str);  
